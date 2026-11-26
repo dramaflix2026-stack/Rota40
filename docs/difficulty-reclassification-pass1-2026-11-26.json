@@ -1,0 +1,824 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "de1ea7bc362403a1a17488794c540ff556c39c61",
+  "reviewedCommit": "abaf80136a4e448fb5b2915bac2739ff83eda051",
+  "scope": "Reclassificação editorial individual dos 129 candidatos avançados com sinais de recuperação direta. Apenas difficulty alterado. Sem distribuição imposta ou calibração empírica. Servidor não restringe o rótulo; interface ainda não usa filtro de dificuldade.",
+  "stats": {
+    "count": 2000,
+    "unique": 2000,
+    "changed": 129,
+    "otherChanges": [],
+    "missing": [],
+    "unexpected": [],
+    "distribution": {
+      "Intermediária": 1503,
+      "Avançada": 391,
+      "Fácil": 106
+    },
+    "invalid": 0,
+    "shortComments": 0,
+    "longCorrect": 0
+  },
+  "blocks": [
+    {
+      "block": 1,
+      "changed": 0,
+      "easy": 0,
+      "intermediate": 0
+    },
+    {
+      "block": 2,
+      "changed": 29,
+      "easy": 24,
+      "intermediate": 5
+    },
+    {
+      "block": 3,
+      "changed": 62,
+      "easy": 49,
+      "intermediate": 13
+    },
+    {
+      "block": 4,
+      "changed": 38,
+      "easy": 33,
+      "intermediate": 5
+    }
+  ],
+  "changes": [
+    {
+      "id": 8025,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 8028,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 8059,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 8074,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 8076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 8082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9041,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9051,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9052,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9073,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 9076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 9097,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 9098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10036,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10057,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10059,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10090,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 10100,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 11036,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 11044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 11059,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 11060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 11065,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 11067,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 11082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 11084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 11098,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 11100,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12036,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12057,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12059,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 12065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 12100,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 13028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 13035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 13036,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 13057,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 13058,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 13059,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 13075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 13083,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 13098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 13099,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 14025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14057,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 14065,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 14066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14090,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 14099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15036,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15050,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 15060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15067,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15074,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 15099,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 15100,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 16033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16043,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16051,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16058,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16067,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 16090,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 18033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 18034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 18042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 18044,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 18050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 18075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 18089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 18099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 19043,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 19058,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 19059,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 19065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 19074,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 19084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 19089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 19098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 20041,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 20051,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 20052,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 20057,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 20059,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação ou distinção de regra em situação concreta; demanda predominantemente de uma inferência."
+    },
+    {
+      "id": 20074,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 20075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 20076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 20082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    },
+    {
+      "id": 20089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, prazo, regra ou finalidade, sem inferência substantiva."
+    }
+  ]
+}
