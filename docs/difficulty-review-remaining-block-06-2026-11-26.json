@@ -1,0 +1,1037 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "00f13748d438ec0fbad24dbc0e573953aa6d52d5",
+  "reviewedCommit": "804d4fee16c0565bcdb520b8c768d45da4f6b851",
+  "scope": "Revisão editorial individual de enunciados e respostas corretas; sem revisão sistemática dos distratores, validação jurídica ou calibração psicométrica. Apenas difficulty alterado.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 144,
+    "reclassified": 72,
+    "retained": 72,
+    "otherChanges": [],
+    "unexpected": [],
+    "distribution": {
+      "Intermediária": 569,
+      "Fácil": 1247,
+      "Avançada": 184
+    },
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 17062,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 17063,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 17064,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17069,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17071,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17072,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17077,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17078,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17079,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17080,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17085,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 17086,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17088,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17093,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 17094,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 17095,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 17096,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18001,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18002,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18006,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18007,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18010,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18011,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18012,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18013,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18014,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18015,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18016,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18018,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18020,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18021,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18022,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18023,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18024,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18030,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18032,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18040,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18045,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18046,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18048,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18056,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18061,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18062,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18063,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18064,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18070,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18071,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18072,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18077,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18078,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18079,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18080,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre pedido expresso, dolo específico e demais requisitos do ilícito; enunciado sugere pedido explícito, devendo ser refinado posteriormente."
+    },
+    {
+      "id": 18085,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18087,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18088,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18093,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 18094,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18095,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 18096,
+      "subject": "electoralQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19001,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19002,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19003,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19004,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19005,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19006,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19007,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19008,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19009,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19010,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19012,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19014,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19015,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19016,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19017,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19020,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19021,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19022,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19023,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Sucessão de normas gerais e suspensão parcial da eficácia da lei estadual."
+    },
+    {
+      "id": 19024,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19029,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19030,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19031,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19032,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19039,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19040,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19045,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19047,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19053,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19054,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19061,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19062,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19063,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19064,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19069,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19070,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 19077,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19078,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19086,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19088,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 19093,
+      "subject": "financialQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20002,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20003,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20004,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20005,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20006,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20008,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20010,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20011,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20012,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20013,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20014,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20015,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20016,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20017,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20018,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20020,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20021,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20022,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20023,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20024,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20029,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20030,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20031,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20032,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20037,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20038,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20039,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20040,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20047,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20056,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20061,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20062,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20063,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20064,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre doença preexistente e incapacidade superveniente por progressão ou agravamento."
+    },
+    {
+      "id": 20071,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20072,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20077,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20079,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20080,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20085,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20086,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20087,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 20088,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção relevante entre conceitos ou requisitos."
+    },
+    {
+      "id": 20096,
+      "subject": "socialSecurityQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    }
+  ],
+  "flags": [
+    {
+      "id": 18080,
+      "issue": "Enunciado já contém exigência de voto; revisar formulação para avaliar a ausência de pedido expresso."
+    }
+  ]
+}
