@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "84b7a5838c4f2030cba2117e1e0ccd360d8cf30d",
+  "reviewedCommit": "e0e02b2e6d296a89eb080acdc8d47e42bdb087dc",
+  "scope": "Revisão editorial individual dos 15 sinais de complexidade em questões intermediárias; apenas difficulty alterado; não constitui validação jurídica ou calibração psicométrica.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 15,
+    "promoted": 3,
+    "reclassifiedEasy": 2,
+    "retained": 10,
+    "otherChanges": [],
+    "unexpected": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 1270,
+      "Fácil": 336,
+      "Avançada": 394
+    },
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 2099,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto do quórum constitucional, sem inferência adicional."
+    },
+    {
+      "id": 4016,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Distinção entre urgência concreta e mera decisão desfavorável; uma condição central."
+    },
+    {
+      "id": 4079,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação direta da técnica de improcedência liminar aos fatos apresentados."
+    },
+    {
+      "id": 5039,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Identificação do concurso formal próprio a partir dos fatos e ausência de desígnios autônomos."
+    },
+    {
+      "id": 5064,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação de uma tese jurisprudencial a uma sequência temporal expressa."
+    },
+    {
+      "id": 5079,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "O enunciado já identifica o concurso formal impróprio; exige regra de cumulação."
+    },
+    {
+      "id": 5080,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Comparação entre regimes de exasperação e cumulação e aplicação do limite legal."
+    },
+    {
+      "id": 6068,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação da regra de novas provas após arquivamento, sem exigir distinção concreta entre fundamentos do arquivamento."
+    },
+    {
+      "id": 7017,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação do Tema 940 à legitimidade passiva e distinção do direito de regresso."
+    },
+    {
+      "id": 10024,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação entre natureza jurídico-estatutária do vínculo, exclusão da Justiça do Trabalho e competência comum estadual do ente municipal."
+    },
+    {
+      "id": 12072,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação de consequência da supralegalidade a um conflito já explicitado, sem exigir solução de hierarquia adicional."
+    },
+    {
+      "id": 13016,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto da imprescritibilidade na tese indicada."
+    },
+    {
+      "id": 14040,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação entre competência presidencial e parlamentar, marco prospectivo do julgamento e efeitos internos da denúncia."
+    },
+    {
+      "id": 20019,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Distinção entre requerimento administrativo prévio e esgotamento de recursos."
+    },
+    {
+      "id": 20093,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação da exigência de requerimento prévio em cenário sem exceção."
+    }
+  ]
+}
