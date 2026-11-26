@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-26",
+  "baseline": "a679ec53fd17d45a3f9be6a5ace2cf966c894555",
+  "reviewedCommit": "9f244f40bdd0868843cbec73da6980bea0fe8501",
+  "scope": "26 targeted questions rewritten to differentiate learning objectives. IDs, subject, module, topic, difficulty label and correct option index retained; stems, alternatives, explanations and source references updated. Lexical screening is not exhaustive semantic or legal certification.",
+  "blocks": [
+    {
+      "block": 1,
+      "changed": 0
+    },
+    {
+      "block": 2,
+      "changed": 9,
+      "ids": [
+        6024,
+        6062,
+        7001,
+        7009,
+        7017,
+        8090,
+        10024,
+        10042,
+        10080
+      ]
+    },
+    {
+      "block": 3,
+      "changed": 7,
+      "ids": [
+        12052,
+        12097,
+        14005,
+        14009,
+        14040,
+        14055,
+        14058
+      ]
+    },
+    {
+      "block": 4,
+      "changed": 10,
+      "ids": [
+        16010,
+        16057,
+        16096,
+        16099,
+        18026,
+        18041,
+        18043,
+        18092,
+        19018,
+        19100
+      ]
+    }
+  ],
+  "validation": {
+    "questions": 2000,
+    "uniqueIds": 2000,
+    "uniqueNormalizedStems": 2000,
+    "changed": 26,
+    "missing": [],
+    "unexpected": [],
+    "metadataChanges": [],
+    "invalid": [],
+    "shortCommentsUnder100": 0,
+    "correctOptionsOver1_5LongestDistractor": 0,
+    "priorFlaggedPairs": 27,
+    "priorPairsStillFlagged": 0,
+    "newCandidatesInvolvingChanged": 0
+  },
+  "method": "Same TF-IDF screening criteria as semantic-similarity-audit-2026-11-26.json; recomputed weights on the revised corpus; compared each changed question with all other questions and rechecked all 27 original flagged pairs. No embedding model or student-performance calibration.",
+  "limitations": [
+    "No comprehensive legal certification of the full 2,000-question bank.",
+    "Difficulty labels preserved, not empirically calibrated.",
+    "Previously retained complementary pairs were not rewritten."
+  ]
+}
