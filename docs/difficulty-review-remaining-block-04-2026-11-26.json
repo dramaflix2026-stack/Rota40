@@ -1,0 +1,1298 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "cbb6540a3838fdb2bc24ca2590a695db2fe0dda1",
+  "reviewedCommit": "8e2a485b22785b6fa8cd521a83f67be603405a83",
+  "scope": "Revisão editorial de 200 intermediárias originais não sinalizadas na triagem inicial. Enunciado e resposta correta examinados individualmente; alternativas completas não examinadas sistematicamente nesta rodada. Apenas difficulty alterado; sem validação jurídica ou calibração psicométrica.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 200,
+    "reclassified": 176,
+    "retained": 24,
+    "otherChanges": [],
+    "unexpected": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 739,
+      "Fácil": 1084,
+      "Avançada": 177
+    },
+    "subjects": [
+      {
+        "subject": "taxQuestions",
+        "reviewed": 23,
+        "easy": 16,
+        "advanced": 5,
+        "retained": 2,
+        "distribution": {
+          "Fácil": 62,
+          "Intermediária": 24,
+          "Avançada": 14
+        }
+      },
+      {
+        "subject": "laborQuestions",
+        "reviewed": 42,
+        "easy": 29,
+        "advanced": 3,
+        "retained": 10,
+        "distribution": {
+          "Fácil": 75,
+          "Intermediária": 19,
+          "Avançada": 6
+        }
+      },
+      {
+        "subject": "processLaborQuestions",
+        "reviewed": 40,
+        "easy": 27,
+        "advanced": 8,
+        "retained": 5,
+        "distribution": {
+          "Fácil": 76,
+          "Intermediária": 14,
+          "Avançada": 10
+        }
+      },
+      {
+        "subject": "businessQuestions",
+        "reviewed": 45,
+        "easy": 30,
+        "advanced": 10,
+        "retained": 5,
+        "distribution": {
+          "Fácil": 70,
+          "Intermediária": 15,
+          "Avançada": 15
+        }
+      },
+      {
+        "subject": "humanRightsQuestions",
+        "reviewed": 39,
+        "easy": 33,
+        "advanced": 5,
+        "retained": 1,
+        "distribution": {
+          "Fácil": 80,
+          "Intermediária": 13,
+          "Avançada": 7
+        }
+      },
+      {
+        "subject": "environmentQuestions",
+        "reviewed": 11,
+        "easy": 10,
+        "advanced": 0,
+        "retained": 1,
+        "distribution": {
+          "Fácil": 54,
+          "Intermediária": 44,
+          "Avançada": 2
+        }
+      }
+    ],
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 8038,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8045,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8046,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação entre observância de orientação administrativa e exclusão de encargos."
+    },
+    {
+      "id": 8048,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8053,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 8054,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8055,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8056,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8061,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Sub-rogação tributária e distinção das ressalvas de quitação e arrematação."
+    },
+    {
+      "id": 8062,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8063,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8064,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Sucessão empresarial e distinção de responsabilidade integral ou subsidiária."
+    },
+    {
+      "id": 8071,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 8072,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8078,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre suspensão da exigibilidade e subsistência dos deveres acessórios."
+    },
+    {
+      "id": 8080,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8085,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8086,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação do dever de informar e da ressalva de sigilo legal."
+    },
+    {
+      "id": 8087,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8093,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8094,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8095,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 8096,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9001,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9003,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9004,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9005,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9006,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9008,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9009,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9010,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9011,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9013,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre consentimento contratual e ausência de prejuízo."
+    },
+    {
+      "id": 9014,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9016,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9017,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9018,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9019,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9020,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9023,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9029,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9031,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9032,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9038,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9039,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9040,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9046,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9047,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9053,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9054,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9056,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9061,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9063,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9064,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9069,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre reversão de função de confiança e incorporação remuneratória."
+    },
+    {
+      "id": 9070,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9071,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9072,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9078,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9079,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Aplicação da indenização à ruptura antecipada e ausência de cláusula assecuratória."
+    },
+    {
+      "id": 9087,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9088,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9093,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 9095,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 9096,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10001,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10003,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10004,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10005,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10006,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10007,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10008,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10009,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10010,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 10011,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10013,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10014,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre crédito judicial recebido e superação comprovada da hipossuficiência."
+    },
+    {
+      "id": 10015,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10019,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10029,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10030,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 10031,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10032,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 10037,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10039,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10040,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Delimitação dos efeitos da nulidade segundo dependência entre atos."
+    },
+    {
+      "id": 10045,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10046,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10047,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre limite econômico do sumaríssimo e exclusões subjetivas."
+    },
+    {
+      "id": 10048,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação de requisito de identificação, arquivamento e custas."
+    },
+    {
+      "id": 10053,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10055,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10061,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10062,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Redistribuição dinâmica do ônus com fundamentação e oportunidade de cumprimento."
+    },
+    {
+      "id": 10063,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 10070,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10071,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10072,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10079,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 10080,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Contraditório prévio à atribuição de efeito modificativo."
+    },
+    {
+      "id": 10085,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10086,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10087,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre iniciativa das partes e hipótese de execução de ofício."
+    },
+    {
+      "id": 10093,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 10095,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre procedimento homologatório e prazo e multa rescisórios."
+    },
+    {
+      "id": 11001,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 11002,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 11003,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11005,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11006,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11007,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11008,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11009,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11010,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11014,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11015,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11016,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11020,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 11021,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11022,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11023,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11024,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11029,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Requisitos cumulativos de eficácia perante terceiros da alienação."
+    },
+    {
+      "id": 11030,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Proteção dos credores na insuficiência patrimonial e alternativas de consentimento ou pagamento."
+    },
+    {
+      "id": 11031,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Responsabilidade do adquirente e solidariedade temporal do alienante."
+    },
+    {
+      "id": 11032,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Sub-rogação de contratos e ressalva de rescisão por justa causa."
+    },
+    {
+      "id": 11038,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11039,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11040,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Solidariedade, responsabilidade ilimitada e benefício de ordem."
+    },
+    {
+      "id": 11045,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11046,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Responsabilidade solidária pela estimação e limite temporal."
+    },
+    {
+      "id": 11047,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Aplicação do limite de oposição à cessão de quotas."
+    },
+    {
+      "id": 11048,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11054,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11055,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11056,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 11061,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre validade cambiária e negócio subjacente."
+    },
+    {
+      "id": 11062,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11063,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11064,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11072,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11079,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11080,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11085,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11086,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 11087,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre recuperação do devedor e conservação dos direitos contra terceiros."
+    },
+    {
+      "id": 11088,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11093,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 11094,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação das hipóteses de execução frustrada."
+    },
+    {
+      "id": 11096,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12001,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12002,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12003,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12004,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12005,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12006,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12007,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12008,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12010,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12011,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12012,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Exceção à exigência de esgotamento dos recursos internos."
+    },
+    {
+      "id": 12014,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12015,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12016,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação entre igualdade, necessidade da adaptação e ônus desproporcional."
+    },
+    {
+      "id": 12017,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12018,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12020,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12021,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12024,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12029,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12032,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12039,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12040,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Garantias procedimentais na expulsão de estrangeiro."
+    },
+    {
+      "id": 12045,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12046,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12047,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12048,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distinção entre ratificação do pacto e aceitação do mecanismo de comunicações."
+    },
+    {
+      "id": 12061,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12063,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12064,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação das exceções ao esgotamento e ao prazo de petição."
+    },
+    {
+      "id": 12069,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12070,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12071,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12077,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12086,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12087,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12088,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 12093,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 12094,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13001,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13004,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13006,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13007,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13010,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual de regra ou distinção jurídica relevante."
+    },
+    {
+      "id": 13011,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13012,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13013,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13014,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13015,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    },
+    {
+      "id": 13017,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra ou consequência explícita."
+    }
+  ]
+}
