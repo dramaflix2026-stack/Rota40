@@ -1,0 +1,3450 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "a679ec53fd17d45a3f9be6a5ace2cf966c894555",
+  "scope": "Triagem lexical com interpretação editorial do objetivo pedagógico dos pares candidatos. Não usa embeddings semânticos; pode omitir paráfrases com vocabulário distinto. Não constitui verificação jurídica, psicométrica ou garantia de inexistência de duplicações.",
+  "method": {
+    "normalization": "minúsculas, diacríticos e pontuação removidos, stopwords e sufixos filtrados",
+    "vector": "TF-IDF de tokens, cosseno calculado separadamente para enunciado, alternativa correta e comentário",
+    "score": "0.34 * enunciado + 0.38 * correta + 0.28 * comentário",
+    "primary": "(correta >= .38 ou enunciado >= .48) e (score >= .46 ou enunciado >= .79 ou correta >= .92 e comentário >= .40)",
+    "secondary": "comentário >= .62 e (enunciado >= .16 ou correta >= .18), excluídos os candidatos primários",
+    "classification": "Revisão editorial dos 90 pares; objetivos sobrepostos podem ser válidos entre disciplinas, por isso propõe diferenciação e não exclusão."
+  },
+  "stats": {
+    "questions": 2000,
+    "disciplines": 20,
+    "topics": 200,
+    "pairsCompared": 1999000,
+    "primary": 77,
+    "secondary": 13,
+    "candidates": 90,
+    "normalizedDuplicates": 1,
+    "overlappingObjectives": 26,
+    "retainedPairs": 63,
+    "sameSubjectCandidates": 52,
+    "crossSubjectCandidates": 38,
+    "sameSubjectReview": 6,
+    "crossSubjectReview": 21,
+    "exactCorrectAnswerGroups": 48,
+    "proposedTargetCount": 26
+  },
+  "proposedTargetIds": [
+    18026,
+    16057,
+    19018,
+    12097,
+    18043,
+    14058,
+    7017,
+    10024,
+    19100,
+    10080,
+    16099,
+    10042,
+    14005,
+    14055,
+    7001,
+    18092,
+    8090,
+    6024,
+    16096,
+    18041,
+    12052,
+    14009,
+    7009,
+    16010,
+    6062,
+    14040
+  ],
+  "pairs": [
+    {
+      "ids": [
+        2036,
+        18026
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "electoralQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.8916,
+      "similarity": {
+        "stem": 1,
+        "correct": 1,
+        "explanation": 0.6127
+      },
+      "classification": "normalizedDuplicate",
+      "reason": "Suspensão de direitos políticos por condenação criminal; enunciado idêntico após normalização.",
+      "recommendation": "Reformular Eleitoral para cobrar situação ou efeito eleitoral específico, preservando Constitucional.",
+      "questions": [
+        {
+          "id": 2036,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Um cidadão sofre condenação criminal transitada em julgado, cujos efeitos ainda persistem. Qual consequência constitucional sobre direitos políticos?",
+          "correct": "Suspensão dos direitos políticos enquanto durarem os efeitos da condenação.",
+          "explanation": "O art. 15, III, prevê suspensão dos direitos políticos durante os efeitos da condenação criminal transitada em julgado.",
+          "reference": "CF, art. 15, III"
+        },
+        {
+          "id": 18026,
+          "topic": "Direitos políticos, sufrágio e alistamento",
+          "stem": "Um cidadão sofre condenação criminal transitada em julgado cujos efeitos ainda persistem. Qual consequência constitucional sobre direitos políticos?",
+          "correct": "Suspensão dos direitos políticos enquanto durarem os efeitos da condenação.",
+          "explanation": "A condenação criminal transitada em julgado suspende os direitos políticos enquanto durarem seus efeitos, conforme o art. 15, III. A suspensão não se confunde com cassação de direitos políticos, vedada pela Constituição, nem com a inelegibilidade, que possui regime jurídico próprio.",
+          "reference": "CF, art. 15 III"
+        }
+      ]
+    },
+    {
+      "ids": [
+        9088,
+        16057
+      ],
+      "subjects": [
+        "laborQuestions",
+        "ecaQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.7746,
+      "similarity": {
+        "stem": 0.6455,
+        "correct": 0.7972,
+        "explanation": 0.9007
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Vedação de trabalho noturno a menor de dezoito anos; mesma idade e situação.",
+      "recommendation": "Diferenciar a questão do ECA por proteção específica ao trabalho adolescente.",
+      "questions": [
+        {
+          "id": 9088,
+          "topic": "Estabilidades, saúde e proteção do trabalho",
+          "stem": "Um adolescente de dezessete anos é contratado para atividade noturna. Qual vedação constitucional incide?",
+          "correct": "Proibição de trabalho noturno aos menores de dezoito anos",
+          "explanation": "A Constituição veda trabalho noturno, perigoso ou insalubre a menores de dezoito anos. Também proíbe trabalho a menores de dezesseis, salvo aprendizagem a partir dos quatorze. A contratação de adolescente de dezessete anos não afasta a proteção contra trabalho noturno.",
+          "reference": "CF, art. 7 XXXIII"
+        },
+        {
+          "id": 16057,
+          "topic": "Educação, profissionalização e prevenção",
+          "stem": "Um adolescente trabalhador de dezessete anos é escalado para atividade noturna. Qual proteção incide?",
+          "correct": "É vedado o trabalho noturno aos menores de dezoito anos.",
+          "explanation": "A Constituição veda trabalho noturno, perigoso ou insalubre aos menores de dezoito anos. Para os menores de dezesseis, a regra é proibição de qualquer trabalho, salvo aprendizagem a partir dos quatorze. Ter dezessete anos não afasta a vedação ao trabalho noturno.",
+          "reference": "CF, art. 7 XXXIII"
+        }
+      ]
+    },
+    {
+      "ids": [
+        7020,
+        19018
+      ],
+      "subjects": [
+        "adminQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.7671,
+      "similarity": {
+        "stem": 0.581,
+        "correct": 1,
+        "explanation": 0.6771
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "TCU como auxiliar do Congresso no controle externo.",
+      "recommendation": "Diferenciar Financeiro por atribuição específica de controle orçamentário.",
+      "questions": [
+        {
+          "id": 7020,
+          "topic": "Controle, processo administrativo e improbidade",
+          "stem": "Na esfera federal, qual órgão auxilia o Congresso Nacional no exercício do controle externo previsto no art. 71 da Constituição?",
+          "correct": "Tribunal de Contas da União",
+          "explanation": "O controle externo federal é exercido pelo Congresso Nacional com auxílio do TCU, nos termos dos arts. 70 e 71. O Tribunal possui atribuições constitucionais próprias de fiscalização e julgamento de contas de administradores. Não se confunde com o sistema de controle interno do Executivo.",
+          "reference": "CF, art. 71"
+        },
+        {
+          "id": 19018,
+          "topic": "Transparência, relatórios e controle fiscal",
+          "stem": "Uma comissão parlamentar examina a execução orçamentária da União e precisa identificar o órgão que auxilia constitucionalmente o Congresso Nacional no exercício do controle externo. Qual é esse órgão?",
+          "correct": "Tribunal de Contas da União.",
+          "explanation": "O controle externo federal é exercido pelo Congresso Nacional com auxílio do Tribunal de Contas da União. O TCU exerce competências constitucionais próprias, como julgar contas de administradores e emitir parecer prévio sobre as contas do Presidente. Isso não se confunde com controle interno de cada Poder.",
+          "reference": "CF, arts. 165, § 3º, e 71"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2055,
+        12097
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "humanRightsQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.6873,
+      "similarity": {
+        "stem": 0.3264,
+        "correct": 1,
+        "explanation": 0.7012
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Identificação da Defensoria Pública em situação de hipossuficiência.",
+      "recommendation": "Diferenciar Direitos Humanos por acesso à justiça e assistência jurídica.",
+      "questions": [
+        {
+          "id": 2055,
+          "topic": "Judiciário e funções essenciais à justiça",
+          "stem": "Uma pessoa sem recursos econômicos necessita de assistência jurídica integral e gratuita. Qual instituição constitucional tem missão permanente de orientação jurídica e defesa dos necessitados?",
+          "correct": "Defensoria Pública.",
+          "explanation": "O art. 134 define a Defensoria Pública como instituição permanente, essencial à função jurisdicional, responsável pela orientação jurídica e defesa integral e gratuita dos necessitados.",
+          "reference": "CF, art. 134"
+        },
+        {
+          "id": 12097,
+          "topic": "Responsabilidade internacional e proteção no Brasil",
+          "stem": "Uma pessoa economicamente hipossuficiente necessita orientação jurídica integral. Qual instituição constitucional é incumbida dessa função?",
+          "correct": "Defensoria Pública",
+          "explanation": "A Defensoria Pública é instituição essencial à função jurisdicional, voltada à orientação e defesa dos necessitados.",
+          "reference": "CF, art. 134"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2075,
+        18043
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "electoralQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.6686,
+      "similarity": {
+        "stem": 0.2705,
+        "correct": 1,
+        "explanation": 0.7023
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Renúncia seis meses antes do pleito para concorrer a outro cargo; muda apenas o chefe do Executivo.",
+      "recommendation": "Manter cobertura de ambas as matérias, variando o problema eleitoral ou a condição de elegibilidade.",
+      "questions": [
+        {
+          "id": 2075,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Um prefeito em primeiro mandato deseja concorrer a deputado estadual na eleição seguinte. Qual medida deve adotar em relação ao cargo de prefeito?",
+          "correct": "Renunciar ao mandato até seis meses antes do pleito.",
+          "explanation": "O art. 14, § 6º, exige que Presidente, governadores e prefeitos renunciem aos respectivos mandatos até seis meses antes do pleito para concorrer a outros cargos.",
+          "reference": "CF, art. 14, § 6º"
+        },
+        {
+          "id": 18043,
+          "topic": "Elegibilidade, inelegibilidades e Lei da Ficha Limpa",
+          "stem": "Um governador deseja disputar cargo de senador na eleição seguinte. Qual regra geral de desincompatibilização constitucional?",
+          "correct": "Renunciar ao mandato até seis meses antes do pleito",
+          "explanation": "O Presidente, governadores e prefeitos devem renunciar aos respectivos mandatos até seis meses antes do pleito para concorrer a outros cargos, conforme o art. 14, § 6º. A regra não se confunde com a possibilidade constitucional de uma reeleição consecutiva para o mesmo cargo.",
+          "reference": "CF, art. 14 §6"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2007,
+        14058
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.662,
+      "similarity": {
+        "stem": 0.3923,
+        "correct": 1,
+        "explanation": 0.5307
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Cargo de ministro do STF privativo de brasileiro nato, com candidato naturalizado.",
+      "recommendation": "Diferenciar Internacional por outro cargo privativo ou outra consequência da nacionalidade.",
+      "questions": [
+        {
+          "id": 2007,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Uma cidadã brasileira naturalizada pretende ocupar o cargo de Ministra do STF. É constitucionalmente possível?",
+          "correct": "Não, é cargo privativo de brasileiro nato",
+          "explanation": "O art. 12, § 3º, IV, reserva o cargo de Ministro do STF a brasileiros natos. A naturalização permite o exercício de muitos outros cargos públicos, mas não afasta as reservas expressamente previstas na Constituição. Não cabe criar outras distinções entre natos e naturalizados sem fundamento constitucional.",
+          "reference": "CF, arts. 12 a 17"
+        },
+        {
+          "id": 14058,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Um brasileiro naturalizado pretende ocupar cargo de Ministro do STF. Qual regra constitucional?",
+          "correct": "O cargo é privativo de brasileiro nato",
+          "explanation": "O art. 12, § 3º, IV, reserva o cargo de Ministro do STF aos brasileiros natos. O naturalizado pode ocupar diversos outros cargos públicos, mas não aqueles expressamente reservados pela Constituição. Não cabe ampliar essa distinção por simples regra administrativa.",
+          "reference": "CF, art. 12 §3 IV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2012,
+        7017
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "adminQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.6568,
+      "similarity": {
+        "stem": 0.2821,
+        "correct": 1,
+        "explanation": 0.6459
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Regresso contra agente público mediante dolo ou culpa.",
+      "recommendation": "Diferenciar Administrativo por requisitos ou limites da ação regressiva.",
+      "questions": [
+        {
+          "id": 2012,
+          "topic": "Administração pública constitucional",
+          "stem": "Após indenizar terceiro por dano provocado por agente público, em que condição constitucional cabe regresso contra o agente?",
+          "correct": "Nos casos de dolo ou culpa",
+          "explanation": "O art. 37, § 6º, estabelece responsabilidade objetiva das pessoas jurídicas indicadas perante terceiros, nas condições constitucionais, e direito de regresso contra o agente nos casos de dolo ou culpa. A responsabilização regressiva não segue automaticamente o mesmo critério objetivo da responsabilidade estatal.",
+          "reference": "CF, arts. 37 a 41"
+        },
+        {
+          "id": 7017,
+          "topic": "Responsabilidade civil do Estado e bens públicos",
+          "stem": "O Estado indeniza terceiro por dano causado por seu agente nessa qualidade. Qual requisito subjetivo permite ação regressiva contra o agente?",
+          "correct": "Dolo ou culpa",
+          "explanation": "A responsabilidade estatal perante terceiro segue o regime constitucional objetivo, nas condições do art. 37, § 6º. O direito de regresso contra o agente exige demonstração de dolo ou culpa. Não se deve transferir automaticamente ao agente o regime objetivo aplicável à pessoa jurídica.",
+          "reference": "CF, art. 37, § 6º; Código Civil, arts. 98 a 103"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10002,
+        10024
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.6535,
+      "similarity": {
+        "stem": 0.245,
+        "correct": 1,
+        "explanation": 0.6792
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Competência trabalhista para indenização decorrente da relação de trabalho; dano moral versus patrimonial.",
+      "recommendation": "Variar uma questão para exigir distinguir competência em situação limítrofe, se adequado ao módulo.",
+      "questions": [
+        {
+          "id": 10002,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma ação indenizatória por dano moral decorrente da relação de emprego, entre empregado e empregador, pertence em regra a qual Justiça?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "O art. 114, VI, da Constituição atribui à Justiça do Trabalho as ações de indenização por dano moral ou patrimonial decorrentes da relação de trabalho.",
+          "reference": "CF, arts. 111 a 116; CLT, art. 651"
+        },
+        {
+          "id": 10024,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma demanda trata de indenização por dano patrimonial decorrente da relação de trabalho. Qual competência constitucional é pertinente?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "O dispositivo abrange indenizações por dano moral ou patrimonial decorrentes da relação de trabalho.",
+          "reference": "CF, art. 114 VI"
+        }
+      ]
+    },
+    {
+      "ids": [
+        19079,
+        19080
+      ],
+      "subjects": [
+        "financialQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.6513,
+      "similarity": {
+        "stem": 0.3768,
+        "correct": 1,
+        "explanation": 0.5114
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 19079,
+          "topic": "Dívida pública, operações de crédito e regime fiscal sustentável",
+          "stem": "Um estado pretende emitir títulos públicos. Qual órgão fixa limites globais da dívida consolidada dos entes, mediante proposta presidencial?",
+          "correct": "Senado Federal",
+          "explanation": "O art. 52, VI, atribui privativamente ao Senado a fixação dos limites globais da dívida consolidada, mediante proposta presidencial. A competência não se confunde com deliberação sobre leis orçamentárias nem com fiscalização de contas pelo TCU.",
+          "reference": "CF, art. 52 VI"
+        },
+        {
+          "id": 19080,
+          "topic": "Dívida pública, operações de crédito e regime fiscal sustentável",
+          "stem": "Qual órgão dispõe sobre limites globais e condições para operações de crédito externo e interno dos entes?",
+          "correct": "Senado Federal",
+          "explanation": "Compete privativamente ao Senado dispor sobre limites globais e condições para operações de crédito externo e interno dos entes federativos. Diferencie essa atribuição da fixação de limites globais de dívida consolidada, prevista em outro inciso do mesmo artigo, e da fiscalização dos tribunais de contas.",
+          "reference": "CF, art. 52 VII"
+        }
+      ]
+    },
+    {
+      "ids": [
+        7100,
+        19100
+      ],
+      "subjects": [
+        "adminQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.6479,
+      "similarity": {
+        "stem": 0.5498,
+        "correct": 0.7499,
+        "explanation": 0.6288
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Omissão de comunicação de irregularidade ao TCU e responsabilidade solidária.",
+      "recommendation": "Diferenciar Financeiro por procedimento ou dever específico de controle interno.",
+      "questions": [
+        {
+          "id": 7100,
+          "topic": "Controle, processo administrativo e improbidade",
+          "stem": "Um responsável pelo controle interno federal toma ciência de irregularidade e omite a comunicação ao Tribunal de Contas da União. Qual consequência constitucional deve considerar?",
+          "correct": "Possibilidade de responsabilidade solidária pela omissão",
+          "explanation": "O art. 74, § 1º, determina ciência ao TCU de irregularidade ou ilegalidade, sob pena de responsabilidade solidária.",
+          "reference": "CF, art. 74, § 1º"
+        },
+        {
+          "id": 19100,
+          "topic": "Tribunais de Contas, transferências e responsabilização",
+          "stem": "Um responsável pelo controle interno identifica irregularidade e omite comunicação ao TCU. Qual consequência constitucional pode surgir?",
+          "correct": "Responsabilidade solidária",
+          "explanation": "O art. 74, § 1º, impõe aos responsáveis pelo controle interno dever de dar ciência ao TCU de irregularidade ou ilegalidade, sob pena de responsabilidade solidária. A omissão pode repercutir na responsabilidade do próprio agente de controle.",
+          "reference": "CF, art. 74 §1"
+        }
+      ]
+    },
+    {
+      "ids": [
+        4015,
+        10080
+      ],
+      "subjects": [
+        "processCivilQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.6472,
+      "similarity": {
+        "stem": 0.6965,
+        "correct": 1,
+        "explanation": 0.1084
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Embargos declaratórios por omissão de sentença.",
+      "recommendation": "Diferenciar Processo do Trabalho por requisito, prazo ou efeito próprio da CLT.",
+      "questions": [
+        {
+          "id": 4015,
+          "topic": "Recursos e precedentes",
+          "stem": "Uma sentença contém omissão sobre pedido expressamente formulado. Qual recurso específico permite suprir a omissão?",
+          "correct": "Embargos de declaração",
+          "explanation": "O art. 1.022, II, prevê embargos para suprir omissão; o art. 1.023 estabelece o prazo de cinco dias.",
+          "reference": "CPC, arts. 926 a 928 e 994 a 1.044"
+        },
+        {
+          "id": 10080,
+          "topic": "Recursos trabalhistas",
+          "stem": "Uma sentença contém omissão relevante sobre pedido formulado. Qual recurso é adequado para integração?",
+          "correct": "Embargos de declaração",
+          "explanation": "Os embargos de declaração permitem integrar decisão que omita questão relevante a ser apreciada, conforme o art. 897-A e a disciplina processual aplicável. Não são recurso destinado a renovar livremente a discussão. A correção da omissão pode produzir efeitos modificativos nas hipóteses legais.",
+          "reference": "CLT, art. 897-A"
+        }
+      ]
+    },
+    {
+      "ids": [
+        19010,
+        19058
+      ],
+      "subjects": [
+        "financialQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.6337,
+      "similarity": {
+        "stem": 0.4683,
+        "correct": 1,
+        "explanation": 0.3372
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 19010,
+          "topic": "Despesas públicas, execução e restos a pagar",
+          "stem": "Uma despesa regularmente empenhada e liquidada, mas não paga até o fim do exercício, classifica-se em regra como quê?",
+          "correct": "Restos a pagar processados",
+          "explanation": "Restos a pagar processados correspondem a despesas empenhadas e liquidadas que permanecem não pagas ao fim do exercício.",
+          "reference": "Lei 4.320/1964, arts. 35, 36 e 58 a 65; LRF, art. 42"
+        },
+        {
+          "id": 19058,
+          "topic": "Despesas públicas, execução e restos a pagar",
+          "stem": "Uma despesa é empenhada e permanece sem liquidação e sem pagamento ao fim do exercício, mantendo-se validamente inscrita. Qual classificação?",
+          "correct": "Restos a pagar não processados",
+          "explanation": "Restos a pagar são despesas empenhadas e não pagas até o encerramento do exercício. Se a despesa já foi liquidada, é processada; se não foi liquidada, é não processada, observadas as condições de inscrição. O caso descreve expressamente ausência de liquidação e pagamento.",
+          "reference": "Lei 4.320/1964, art. 36"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2004,
+        6061
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "processPenalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.6165,
+      "similarity": {
+        "stem": 0.2736,
+        "correct": 1,
+        "explanation": 0.5125
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 2004,
+          "topic": "Direitos e garantias fundamentais",
+          "stem": "Um servidor responde a processo administrativo sancionador sem oportunidade de apresentar defesa. Qual garantia está diretamente afetada?",
+          "correct": "Contraditório e ampla defesa",
+          "explanation": "O art. 5º, LV, estende contraditório e ampla defesa aos litigantes em processos judiciais e administrativos e aos acusados.",
+          "reference": "CF, art. 5º"
+        },
+        {
+          "id": 6061,
+          "topic": "Princípios e sistemas processuais",
+          "stem": "A defesa pede acesso ao processo para acompanhar a produção de prova oral. O juiz pretende impedir toda manifestação defensiva durante a instrução, sem fundamento legal. Qual garantia é diretamente afetada?",
+          "correct": "Contraditório e ampla defesa.",
+          "explanation": "A Constituição assegura contraditório e ampla defesa aos litigantes e acusados, com os meios e recursos a ela inerentes. A defesa deve poder participar da produção probatória.",
+          "reference": "CF, art. 5º, LV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        16019,
+        16099
+      ],
+      "subjects": [
+        "ecaQuestions",
+        "ecaQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.6025,
+      "similarity": {
+        "stem": 0.3756,
+        "correct": 1,
+        "explanation": 0.3385
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Identificação da Lei 15.211/2025 (ECA Digital).",
+      "recommendation": "Manter identificação do diploma em uma; cobrar obrigação material específica na outra, após conferência oficial.",
+      "questions": [
+        {
+          "id": 16019,
+          "topic": "Crimes, infrações administrativas e proteção digital",
+          "stem": "Uma equipe jurídica responsável por serviço digital acessível a menores precisa identificar o diploma federal que instituiu especificamente o Estatuto Digital da Criança e do Adolescente. Qual é a lei correspondente?",
+          "correct": "Lei 15.211/2025.",
+          "explanation": "A Lei 15.211/2025 institui o Estatuto Digital da Criança e do Adolescente, estabelecendo proteção no ambiente digital. Trata-se de diploma específico, que deve ser estudado em conjunto com o ECA e a disciplina de proteção de dados, sem confundir seus respectivos objetos.",
+          "reference": "Lei 15.211/2025"
+        },
+        {
+          "id": 16099,
+          "topic": "Crimes, infrações administrativas e proteção digital",
+          "stem": "Uma plataforma digital voltada a menores precisa estabelecer proteção no ambiente online. Qual diploma específico do ECA Digital deve ser consultado?",
+          "correct": "Lei 15.211/2025",
+          "explanation": "O Estatuto Digital da Criança e do Adolescente disciplina proteção de menores em ambientes digitais.",
+          "reference": "Lei 15.211/2025, objeto da lei"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2073,
+        14054
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5969,
+      "similarity": {
+        "stem": 0.5997,
+        "correct": 0.7448,
+        "explanation": 0.3928
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 2073,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Uma criança nasce no exterior, filha de brasileira que não está a serviço do Brasil, e é registrada em repartição brasileira competente. Qual a nacionalidade constitucional?",
+          "correct": "Brasileira nata, pela hipótese de registro em repartição brasileira competente.",
+          "explanation": "O art. 12, I, c, contempla os nascidos no estrangeiro de pai brasileiro ou mãe brasileira registrados em repartição brasileira competente, além da hipótese alternativa de residência e opção.",
+          "reference": "CF, art. 12, I, c"
+        },
+        {
+          "id": 14054,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no exterior de mãe brasileira a serviço do Brasil. Qual regra constitucional?",
+          "correct": "É brasileira nata",
+          "explanation": "A pessoa nascida no exterior de pai brasileiro ou mãe brasileira é brasileira nata quando qualquer deles estiver a serviço da República Federativa do Brasil, conforme o art. 12, I, b. Essa hipótese difere das regras de registro consular ou residência e opção previstas na alínea c.",
+          "reference": "CF, art. 12 I b"
+        }
+      ]
+    },
+    {
+      "ids": [
+        4070,
+        10042
+      ],
+      "subjects": [
+        "processCivilQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5954,
+      "similarity": {
+        "stem": 0.2921,
+        "correct": 1,
+        "explanation": 0.4147
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Exclusão do dia inicial e inclusão do vencimento em prazos processuais.",
+      "recommendation": "Diferenciar a questão trabalhista por contagem em dias úteis ou hipótese específica; revisar contexto desconectado de 4070.",
+      "questions": [
+        {
+          "id": 4070,
+          "topic": "Atos processuais, citação e prazos",
+          "stem": "Uma advogada deixa de comparecer a audiência por impedimento comprovado que não lhe é imputável. Para a contagem de prazo processual em dias, como se consideram o dia inicial e o vencimento, ressalvada disposição específica?",
+          "correct": "Exclui-se o dia do começo e inclui-se o dia do vencimento.",
+          "explanation": "O art. 224 estabelece a exclusão do dia do começo e a inclusão do vencimento. A definição do termo inicial segue as regras específicas de comunicação e contagem.",
+          "reference": "CPC, art. 224"
+        },
+        {
+          "id": 10042,
+          "topic": "Atos processuais, prazos e nulidades",
+          "stem": "Um prazo processual trabalhista começa regularmente. Na contagem, qual tratamento do dia do começo e do vencimento?",
+          "correct": "Exclui-se o dia do começo e inclui-se o dia do vencimento.",
+          "explanation": "O art. 775 determina contagem em dias úteis, excluindo o dia do começo e incluindo o dia do vencimento. Essa regra se aplica aos prazos processuais disciplinados pelo dispositivo. O termo inicial depende da comunicação e das circunstâncias processuais pertinentes.",
+          "reference": "CLT, art. 775"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20070,
+        20075
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5903,
+      "similarity": {
+        "stem": 0.4171,
+        "correct": 1,
+        "explanation": 0.2448
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20070,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Um trabalhador rural enquadrado na regra constitucional de idade reduzida solicita aposentadoria. Qual idade mínima geral para o homem?",
+          "correct": "Sessenta anos",
+          "explanation": "O art. 201, § 7º, II, prevê idade de 60 anos para homens na regra rural ali disciplinada, em contraste com 55 anos para mulheres. O benefício exige os demais requisitos legais, especialmente a comprovação da atividade rural pertinente à situação do segurado.",
+          "reference": "CF, art. 201 §7 II"
+        },
+        {
+          "id": 20075,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Um homem com deficiência pretende aposentar-se por idade conforme a LC 142. Qual idade mínima legal?",
+          "correct": "Sessenta anos",
+          "explanation": "A lei complementar prevê sessenta anos para homens e quinze anos de contribuição na condição de pessoa com deficiência.",
+          "reference": "LC 142/2013, art. 3 IV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        14053,
+        14054
+      ],
+      "subjects": [
+        "internationalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5894,
+      "similarity": {
+        "stem": 0.4911,
+        "correct": 1,
+        "explanation": 0.1515
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 14053,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no Brasil de pais estrangeiros que não estão a serviço de seu país. Qual nacionalidade brasileira possui em regra?",
+          "correct": "Brasileira nata",
+          "explanation": "O nascimento no território brasileiro atribui nacionalidade brasileira nata, mesmo quando ambos os pais são estrangeiros, desde que estes não estejam a serviço de seu país. A exceção constitucional deve ser examinada conforme o vínculo funcional dos pais; a mera nacionalidade estrangeira não afasta a regra.",
+          "reference": "CF, art. 12 I a"
+        },
+        {
+          "id": 14054,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no exterior de mãe brasileira a serviço do Brasil. Qual regra constitucional?",
+          "correct": "É brasileira nata",
+          "explanation": "A pessoa nascida no exterior de pai brasileiro ou mãe brasileira é brasileira nata quando qualquer deles estiver a serviço da República Federativa do Brasil, conforme o art. 12, I, b. Essa hipótese difere das regras de registro consular ou residência e opção previstas na alínea c.",
+          "reference": "CF, art. 12 I b"
+        }
+      ]
+    },
+    {
+      "ids": [
+        12071,
+        14005
+      ],
+      "subjects": [
+        "humanRightsQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5881,
+      "similarity": {
+        "stem": 0.3171,
+        "correct": 0.8679,
+        "explanation": 0.5376
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Equivalência de tratado de direitos humanos aprovado em rito qualificado a emenda constitucional.",
+      "recommendation": "Diferenciar Internacional por outro efeito de incorporação ou pelo procedimento.",
+      "questions": [
+        {
+          "id": 12071,
+          "topic": "Incorporação, hierarquia e convencionalidade",
+          "stem": "Um tratado de direitos humanos aprovado pelo rito qualificado integra bloco constitucional. Qual consequência de sua posição normativa?",
+          "correct": "Equivalência às emendas constitucionais",
+          "explanation": "O art. 5º, § 3º, atribui equivalência às emendas constitucionais aos tratados de direitos humanos aprovados, em cada Casa do Congresso, em dois turnos, por três quintos dos respectivos membros. A natureza de tratado de direitos humanos, isoladamente, não substitui o rito qualificado.",
+          "reference": "CF, art. 5 §3"
+        },
+        {
+          "id": 14005,
+          "topic": "Incorporação e hierarquia dos tratados no Brasil",
+          "stem": "Tratado de direitos humanos aprovado em dois turnos em cada Casa por três quintos dos respectivos membros terá qual posição?",
+          "correct": "Equivalência a emenda constitucional",
+          "explanation": "O art. 5º, § 3º, prevê equivalência às emendas constitucionais para tratados aprovados pelo procedimento qualificado.",
+          "reference": "CF, arts. 5º, §§ 2º a 4º, 49, I, e 84, VIII"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2033,
+        14053
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5875,
+      "similarity": {
+        "stem": 0.74,
+        "correct": 0.5835,
+        "explanation": 0.4078
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 2033,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Uma criança nasce no Brasil de pais estrangeiros que estão ambos a serviço de seu país de origem. Qual regra de nacionalidade originária territorial se aplica?",
+          "correct": "Não é brasileira nata pelo simples nascimento no território brasileiro nessa hipótese.",
+          "explanation": "O art. 12, I, a, ressalva o nascimento de filhos de estrangeiros quando estes estão a serviço de seu país.",
+          "reference": "CF, art. 12, I, a"
+        },
+        {
+          "id": 14053,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no Brasil de pais estrangeiros que não estão a serviço de seu país. Qual nacionalidade brasileira possui em regra?",
+          "correct": "Brasileira nata",
+          "explanation": "O nascimento no território brasileiro atribui nacionalidade brasileira nata, mesmo quando ambos os pais são estrangeiros, desde que estes não estejam a serviço de seu país. A exceção constitucional deve ser examinada conforme o vínculo funcional dos pais; a mera nacionalidade estrangeira não afasta a regra.",
+          "reference": "CF, art. 12 I a"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2004,
+        10036
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5856,
+      "similarity": {
+        "stem": 0.033,
+        "correct": 1,
+        "explanation": 0.6944
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 2004,
+          "topic": "Direitos e garantias fundamentais",
+          "stem": "Um servidor responde a processo administrativo sancionador sem oportunidade de apresentar defesa. Qual garantia está diretamente afetada?",
+          "correct": "Contraditório e ampla defesa",
+          "explanation": "O art. 5º, LV, estende contraditório e ampla defesa aos litigantes em processos judiciais e administrativos e aos acusados.",
+          "reference": "CF, art. 5º"
+        },
+        {
+          "id": 10036,
+          "topic": "Princípios, partes e representação",
+          "stem": "Um empregador ajuíza demanda com vários reclamantes no polo oposto e pretende afastar contraditório por mera conveniência. Qual garantia deve ser preservada?",
+          "correct": "Contraditório e ampla defesa",
+          "explanation": "O contraditório e a ampla defesa são garantidos aos litigantes em processos judiciais e administrativos.",
+          "reference": "CF, art. 5 LV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2073,
+        14055
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5839,
+      "similarity": {
+        "stem": 0.7544,
+        "correct": 0.6586,
+        "explanation": 0.2756
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Nacionalidade nata de filho de brasileiro no exterior registrado em repartição competente; muda pai/mãe.",
+      "recommendation": "Diferenciar Internacional por condição alternativa de nacionalidade originária.",
+      "questions": [
+        {
+          "id": 2073,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Uma criança nasce no exterior, filha de brasileira que não está a serviço do Brasil, e é registrada em repartição brasileira competente. Qual a nacionalidade constitucional?",
+          "correct": "Brasileira nata, pela hipótese de registro em repartição brasileira competente.",
+          "explanation": "O art. 12, I, c, contempla os nascidos no estrangeiro de pai brasileiro ou mãe brasileira registrados em repartição brasileira competente, além da hipótese alternativa de residência e opção.",
+          "reference": "CF, art. 12, I, c"
+        },
+        {
+          "id": 14055,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no exterior de pai brasileiro que não está a serviço do Brasil e é registrada em repartição brasileira competente. Qual consequência constitucional?",
+          "correct": "Nacionalidade brasileira nata",
+          "explanation": "O registro em repartição brasileira competente constitui uma das vias constitucionais de nacionalidade originária.",
+          "reference": "CF, art. 12 I c"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2011,
+        7001
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "adminQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5783,
+      "similarity": {
+        "stem": 0.3125,
+        "correct": 1,
+        "explanation": 0.3288
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Impessoalidade e promoção pessoal por publicidade institucional.",
+      "recommendation": "Diferenciar Administrativo por consequência ou aplicação específica do princípio.",
+      "questions": [
+        {
+          "id": 2011,
+          "topic": "Administração pública constitucional",
+          "stem": "Publicidade institucional destaca nome e imagem de autoridade para promoção pessoal. Qual princípio é diretamente comprometido?",
+          "correct": "Impessoalidade",
+          "explanation": "A publicidade institucional deve ter finalidade educativa, informativa ou de orientação social e não pode conter elementos que caracterizem promoção pessoal de autoridades ou servidores. Essa vedação, do art. 37, § 1º, concretiza a impessoalidade e impede uso da estrutura pública em benefício pessoal.",
+          "reference": "CF, arts. 37 a 41"
+        },
+        {
+          "id": 7001,
+          "topic": "Princípios e regime jurídico administrativo",
+          "stem": "Uma campanha institucional financiada pelo Município utiliza imagens do prefeito para sua promoção pessoal. Qual princípio é diretamente violado?",
+          "correct": "Impessoalidade",
+          "explanation": "A publicidade institucional não pode servir à promoção pessoal de agentes públicos, conforme art. 37, § 1º, da CF.",
+          "reference": "CF, art. 37; Lei 9.784/1999, art. 2º"
+        }
+      ]
+    },
+    {
+      "ids": [
+        11069,
+        11070
+      ],
+      "subjects": [
+        "businessQuestions",
+        "businessQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5774,
+      "similarity": {
+        "stem": 0.703,
+        "correct": 0.3074,
+        "explanation": 0.7913
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 11069,
+          "topic": "Cheque, nota promissória e duplicata",
+          "stem": "Um cheque é emitido para pagamento na mesma praça em que deve ser pago. Qual prazo legal de apresentação?",
+          "correct": "Trinta dias",
+          "explanation": "O prazo de apresentação do cheque é de trinta dias quando emitido no lugar em que deve ser pago e de sessenta dias quando emitido em outro lugar do país ou no exterior, nos termos legais. Não se confunde com a prescrição da ação executiva cambiária.",
+          "reference": "Lei 7.357/1985, art. 33"
+        },
+        {
+          "id": 11070,
+          "topic": "Cheque, nota promissória e duplicata",
+          "stem": "Um cheque é emitido em praça diversa do lugar de pagamento, dentro da hipótese legal. Qual prazo de apresentação?",
+          "correct": "Sessenta dias",
+          "explanation": "Quando emitido em outro lugar do País ou no exterior, o cheque tem prazo de apresentação de sessenta dias.",
+          "reference": "Lei 7.357/1985, art. 33"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10080,
+        18092
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "electoralQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.569,
+      "similarity": {
+        "stem": 0.4018,
+        "correct": 1,
+        "explanation": 0.1872
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Embargos de declaração por omissão; muda o ramo processual.",
+      "recommendation": "Diferenciar Eleitoral por requisito ou efeito específico do recurso.",
+      "questions": [
+        {
+          "id": 10080,
+          "topic": "Recursos trabalhistas",
+          "stem": "Uma sentença contém omissão relevante sobre pedido formulado. Qual recurso é adequado para integração?",
+          "correct": "Embargos de declaração",
+          "explanation": "Os embargos de declaração permitem integrar decisão que omita questão relevante a ser apreciada, conforme o art. 897-A e a disciplina processual aplicável. Não são recurso destinado a renovar livremente a discussão. A correção da omissão pode produzir efeitos modificativos nas hipóteses legais.",
+          "reference": "CLT, art. 897-A"
+        },
+        {
+          "id": 18092,
+          "topic": "Ações eleitorais, impugnações e recursos",
+          "stem": "Uma decisão eleitoral contém omissão relevante e a parte pretende sua integração. Qual instrumento recursal deve examinar?",
+          "correct": "Embargos de declaração",
+          "explanation": "Embargos de declaração são admitidos nas hipóteses legalmente previstas, observada disciplina eleitoral.",
+          "reference": "Código Eleitoral, art. 275"
+        }
+      ]
+    },
+    {
+      "ids": [
+        14054,
+        14055
+      ],
+      "subjects": [
+        "internationalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5686,
+      "similarity": {
+        "stem": 0.5759,
+        "correct": 0.8843,
+        "explanation": 0.1314
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 14054,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no exterior de mãe brasileira a serviço do Brasil. Qual regra constitucional?",
+          "correct": "É brasileira nata",
+          "explanation": "A pessoa nascida no exterior de pai brasileiro ou mãe brasileira é brasileira nata quando qualquer deles estiver a serviço da República Federativa do Brasil, conforme o art. 12, I, b. Essa hipótese difere das regras de registro consular ou residência e opção previstas na alínea c.",
+          "reference": "CF, art. 12 I b"
+        },
+        {
+          "id": 14055,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no exterior de pai brasileiro que não está a serviço do Brasil e é registrada em repartição brasileira competente. Qual consequência constitucional?",
+          "correct": "Nacionalidade brasileira nata",
+          "explanation": "O registro em repartição brasileira competente constitui uma das vias constitucionais de nacionalidade originária.",
+          "reference": "CF, art. 12 I c"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20053,
+        20075
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5675,
+      "similarity": {
+        "stem": 0.2945,
+        "correct": 0.8394,
+        "explanation": 0.5299
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20053,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Um homem urbano ingressa no RGPS após a EC 103/2019, sem atividade diferenciada. Qual idade mínima geral da aposentadoria programada?",
+          "correct": "Sessenta e cinco anos",
+          "explanation": "A regra geral prevê idade mínima de sessenta e cinco anos para homens e sessenta e dois para mulheres.",
+          "reference": "CF, art. 201 §7 I; EC103 19"
+        },
+        {
+          "id": 20075,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Um homem com deficiência pretende aposentar-se por idade conforme a LC 142. Qual idade mínima legal?",
+          "correct": "Sessenta anos",
+          "explanation": "A lei complementar prevê sessenta anos para homens e quinze anos de contribuição na condição de pessoa com deficiência.",
+          "reference": "LC 142/2013, art. 3 IV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        18001,
+        18021
+      ],
+      "subjects": [
+        "electoralQuestions",
+        "electoralQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5664,
+      "similarity": {
+        "stem": 0.5483,
+        "correct": 1,
+        "explanation": 0
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 18001,
+          "topic": "Direitos políticos, sufrágio e alistamento",
+          "stem": "Uma pessoa analfabeta de 35 anos deseja alistar-se e votar. Qual a regra constitucional?",
+          "correct": "Alistamento e voto facultativos",
+          "explanation": "O art. 14, § 1º, II, a, prevê facultatividade para analfabetos, embora sejam inelegíveis conforme § 4º.",
+          "reference": "CF, arts. 14 a 16; Código Eleitoral"
+        },
+        {
+          "id": 18021,
+          "topic": "Direitos políticos, sufrágio e alistamento",
+          "stem": "Uma cidadã de dezesseis anos pretende alistar-se para votar. Qual regime constitucional?",
+          "correct": "Alistamento e voto facultativos",
+          "explanation": "A Constituição estabelece voto e alistamento facultativos para maiores de dezesseis e menores de dezoito anos.",
+          "reference": "CF, art. 14 §1 II c"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20069,
+        20074
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5642,
+      "similarity": {
+        "stem": 0.3998,
+        "correct": 1,
+        "explanation": 0.1722
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20069,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Uma trabalhadora rural enquadrada como segurada especial busca aposentadoria rural por idade na regra constitucional. Qual idade mínima geral?",
+          "correct": "Cinquenta e cinco anos",
+          "explanation": "A Constituição estabelece idade reduzida de 55 anos para mulheres enquadradas na regra rural do art. 201, § 7º, II. A idade não basta isoladamente: a comprovação da atividade rural e os requisitos do benefício devem ser analisados conforme a categoria da segurada.",
+          "reference": "CF, art. 201 §7 II"
+        },
+        {
+          "id": 20074,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Uma mulher com deficiência busca aposentadoria por idade da LC 142. Qual idade mínima prevista, além dos demais requisitos?",
+          "correct": "Cinquenta e cinco anos",
+          "explanation": "A aposentadoria por idade da pessoa com deficiência prevê cinquenta e cinco anos para mulheres, com tempo mínimo contributivo na condição de deficiência.",
+          "reference": "LC 142/2013, art. 3 IV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20009,
+        20053
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5453,
+      "similarity": {
+        "stem": 0.4748,
+        "correct": 0.7354,
+        "explanation": 0.3729
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20009,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Na regra geral do RGPS para mulher urbana filiada após a EC 103/2019, sem condição especial, qual a idade mínima de aposentadoria?",
+          "correct": "Sessenta e dois anos",
+          "explanation": "O art. 19 da EC 103 estabelece 62 anos para mulheres e 65 para homens, com tempos contributivos mínimos próprios.",
+          "reference": "CF, art. 201; EC 103/2019, arts. 15 a 20 e 26"
+        },
+        {
+          "id": 20053,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Um homem urbano ingressa no RGPS após a EC 103/2019, sem atividade diferenciada. Qual idade mínima geral da aposentadoria programada?",
+          "correct": "Sessenta e cinco anos",
+          "explanation": "A regra geral prevê idade mínima de sessenta e cinco anos para homens e sessenta e dois para mulheres.",
+          "reference": "CF, art. 201 §7 I; EC103 19"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20054,
+        20076
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5415,
+      "similarity": {
+        "stem": 0.2617,
+        "correct": 1,
+        "explanation": 0.2591
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20054,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Um homem filiado ao RGPS após a EC 103/2019 busca aposentadoria programada comum. Qual tempo mínimo contributivo geral da regra provisória do art. 19?",
+          "correct": "Vinte anos",
+          "explanation": "Para novo filiado homem, a regra do art. 19 prevê vinte anos de contribuição, além da idade exigida.",
+          "reference": "EC 103/2019, art. 19"
+        },
+        {
+          "id": 20076,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Uma segurada com deficiência de grau grave busca aposentadoria por tempo de contribuição da LC 142, cumpridos os demais requisitos. Qual tempo contributivo previsto para mulher nessa condição?",
+          "correct": "Vinte anos",
+          "explanation": "A deficiência grave permite aposentadoria por tempo de contribuição de vinte anos para mulheres e vinte e cinco para homens.",
+          "reference": "LC 142/2013, art. 3 I"
+        }
+      ]
+    },
+    {
+      "ids": [
+        19087,
+        19089
+      ],
+      "subjects": [
+        "financialQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5343,
+      "similarity": {
+        "stem": 0.1385,
+        "correct": 1,
+        "explanation": 0.3829
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 19087,
+          "topic": "Transparência, relatórios e controle fiscal",
+          "stem": "Após encerrado um bimestre, qual prazo constitucional para publicação do relatório resumido da execução orçamentária?",
+          "correct": "Até trinta dias",
+          "explanation": "O RREO deve ser publicado pelo Executivo até trinta dias após o encerramento de cada bimestre. Esse prazo se conta do fim do período de referência, não do início do bimestre. Não confunda a periodicidade bimestral com a quadrimestral ordinária do RGF.",
+          "reference": "CF, art. 165 §3"
+        },
+        {
+          "id": 19089,
+          "topic": "Transparência, relatórios e controle fiscal",
+          "stem": "Qual prazo geral de publicação do RGF após encerramento do período correspondente?",
+          "correct": "Até trinta dias",
+          "explanation": "O RGF é publicado até trinta dias após o encerramento do período correspondente. A regra geral de emissão é quadrimestral, ressalvados regimes específicos previstos na LRF. Emissão e prazo de publicação são elementos distintos e devem ser identificados separadamente.",
+          "reference": "LC 101/2000, art. 55 §2"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20053,
+        20089
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5331,
+      "similarity": {
+        "stem": 0.0872,
+        "correct": 1,
+        "explanation": 0.4411
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20053,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Um homem urbano ingressa no RGPS após a EC 103/2019, sem atividade diferenciada. Qual idade mínima geral da aposentadoria programada?",
+          "correct": "Sessenta e cinco anos",
+          "explanation": "A regra geral prevê idade mínima de sessenta e cinco anos para homens e sessenta e dois para mulheres.",
+          "reference": "CF, art. 201 §7 I; EC103 19"
+        },
+        {
+          "id": 20089,
+          "topic": "Salário-maternidade e benefício assistencial (BPC)",
+          "stem": "Um idoso de sessenta e cinco anos em situação de vulnerabilidade solicita prestação assistencial. Qual idade mínima do BPC destinado ao idoso?",
+          "correct": "Sessenta e cinco anos",
+          "explanation": "A LOAS estabelece idade mínima de sessenta e cinco anos para o BPC do idoso, além dos demais requisitos.",
+          "reference": "Lei 8.742/1993, art. 20"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20053,
+        20070
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5243,
+      "similarity": {
+        "stem": 0.3374,
+        "correct": 0.8394,
+        "explanation": 0.3236
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20053,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Um homem urbano ingressa no RGPS após a EC 103/2019, sem atividade diferenciada. Qual idade mínima geral da aposentadoria programada?",
+          "correct": "Sessenta e cinco anos",
+          "explanation": "A regra geral prevê idade mínima de sessenta e cinco anos para homens e sessenta e dois para mulheres.",
+          "reference": "CF, art. 201 §7 I; EC103 19"
+        },
+        {
+          "id": 20070,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Um trabalhador rural enquadrado na regra constitucional de idade reduzida solicita aposentadoria. Qual idade mínima geral para o homem?",
+          "correct": "Sessenta anos",
+          "explanation": "O art. 201, § 7º, II, prevê idade de 60 anos para homens na regra rural ali disciplinada, em contraste com 55 anos para mulheres. O benefício exige os demais requisitos legais, especialmente a comprovação da atividade rural pertinente à situação do segurado.",
+          "reference": "CF, art. 201 §7 II"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2016,
+        2050
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "constitutionalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5237,
+      "similarity": {
+        "stem": 0.5792,
+        "correct": 0.6691,
+        "explanation": 0.2591
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 2016,
+          "topic": "Executivo e responsabilidade constitucional",
+          "stem": "Em caso de dupla vacância dos cargos de Presidente e Vice nos primeiros dois anos do mandato, qual regra geral constitucional?",
+          "correct": "Eleição em noventa dias após aberta a última vaga",
+          "explanation": "O art. 81 prevê eleição em noventa dias; nos últimos dois anos, aplica-se o regime de eleição pelo Congresso em trinta dias.",
+          "reference": "CF, arts. 76 a 91"
+        },
+        {
+          "id": 2050,
+          "topic": "Executivo e responsabilidade constitucional",
+          "stem": "Na hipótese de dupla vacância da Presidência e Vice-Presidência nos últimos dois anos do mandato, qual regra se aplica?",
+          "correct": "Eleição pelo Congresso em trinta dias após a última vaga, na forma da lei.",
+          "explanation": "O art. 81, § 1º, prevê eleição indireta pelo Congresso nessa hipótese; os eleitos completam o período dos antecessores.",
+          "reference": "CF, art. 81, §§ 1º e 2º"
+        }
+      ]
+    },
+    {
+      "ids": [
+        5011,
+        5041
+      ],
+      "subjects": [
+        "penalQuestions",
+        "penalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.52,
+      "similarity": {
+        "stem": 0.1013,
+        "correct": 0.7088,
+        "explanation": 0.7723
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 5011,
+          "topic": "Penas, dosimetria e extinção da punibilidade",
+          "stem": "Ao fundamentar uma condenação, o juiz examina as circunstâncias judiciais, a reincidência e as causas legais de aumento. A defesa sustenta que tais elementos pertencem a etapas diferentes da dosimetria. Em qual fase são consideradas agravantes e atenuantes?",
+          "correct": "Na segunda fase, após a fixação da pena-base.",
+          "explanation": "O art. 68 estabelece pena-base, agravantes e atenuantes e, por último, causas de aumento e diminuição.",
+          "reference": "CP, arts. 32 a 68 e 107 a 120"
+        },
+        {
+          "id": 5041,
+          "topic": "Penas, dosimetria e extinção da punibilidade",
+          "stem": "Ao fixar pena privativa de liberdade, o juiz identifica circunstância judicial desfavorável devidamente fundamentada. Em qual fase do método trifásico deve considerá-la?",
+          "correct": "Primeira fase, na fixação da pena-base conforme art. 59.",
+          "explanation": "Os arts. 59 e 68 estabelecem fixação da pena-base pelas circunstâncias judiciais, seguida das agravantes e atenuantes e, por último, causas de aumento e diminuição.",
+          "reference": "CP, arts. 59 e 68"
+        }
+      ]
+    },
+    {
+      "ids": [
+        19018,
+        19095
+      ],
+      "subjects": [
+        "financialQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5182,
+      "similarity": {
+        "stem": 0,
+        "correct": 1,
+        "explanation": 0.4934
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 19018,
+          "topic": "Transparência, relatórios e controle fiscal",
+          "stem": "Uma comissão parlamentar examina a execução orçamentária da União e precisa identificar o órgão que auxilia constitucionalmente o Congresso Nacional no exercício do controle externo. Qual é esse órgão?",
+          "correct": "Tribunal de Contas da União.",
+          "explanation": "O controle externo federal é exercido pelo Congresso Nacional com auxílio do Tribunal de Contas da União. O TCU exerce competências constitucionais próprias, como julgar contas de administradores e emitir parecer prévio sobre as contas do Presidente. Isso não se confunde com controle interno de cada Poder.",
+          "reference": "CF, arts. 165, § 3º, e 71"
+        },
+        {
+          "id": 19095,
+          "topic": "Tribunais de Contas, transferências e responsabilização",
+          "stem": "Quem julga as contas de administradores e demais responsáveis por recursos públicos federais nos termos do art. 71 II?",
+          "correct": "Tribunal de Contas da União",
+          "explanation": "O TCU julga as contas dos administradores e demais responsáveis abrangidos pelo art. 71, II. As contas anuais presidenciais têm regime distinto: o TCU emite parecer prévio e o Congresso as julga. O controle interno não substitui o controle externo.",
+          "reference": "CF, art. 71 II"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20058,
+        20059
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5174,
+      "similarity": {
+        "stem": 0.3949,
+        "correct": 0.7423,
+        "explanation": 0.3608
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20058,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Um segurado elegível analisa a transição conhecida como pedágio de 50%. Qual característica essencial?",
+          "correct": "Período adicional correspondente à metade do tempo contributivo faltante na reforma.",
+          "explanation": "O pedágio corresponde a cinquenta por cento do tempo faltante, com requisitos próprios e restrição aos segurados elegíveis.",
+          "reference": "EC 103/2019, art. 17"
+        },
+        {
+          "id": 20059,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Uma segurada avalia transição por pedágio de 100% prevista na reforma. Qual característica central?",
+          "correct": "Período adicional equivalente ao tempo contributivo faltante na data da reforma.",
+          "explanation": "O pedágio de 100% exige período adicional de contribuição equivalente ao tempo faltante, na data da reforma, para atingir o mínimo previsto. Por exemplo, se faltavam dois anos, o pedágio corresponde a outros dois. A regra também estabelece idade e tempo mínimos, que devem ser observados.",
+          "reference": "EC 103/2019, art. 20"
+        }
+      ]
+    },
+    {
+      "ids": [
+        17031,
+        17032
+      ],
+      "subjects": [
+        "philosophyQuestions",
+        "philosophyQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.516,
+      "similarity": {
+        "stem": 0.1554,
+        "correct": 1,
+        "explanation": 0.2969
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 17031,
+          "topic": "Justiça clássica: Platão e Aristóteles",
+          "stem": "Um intérprete afirma que a justiça aristotélica particular se limita à distribuição de honras. Qual outra modalidade central ele omite?",
+          "correct": "Justiça corretiva",
+          "explanation": "No livro V da Ética a Nicômaco, Aristóteles distingue, dentro da justiça particular, a distributiva e a corretiva. A primeira organiza a distribuição segundo proporção; a segunda busca retificar desequilíbrios em transações. Reduzir a justiça particular à distribuição de honras omite sua dimensão corretiva.",
+          "reference": "Aristóteles, Ética a Nicômaco"
+        },
+        {
+          "id": 17032,
+          "topic": "Justiça clássica: Platão e Aristóteles",
+          "stem": "Duas pessoas sofrem desequilíbrio em transação e o juiz busca restaurar igualdade entre elas. Qual forma aristotélica de justiça é pertinente?",
+          "correct": "Justiça corretiva",
+          "explanation": "A justiça corretiva busca restabelecer a igualdade rompida por ganhos e perdas em transações, mediante critério aritmético. Diferentemente da distributiva, não determina parcelas de bens comuns segundo mérito proporcional. O juiz atua para corrigir o desequilíbrio descrito no caso.",
+          "reference": "Aristóteles, Ética a Nicômaco"
+        }
+      ]
+    },
+    {
+      "ids": [
+        11077,
+        11078
+      ],
+      "subjects": [
+        "businessQuestions",
+        "businessQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5159,
+      "similarity": {
+        "stem": 0.5996,
+        "correct": 0.3032,
+        "explanation": 0.7028
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 11077,
+          "topic": "Propriedade industrial e contratos empresariais",
+          "stem": "Uma empresa deposita pedido de patente de invenção. Qual prazo geral de vigência contado do depósito, segundo a legislação?",
+          "correct": "Vinte anos",
+          "explanation": "A patente de invenção possui prazo geral de vigência de vinte anos contados da data do depósito, conforme o art. 40. Esse prazo distingue-se dos quinze anos do modelo de utilidade. Não se deve contar automaticamente novo prazo integral a partir da concessão da patente.",
+          "reference": "Lei 9.279/1996, art. 40"
+        },
+        {
+          "id": 11078,
+          "topic": "Propriedade industrial e contratos empresariais",
+          "stem": "Uma empresa obtém patente de modelo de utilidade. Qual prazo geral de vigência contado do depósito?",
+          "correct": "Quinze anos",
+          "explanation": "A patente de modelo de utilidade possui prazo geral de quinze anos contados do depósito. A patente de invenção, em contraste, possui prazo de vinte anos. O prazo de vigência não se confunde com o tempo de tramitação administrativa do pedido perante o INPI.",
+          "reference": "Lei 9.279/1996, art. 40"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10002,
+        10022
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5141,
+      "similarity": {
+        "stem": 0.1205,
+        "correct": 1,
+        "explanation": 0.3326
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 10002,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma ação indenizatória por dano moral decorrente da relação de emprego, entre empregado e empregador, pertence em regra a qual Justiça?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "O art. 114, VI, da Constituição atribui à Justiça do Trabalho as ações de indenização por dano moral ou patrimonial decorrentes da relação de trabalho.",
+          "reference": "CF, arts. 111 a 116; CLT, art. 651"
+        },
+        {
+          "id": 10022,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma empresa impugna penalidade administrativa imposta por órgão de fiscalização das relações de trabalho. Qual Justiça possui competência constitucional?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "A Constituição atribui à Justiça do Trabalho ações relativas a penalidades administrativas impostas por órgãos de fiscalização trabalhista.",
+          "reference": "CF, art. 114 VII"
+        }
+      ]
+    },
+    {
+      "ids": [
+        4015,
+        18092
+      ],
+      "subjects": [
+        "processCivilQuestions",
+        "electoralQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5134,
+      "similarity": {
+        "stem": 0.2871,
+        "correct": 1,
+        "explanation": 0.1278
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Embargos declaratórios por omissão; muda o ramo processual.",
+      "recommendation": "Mesma intervenção proposta para 18092, sem contar como nova questão.",
+      "questions": [
+        {
+          "id": 4015,
+          "topic": "Recursos e precedentes",
+          "stem": "Uma sentença contém omissão sobre pedido expressamente formulado. Qual recurso específico permite suprir a omissão?",
+          "correct": "Embargos de declaração",
+          "explanation": "O art. 1.022, II, prevê embargos para suprir omissão; o art. 1.023 estabelece o prazo de cinco dias.",
+          "reference": "CPC, arts. 926 a 928 e 994 a 1.044"
+        },
+        {
+          "id": 18092,
+          "topic": "Ações eleitorais, impugnações e recursos",
+          "stem": "Uma decisão eleitoral contém omissão relevante e a parte pretende sua integração. Qual instrumento recursal deve examinar?",
+          "correct": "Embargos de declaração",
+          "explanation": "Embargos de declaração são admitidos nas hipóteses legalmente previstas, observada disciplina eleitoral.",
+          "reference": "Código Eleitoral, art. 275"
+        }
+      ]
+    },
+    {
+      "ids": [
+        6015,
+        6055
+      ],
+      "subjects": [
+        "processPenalQuestions",
+        "processPenalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.513,
+      "similarity": {
+        "stem": 0.1394,
+        "correct": 1,
+        "explanation": 0.3058
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 6015,
+          "topic": "Tribunal do Júri",
+          "stem": "Na primeira fase do procedimento do Tribunal do Júri, o magistrado profere decisão de pronúncia. A defesa pretende impugnar essa decisão por meio do recurso expressamente previsto no CPP. Qual é o recurso cabível?",
+          "correct": "Recurso em sentido estrito.",
+          "explanation": "A pronúncia, que submete o acusado ao julgamento pelo Tribunal do Júri, é impugnável por recurso em sentido estrito, conforme o art. 581, IV. A impronúncia e a absolvição sumária seguem a regra recursal do art. 416. A identificação da decisão recorrida é decisiva.",
+          "reference": "CPP, arts. 406 a 497"
+        },
+        {
+          "id": 6055,
+          "topic": "Nulidades, sentença e recursos",
+          "stem": "O juiz rejeita a denúncia em processo comum, fora de regime especial. Qual recurso está expressamente previsto contra a decisão de não recebimento da denúncia ou queixa?",
+          "correct": "Recurso em sentido estrito.",
+          "explanation": "O art. 581, I, prevê recurso em sentido estrito contra decisão que não receber denúncia ou queixa. Procedimentos especiais, como o dos Juizados, têm disciplina própria.",
+          "reference": "CPP, art. 581, I"
+        }
+      ]
+    },
+    {
+      "ids": [
+        8018,
+        8090
+      ],
+      "subjects": [
+        "taxQuestions",
+        "taxQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5068,
+      "similarity": {
+        "stem": 0.2381,
+        "correct": 0.7355,
+        "explanation": 0.5226
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Presunção relativa de certeza e liquidez da dívida ativa, afastável por prova inequívoca.",
+      "recommendation": "Variar a segunda questão para exigir outro elemento da inscrição ou da certidão.",
+      "questions": [
+        {
+          "id": 8018,
+          "topic": "Administração tributária, garantias e execução fiscal",
+          "stem": "A presunção de certeza e liquidez da dívida regularmente inscrita é absoluta?",
+          "correct": "Não, pode ser afastada mediante prova inequívoca",
+          "explanation": "O art. 204 do CTN prevê presunção relativa, passível de afastamento por prova inequívoca a cargo do sujeito passivo ou terceiro interessado.",
+          "reference": "CTN, arts. 183 a 208; Lei 6.830/1980"
+        },
+        {
+          "id": 8090,
+          "topic": "Administração tributária, garantias e execução fiscal",
+          "stem": "Um crédito regularmente inscrito em dívida ativa é contestado pelo devedor com prova inequívoca. A presunção legal pode ser afastada?",
+          "correct": "Sim, por prova inequívoca",
+          "explanation": "A dívida regularmente inscrita goza de presunção de certeza e liquidez, mas essa presunção é relativa. O art. 204 permite afastá-la mediante prova inequívoca a cargo do sujeito passivo ou de terceiro interessado. A inscrição não torna o crédito imune a contestação fundamentada.",
+          "reference": "CTN, art. 204 parágrafo único"
+        }
+      ]
+    },
+    {
+      "ids": [
+        19064,
+        19066
+      ],
+      "subjects": [
+        "financialQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5046,
+      "similarity": {
+        "stem": 0.113,
+        "correct": 1,
+        "explanation": 0.3079
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 19064,
+          "topic": "Créditos adicionais e alterações do orçamento",
+          "stem": "Um gestor deseja usar superávit financeiro do exercício anterior para abrir crédito adicional. É fonte legal possível?",
+          "correct": "Sim, nos termos e condições do art. 43",
+          "explanation": "O superávit financeiro apurado em balanço patrimonial do exercício anterior é fonte legal de recursos para crédito adicional. A apuração deve seguir o art. 43, inclusive suas definições e condições. Não se confunde com excesso de arrecadação do exercício corrente nem com simples saldo bancário.",
+          "reference": "Lei 4.320/1964, art. 43 §1 I"
+        },
+        {
+          "id": 19066,
+          "topic": "Créditos adicionais e alterações do orçamento",
+          "stem": "Uma dotação existente é parcialmente anulada para financiar outra despesa. Pode constituir recurso para crédito adicional?",
+          "correct": "Sim, nas condições legais",
+          "explanation": "A anulação parcial ou total de dotações ou créditos adicionais é fonte prevista no art. 43, § 1º, III. Superávit financeiro, excesso de arrecadação e operações de crédito autorizadas são outras fontes legais. A existência de fonte deve ser examinada junto aos demais requisitos.",
+          "reference": "Lei 4.320/1964, art. 43 §1 III"
+        }
+      ]
+    },
+    {
+      "ids": [
+        6061,
+        10036
+      ],
+      "subjects": [
+        "processPenalQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5041,
+      "similarity": {
+        "stem": 0.0375,
+        "correct": 1,
+        "explanation": 0.3979
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 6061,
+          "topic": "Princípios e sistemas processuais",
+          "stem": "A defesa pede acesso ao processo para acompanhar a produção de prova oral. O juiz pretende impedir toda manifestação defensiva durante a instrução, sem fundamento legal. Qual garantia é diretamente afetada?",
+          "correct": "Contraditório e ampla defesa.",
+          "explanation": "A Constituição assegura contraditório e ampla defesa aos litigantes e acusados, com os meios e recursos a ela inerentes. A defesa deve poder participar da produção probatória.",
+          "reference": "CF, art. 5º, LV"
+        },
+        {
+          "id": 10036,
+          "topic": "Princípios, partes e representação",
+          "stem": "Um empregador ajuíza demanda com vários reclamantes no polo oposto e pretende afastar contraditório por mera conveniência. Qual garantia deve ser preservada?",
+          "correct": "Contraditório e ampla defesa",
+          "explanation": "O contraditório e a ampla defesa são garantidos aos litigantes em processos judiciais e administrativos.",
+          "reference": "CF, art. 5 LV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        13090,
+        15097
+      ],
+      "subjects": [
+        "environmentQuestions",
+        "consumerQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5028,
+      "similarity": {
+        "stem": 0.3791,
+        "correct": 0.6605,
+        "explanation": 0.439
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 13090,
+          "topic": "Infrações administrativas e crimes ambientais",
+          "stem": "Um órgão ambiental aplica sanção administrativa por infração. Qual medida está expressamente prevista?",
+          "correct": "Multa simples",
+          "explanation": "A multa simples integra o rol de sanções administrativas ambientais do art. 72. Sua aplicação exige observar a infração, o procedimento e os critérios legais. Distingue-se da multa diária e de medidas como embargo, apreensão e suspensão, que possuem finalidades e requisitos próprios.",
+          "reference": "Lei 9.605/1998, art. 72 II"
+        },
+        {
+          "id": 15097,
+          "topic": "Tutela individual, coletiva e sistema de defesa",
+          "stem": "Um fornecedor pratica infração administrativa sujeita ao CDC. Qual sanção pode ser aplicada, conforme o caso?",
+          "correct": "Multa administrativa",
+          "explanation": "A multa é uma das sanções administrativas previstas no art. 56 para infrações às normas de defesa do consumidor. Sua aplicação depende do procedimento e critérios pertinentes. A sanção administrativa não exclui necessariamente responsabilidades civil e penal, que possuem pressupostos próprios.",
+          "reference": "CDC, art. 56 I"
+        }
+      ]
+    },
+    {
+      "ids": [
+        14053,
+        14055
+      ],
+      "subjects": [
+        "internationalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5028,
+      "similarity": {
+        "stem": 0.3802,
+        "correct": 0.8843,
+        "explanation": 0.1341
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 14053,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no Brasil de pais estrangeiros que não estão a serviço de seu país. Qual nacionalidade brasileira possui em regra?",
+          "correct": "Brasileira nata",
+          "explanation": "O nascimento no território brasileiro atribui nacionalidade brasileira nata, mesmo quando ambos os pais são estrangeiros, desde que estes não estejam a serviço de seu país. A exceção constitucional deve ser examinada conforme o vínculo funcional dos pais; a mera nacionalidade estrangeira não afasta a regra.",
+          "reference": "CF, art. 12 I a"
+        },
+        {
+          "id": 14055,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no exterior de pai brasileiro que não está a serviço do Brasil e é registrada em repartição brasileira competente. Qual consequência constitucional?",
+          "correct": "Nacionalidade brasileira nata",
+          "explanation": "O registro em repartição brasileira competente constitui uma das vias constitucionais de nacionalidade originária.",
+          "reference": "CF, art. 12 I c"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2073,
+        14053
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.5022,
+      "similarity": {
+        "stem": 0.4693,
+        "correct": 0.7448,
+        "explanation": 0.213
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 2073,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Uma criança nasce no exterior, filha de brasileira que não está a serviço do Brasil, e é registrada em repartição brasileira competente. Qual a nacionalidade constitucional?",
+          "correct": "Brasileira nata, pela hipótese de registro em repartição brasileira competente.",
+          "explanation": "O art. 12, I, c, contempla os nascidos no estrangeiro de pai brasileiro ou mãe brasileira registrados em repartição brasileira competente, além da hipótese alternativa de residência e opção.",
+          "reference": "CF, art. 12, I, c"
+        },
+        {
+          "id": 14053,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Uma criança nasce no Brasil de pais estrangeiros que não estão a serviço de seu país. Qual nacionalidade brasileira possui em regra?",
+          "correct": "Brasileira nata",
+          "explanation": "O nascimento no território brasileiro atribui nacionalidade brasileira nata, mesmo quando ambos os pais são estrangeiros, desde que estes não estejam a serviço de seu país. A exceção constitucional deve ser examinada conforme o vínculo funcional dos pais; a mera nacionalidade estrangeira não afasta a regra.",
+          "reference": "CF, art. 12 I a"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10002,
+        10023
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.5014,
+      "similarity": {
+        "stem": 0.0859,
+        "correct": 1,
+        "explanation": 0.3293
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 10002,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma ação indenizatória por dano moral decorrente da relação de emprego, entre empregado e empregador, pertence em regra a qual Justiça?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "O art. 114, VI, da Constituição atribui à Justiça do Trabalho as ações de indenização por dano moral ou patrimonial decorrentes da relação de trabalho.",
+          "reference": "CF, arts. 111 a 116; CLT, art. 651"
+        },
+        {
+          "id": 10023,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma ação discute exercício do direito de greve entre trabalhadores da iniciativa privada. Qual competência constitucional incide?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "O art. 114, II, atribui à Justiça do Trabalho competência para ações que envolvam exercício do direito de greve. A questão restringe-se à iniciativa privada; conflitos relativos a determinadas relações estatutárias de servidores públicos podem seguir disciplina de competência própria.",
+          "reference": "CF, art. 114 II"
+        }
+      ]
+    },
+    {
+      "ids": [
+        6036,
+        6075
+      ],
+      "subjects": [
+        "processPenalQuestions",
+        "processPenalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.501,
+      "similarity": {
+        "stem": 0.2288,
+        "correct": 1,
+        "explanation": 0.1542
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 6036,
+          "topic": "Competência, conexão e continência",
+          "stem": "Um crime permanente é praticado no território de duas jurisdições igualmente competentes, sem incidência de regra especial. Qual critério resolve a competência territorial?",
+          "correct": "Prevenção.",
+          "explanation": "O art. 71 determina que, em infração continuada ou permanente praticada em território de duas ou mais jurisdições, a competência se firma pela prevenção.",
+          "reference": "CPP, arts. 71 e 83"
+        },
+        {
+          "id": 6075,
+          "topic": "Competência, conexão e continência",
+          "stem": "Dois juízos igualmente competentes praticam atos relativos à mesma causa e um deles antecede o outro na prática de ato jurisdicional relevante. Qual critério pode firmar a competência?",
+          "correct": "Prevenção.",
+          "explanation": "O art. 83 define prevenção pela antecedência na prática de ato do processo ou medida relativa a ele entre juízos igualmente competentes ou com jurisdição cumulativa.",
+          "reference": "CPP, art. 83"
+        }
+      ]
+    },
+    {
+      "ids": [
+        7020,
+        19095
+      ],
+      "subjects": [
+        "adminQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4977,
+      "similarity": {
+        "stem": 0,
+        "correct": 1,
+        "explanation": 0.4202
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 7020,
+          "topic": "Controle, processo administrativo e improbidade",
+          "stem": "Na esfera federal, qual órgão auxilia o Congresso Nacional no exercício do controle externo previsto no art. 71 da Constituição?",
+          "correct": "Tribunal de Contas da União",
+          "explanation": "O controle externo federal é exercido pelo Congresso Nacional com auxílio do TCU, nos termos dos arts. 70 e 71. O Tribunal possui atribuições constitucionais próprias de fiscalização e julgamento de contas de administradores. Não se confunde com o sistema de controle interno do Executivo.",
+          "reference": "CF, art. 71"
+        },
+        {
+          "id": 19095,
+          "topic": "Tribunais de Contas, transferências e responsabilização",
+          "stem": "Quem julga as contas de administradores e demais responsáveis por recursos públicos federais nos termos do art. 71 II?",
+          "correct": "Tribunal de Contas da União",
+          "explanation": "O TCU julga as contas dos administradores e demais responsáveis abrangidos pelo art. 71, II. As contas anuais presidenciais têm regime distinto: o TCU emite parecer prévio e o Congresso as julga. O controle interno não substitui o controle externo.",
+          "reference": "CF, art. 71 II"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20009,
+        20070
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4948,
+      "similarity": {
+        "stem": 0.2451,
+        "correct": 0.8761,
+        "explanation": 0.2806
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20009,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Na regra geral do RGPS para mulher urbana filiada após a EC 103/2019, sem condição especial, qual a idade mínima de aposentadoria?",
+          "correct": "Sessenta e dois anos",
+          "explanation": "O art. 19 da EC 103 estabelece 62 anos para mulheres e 65 para homens, com tempos contributivos mínimos próprios.",
+          "reference": "CF, art. 201; EC 103/2019, arts. 15 a 20 e 26"
+        },
+        {
+          "id": 20070,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Um trabalhador rural enquadrado na regra constitucional de idade reduzida solicita aposentadoria. Qual idade mínima geral para o homem?",
+          "correct": "Sessenta anos",
+          "explanation": "O art. 201, § 7º, II, prevê idade de 60 anos para homens na regra rural ali disciplinada, em contraste com 55 anos para mulheres. O benefício exige os demais requisitos legais, especialmente a comprovação da atividade rural pertinente à situação do segurado.",
+          "reference": "CF, art. 201 §7 II"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2067,
+        6024
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "processPenalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4933,
+      "similarity": {
+        "stem": 0.3195,
+        "correct": 0.8451,
+        "explanation": 0.2267
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Juiz natural e proibição de tribunal criado para julgar fato específico.",
+      "recommendation": "Diferenciar Processo Penal por aplicação processual concreta da garantia.",
+      "questions": [
+        {
+          "id": 2067,
+          "topic": "Direitos e garantias fundamentais",
+          "stem": "Uma pessoa é processada por órgão jurisdicional criado especificamente após os fatos, apenas para julgar aquele episódio. Qual garantia constitucional é diretamente contrariada?",
+          "correct": "Vedação de juízo ou tribunal de exceção e garantia do juiz natural.",
+          "explanation": "Os incisos XXXVII e LIII do art. 5º vedam tribunal de exceção e asseguram processamento e julgamento pela autoridade competente.",
+          "reference": "CF, art. 5º, XXXVII e LIII"
+        },
+        {
+          "id": 6024,
+          "topic": "Princípios e sistemas processuais",
+          "stem": "Uma pessoa é submetida a julgamento por órgão criado especificamente depois do fato para decidir apenas aquele caso criminal. Qual garantia é afetada?",
+          "correct": "Juiz natural e vedação de tribunal de exceção.",
+          "explanation": "A Constituição veda juízo ou tribunal de exceção e garante julgamento pela autoridade competente. A competência deve decorrer de critérios jurídicos previamente estabelecidos.",
+          "reference": "CF, art. 5º, XXXVII e LIII"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10089,
+        18086
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "electoralQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4926,
+      "similarity": {
+        "stem": 0.1562,
+        "correct": 1,
+        "explanation": 0.2126
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 10089,
+          "topic": "Liquidação e execução trabalhista",
+          "stem": "Após garantia da execução ou penhora, o executado deseja apresentar embargos. Qual prazo geral?",
+          "correct": "Cinco dias",
+          "explanation": "Garantida a execução ou penhorados os bens, o executado tem cinco dias para embargos, com igual prazo ao exequente para impugnação.",
+          "reference": "CLT, art. 884"
+        },
+        {
+          "id": 18086,
+          "topic": "Ações eleitorais, impugnações e recursos",
+          "stem": "Uma candidata deseja impugnar pedido de registro de outra candidatura após publicação. Qual prazo legal geral para essa impugnação?",
+          "correct": "Cinco dias",
+          "explanation": "O prazo geral de impugnação do pedido de registro é de cinco dias contados de sua publicação, conforme o art. 3º da LC 64. Devem ser observadas a legitimidade e a disciplina de contagem aplicável ao processo eleitoral; o prazo não se conta da posse.",
+          "reference": "LC 64/1990, art. 3"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10021,
+        10022
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4857,
+      "similarity": {
+        "stem": 0.1031,
+        "correct": 1,
+        "explanation": 0.2524
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 10021,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Um sindicato e uma empresa discutem representação sindical em ação judicial. Qual ramo do Judiciário tem competência constitucional para esse tipo de demanda?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "A competência trabalhista inclui ações sobre representação sindical entre os sujeitos indicados pela Constituição.",
+          "reference": "CF, art. 114 III"
+        },
+        {
+          "id": 10022,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma empresa impugna penalidade administrativa imposta por órgão de fiscalização das relações de trabalho. Qual Justiça possui competência constitucional?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "A Constituição atribui à Justiça do Trabalho ações relativas a penalidades administrativas impostas por órgãos de fiscalização trabalhista.",
+          "reference": "CF, art. 114 VII"
+        }
+      ]
+    },
+    {
+      "ids": [
+        8031,
+        8034
+      ],
+      "subjects": [
+        "taxQuestions",
+        "taxQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4845,
+      "similarity": {
+        "stem": 0.1431,
+        "correct": 1,
+        "explanation": 0.1993
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 8031,
+          "topic": "Competência tributária e repartição de receitas",
+          "stem": "Um município pretende criar imposto sobre renda de moradores. Qual ente possui essa competência constitucional?",
+          "correct": "União",
+          "explanation": "A instituição de imposto sobre renda e proventos de qualquer natureza compete à União, nos termos do art. 153, III. Eventual repartição constitucional do produto arrecadado com outros entes não lhes transfere competência para criar imposto próprio sobre a renda.",
+          "reference": "CF, art. 153 III"
+        },
+        {
+          "id": 8034,
+          "topic": "Competência tributária e repartição de receitas",
+          "stem": "Um território federal não dividido em municípios necessita arrecadar tributos municipais. A quem cabem esses impostos?",
+          "correct": "União",
+          "explanation": "Nos territórios federais, a União exerce competência relativa aos impostos estaduais e, se o território não estiver dividido em municípios, também aos impostos municipais, conforme o art. 147. Trata-se de regra constitucional específica que não autoriza a União a instituir ordinariamente tributos municipais em outros entes.",
+          "reference": "CF, art. 147"
+        }
+      ]
+    },
+    {
+      "ids": [
+        1099,
+        16016
+      ],
+      "subjects": [
+        "ethicsQuestions",
+        "ecaQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4821,
+      "similarity": {
+        "stem": 0.2183,
+        "correct": 1,
+        "explanation": 0.0995
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 1099,
+          "topic": "Organização da OAB e processo disciplinar",
+          "stem": "Um candidato solicita ao órgão eleitoral da OAB informação sobre a duração do mandato dos membros eleitos dos órgãos da Ordem. Qual é a duração geral?",
+          "correct": "Três anos.",
+          "explanation": "O art. 65 prevê mandato de três anos para os membros dos órgãos da OAB, com datas de início próprias.",
+          "reference": "Estatuto, art. 65"
+        },
+        {
+          "id": 16016,
+          "topic": "Ato infracional, garantias e medidas socioeducativas",
+          "stem": "Qual o limite geral de duração da medida de internação previsto no art. 121, § 3º?",
+          "correct": "Três anos",
+          "explanation": "A internação não comporta prazo determinado previamente e sua manutenção deve ser reavaliada mediante decisão fundamentada, no máximo a cada seis meses. O limite geral é de três anos; atingido esse limite, aplica-se a disciplina do art. 121, § 4º, sem prejuízo da liberação compulsória aos 21 anos.",
+          "reference": "ECA, arts. 103 a 128; Lei 12.594/2012"
+        }
+      ]
+    },
+    {
+      "ids": [
+        16085,
+        16096
+      ],
+      "subjects": [
+        "ecaQuestions",
+        "ecaQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.48,
+      "similarity": {
+        "stem": 0.167,
+        "correct": 0.7316,
+        "explanation": 0.5188
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Comunicação imediata da apreensão à autoridade judiciária e à família ou pessoa indicada.",
+      "recommendation": "Diferenciar a segunda questão por consequência legal da violação ou outra garantia do adolescente apreendido.",
+      "questions": [
+        {
+          "id": 16085,
+          "topic": "Justiça da infância, procedimentos e garantias",
+          "stem": "Um adolescente é privado de liberdade e sua família desconhece a apreensão. Qual comunicação deve ocorrer imediatamente?",
+          "correct": "À autoridade judiciária competente e à família ou pessoa indicada pelo adolescente.",
+          "explanation": "A apreensão e o local de recolhimento devem ser comunicados imediatamente à autoridade judiciária e à família ou pessoa indicada.",
+          "reference": "ECA, art. 107"
+        },
+        {
+          "id": 16096,
+          "topic": "Crimes, infrações administrativas e proteção digital",
+          "stem": "Uma pessoa impede adolescente apreendido de exercer garantia de comunicação legal. Qual dever estatutário é relevante?",
+          "correct": "Comunicação imediata à autoridade judiciária e à família ou pessoa indicada.",
+          "explanation": "O art. 107 exige comunicação imediata da apreensão e do local de recolhimento à autoridade judiciária e à família ou pessoa indicada pelo adolescente. O art. 231 tipifica a omissão da autoridade policial responsável nas condições previstas. Trata-se de proteção contra privação de liberdade sem comunicação.",
+          "reference": "ECA, art. 231 e 107"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20009,
+        20075
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4794,
+      "similarity": {
+        "stem": 0.1808,
+        "correct": 0.8761,
+        "explanation": 0.3036
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20009,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "stem": "Na regra geral do RGPS para mulher urbana filiada após a EC 103/2019, sem condição especial, qual a idade mínima de aposentadoria?",
+          "correct": "Sessenta e dois anos",
+          "explanation": "O art. 19 da EC 103 estabelece 62 anos para mulheres e 65 para homens, com tempos contributivos mínimos próprios.",
+          "reference": "CF, art. 201; EC 103/2019, arts. 15 a 20 e 26"
+        },
+        {
+          "id": 20075,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Um homem com deficiência pretende aposentar-se por idade conforme a LC 142. Qual idade mínima legal?",
+          "correct": "Sessenta anos",
+          "explanation": "A lei complementar prevê sessenta anos para homens e quinze anos de contribuição na condição de pessoa com deficiência.",
+          "reference": "LC 142/2013, art. 3 IV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        3033,
+        8076
+      ],
+      "subjects": [
+        "civilQuestions",
+        "taxQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4787,
+      "similarity": {
+        "stem": 0.1269,
+        "correct": 1,
+        "explanation": 0.1984
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 3033,
+          "topic": "Prescrição e decadência",
+          "stem": "O credor de dívida líquida constante de instrumento particular deixa transcorrer o prazo de cobrança, sem causa impeditiva, suspensiva ou interruptiva. Qual prazo prescricional específico é aplicável?",
+          "correct": "Cinco anos.",
+          "explanation": "O art. 206, § 5º, I, estabelece cinco anos para pretensão de cobrança de dívidas líquidas constantes de instrumento público ou particular.",
+          "reference": "CC, art. 206, § 5º, I"
+        },
+        {
+          "id": 8076,
+          "topic": "Crédito tributário e modalidades de lançamento",
+          "stem": "O crédito é constituído definitivamente. Qual prazo geral de prescrição da ação de cobrança?",
+          "correct": "Cinco anos",
+          "explanation": "A ação para cobrança prescreve em cinco anos da constituição definitiva, observadas causas legais de interrupção.",
+          "reference": "CTN, art. 174"
+        }
+      ]
+    },
+    {
+      "ids": [
+        13093,
+        15095
+      ],
+      "subjects": [
+        "environmentQuestions",
+        "consumerQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4785,
+      "similarity": {
+        "stem": 0.4708,
+        "correct": 0.6479,
+        "explanation": 0.2581
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 13093,
+          "topic": "Tutela coletiva e instrumentos processuais ambientais",
+          "stem": "Uma associação ambiental constituída há dois anos e com finalidade pertinente pretende propor ação civil pública. Pode fazê-lo?",
+          "correct": "Sim, preenchidos os requisitos legais",
+          "explanation": "A associação pode propor ação civil pública se preencher os requisitos do art. 5º, V, relativos à constituição pelo período legal e à pertinência institucional. A entidade descrita possui dois anos de existência; ainda devem ser examinados os demais requisitos de legitimidade.",
+          "reference": "Lei 7.347/1985, art. 5 V"
+        },
+        {
+          "id": 15095,
+          "topic": "Tutela individual, coletiva e sistema de defesa",
+          "stem": "Uma associação constituída há dois anos possui finalidade estatutária de defesa do consumidor. Qual possibilidade legal?",
+          "correct": "Legitimidade coletiva, preenchidos os requisitos",
+          "explanation": "O art. 82, IV, inclui associações com finalidade institucional pertinente e constituição pelo período exigido, dispensada autorização assemblear. A legitimidade coletiva não é exclusiva do Ministério Público. Há ainda possibilidade legal de dispensa judicial do requisito temporal em hipóteses específicas.",
+          "reference": "CDC, art. 82 IV"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2076,
+        18041
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "electoralQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4778,
+      "similarity": {
+        "stem": 0.1159,
+        "correct": 0.7836,
+        "explanation": 0.5022
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Filiação partidária como condição de elegibilidade.",
+      "recommendation": "Diferenciar Eleitoral por prazo ou hipótese juridicamente específica.",
+      "questions": [
+        {
+          "id": 2076,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Um eleitor deseja candidatar-se a vereador sem filiação a partido político, embora cumpra os demais requisitos. Qual condição constitucional impede essa candidatura?",
+          "correct": "A filiação partidária é condição de elegibilidade.",
+          "explanation": "O art. 14, § 3º, V, estabelece filiação partidária entre as condições de elegibilidade. Não basta preencher idade e alistamento.",
+          "reference": "CF, art. 14, § 3º, V"
+        },
+        {
+          "id": 18041,
+          "topic": "Elegibilidade, inelegibilidades e Lei da Ficha Limpa",
+          "stem": "Um cidadão pretende disputar cargo eletivo sem filiação partidária, fora de qualquer hipótese especial. Qual condição constitucional ordinária não cumpre?",
+          "correct": "Filiação partidária",
+          "explanation": "A filiação partidária integra as condições constitucionais de elegibilidade, observada disciplina especial aplicável.",
+          "reference": "CF, art. 14 §3 V"
+        }
+      ]
+    },
+    {
+      "ids": [
+        9048,
+        16083
+      ],
+      "subjects": [
+        "laborQuestions",
+        "ecaQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4767,
+      "similarity": {
+        "stem": 0.0806,
+        "correct": 1,
+        "explanation": 0.2475
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 9048,
+          "topic": "Jornada, horas extras e transição constitucional",
+          "stem": "Um empregado negocia banco de horas por acordo individual escrito. Qual prazo máximo geral de compensação nessa modalidade?",
+          "correct": "Seis meses",
+          "explanation": "O banco de horas estabelecido por acordo individual escrito pode prever compensação no período máximo de seis meses, conforme o art. 59, § 5º. A negociação coletiva permite disciplina distinta. O prazo de seis meses não se confunde com a compensação dentro do mesmo mês.",
+          "reference": "CLT, art. 59 § 5º"
+        },
+        {
+          "id": 16083,
+          "topic": "Ato infracional, garantias e medidas socioeducativas",
+          "stem": "Um adolescente está submetido à internação socioeducativa. Qual intervalo máximo de reavaliação da manutenção da medida?",
+          "correct": "Seis meses",
+          "explanation": "A manutenção da internação deve ser reavaliada mediante decisão fundamentada no máximo a cada seis meses.",
+          "reference": "ECA, art. 121 §2"
+        }
+      ]
+    },
+    {
+      "ids": [
+        12007,
+        12052
+      ],
+      "subjects": [
+        "humanRightsQuestions",
+        "humanRightsQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4763,
+      "similarity": {
+        "stem": 0.2398,
+        "correct": 0.6841,
+        "explanation": 0.4816
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "RPU como revisão entre pares.",
+      "recommendation": "Diferenciar a segunda questão por procedimento, recomendações ou distinção frente aos comitês.",
+      "questions": [
+        {
+          "id": 12007,
+          "topic": "Mecanismos de monitoramento da ONU",
+          "stem": "Um Estado membro da ONU apresenta informações sobre sua situação interna de direitos humanos, que são examinadas por outros Estados em procedimento periódico. Qual mecanismo corresponde a essa descrição?",
+          "correct": "Revisão pelos pares da situação de direitos humanos dos Estados membros.",
+          "explanation": "A Revisão Periódica Universal examina a situação dos direitos humanos dos Estados membros da ONU por meio de revisão entre pares. O mecanismo ocorre no âmbito do Conselho de Direitos Humanos e produz recomendações. Distingue-se dos comitês de especialistas independentes que monitoram tratados específicos.",
+          "reference": "OHCHR, mecanismos internacionais de direitos humanos"
+        },
+        {
+          "id": 12052,
+          "topic": "Mecanismos de monitoramento da ONU",
+          "stem": "Um Estado recebe recomendações de RPU de outros Estados. Qual característica distingue o mecanismo?",
+          "correct": "Revisão entre pares",
+          "explanation": "A RPU caracteriza-se pela revisão entre Estados membros, que examinam a situação dos direitos humanos e formulam recomendações aos seus pares. O mecanismo ocorre sob os auspícios do Conselho de Direitos Humanos, diferentemente da supervisão por especialistas dos órgãos de tratados.",
+          "reference": "OHCHR, Revisão Periódica Universal, geral"
+        }
+      ]
+    },
+    {
+      "ids": [
+        16081,
+        16083
+      ],
+      "subjects": [
+        "ecaQuestions",
+        "ecaQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4751,
+      "similarity": {
+        "stem": 0.1459,
+        "correct": 1,
+        "explanation": 0.1626
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 16081,
+          "topic": "Ato infracional, garantias e medidas socioeducativas",
+          "stem": "Um adolescente recebe medida de prestação de serviços à comunidade. Qual duração máxima legal?",
+          "correct": "Seis meses",
+          "explanation": "A prestação de serviços comunitários consiste em tarefas gratuitas por período não excedente a seis meses.",
+          "reference": "ECA, art. 117"
+        },
+        {
+          "id": 16083,
+          "topic": "Ato infracional, garantias e medidas socioeducativas",
+          "stem": "Um adolescente está submetido à internação socioeducativa. Qual intervalo máximo de reavaliação da manutenção da medida?",
+          "correct": "Seis meses",
+          "explanation": "A manutenção da internação deve ser reavaliada mediante decisão fundamentada no máximo a cada seis meses.",
+          "reference": "ECA, art. 121 §2"
+        }
+      ]
+    },
+    {
+      "ids": [
+        9002,
+        9037
+      ],
+      "subjects": [
+        "laborQuestions",
+        "laborQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4734,
+      "similarity": {
+        "stem": 0.1204,
+        "correct": 1,
+        "explanation": 0.1873
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 9002,
+          "topic": "Fontes, princípios e direitos fundamentais",
+          "stem": "Em regra, após a extinção do contrato, qual o prazo constitucional para propor ação relativa a créditos trabalhistas?",
+          "correct": "Dois anos",
+          "explanation": "O art. 7º, XXIX, da Constituição estabelece limite de dois anos após a extinção contratual, com alcance quinquenal dos créditos, ressalvadas regras especiais.",
+          "reference": "CF, art. 7º, XXIX"
+        },
+        {
+          "id": 9037,
+          "topic": "Contrato de trabalho e modalidades especiais",
+          "stem": "Um contrato por prazo determinado comum, não de experiência, é celebrado para hipótese legal cabível. Qual o limite geral previsto na CLT?",
+          "correct": "Dois anos",
+          "explanation": "O limite geral do contrato por prazo determinado é de dois anos, com regra própria para experiência.",
+          "reference": "CLT, art. 445"
+        }
+      ]
+    },
+    {
+      "ids": [
+        20076,
+        20078
+      ],
+      "subjects": [
+        "socialSecurityQuestions",
+        "socialSecurityQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4728,
+      "similarity": {
+        "stem": 0.0135,
+        "correct": 1,
+        "explanation": 0.315
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 20076,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "stem": "Uma segurada com deficiência de grau grave busca aposentadoria por tempo de contribuição da LC 142, cumpridos os demais requisitos. Qual tempo contributivo previsto para mulher nessa condição?",
+          "correct": "Vinte anos",
+          "explanation": "A deficiência grave permite aposentadoria por tempo de contribuição de vinte anos para mulheres e vinte e cinco para homens.",
+          "reference": "LC 142/2013, art. 3 I"
+        },
+        {
+          "id": 20078,
+          "topic": "Pensão por morte, auxílio-reclusão e salário-família",
+          "stem": "Uma criança dependente de segurado falecido possui dez anos e não está emancipada. Em regra, até qual idade permanece a condição de filho dependente, ausente hipótese de extensão?",
+          "correct": "Vinte e um anos",
+          "explanation": "A condição etária geral cessa aos vinte e um anos, ressalvadas hipóteses legais de invalidez ou deficiência.",
+          "reference": "Lei 8.213/1991, art. 16 I e 77 §2 II"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10022,
+        10024
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4721,
+      "similarity": {
+        "stem": 0.2103,
+        "correct": 1,
+        "explanation": 0.0737
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 10022,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma empresa impugna penalidade administrativa imposta por órgão de fiscalização das relações de trabalho. Qual Justiça possui competência constitucional?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "A Constituição atribui à Justiça do Trabalho ações relativas a penalidades administrativas impostas por órgãos de fiscalização trabalhista.",
+          "reference": "CF, art. 114 VII"
+        },
+        {
+          "id": 10024,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "stem": "Uma demanda trata de indenização por dano patrimonial decorrente da relação de trabalho. Qual competência constitucional é pertinente?",
+          "correct": "Justiça do Trabalho",
+          "explanation": "O dispositivo abrange indenizações por dano moral ou patrimonial decorrentes da relação de trabalho.",
+          "reference": "CF, art. 114 VI"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2034,
+        14009
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4665,
+      "similarity": {
+        "stem": 0.6095,
+        "correct": 0,
+        "explanation": 0.9258
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Aquisição voluntária de outra nacionalidade não gera perda automática da brasileira após EC 131/2023.",
+      "recommendation": "Diferenciar Internacional por outra hipótese constitucional de perda ou reaquisição.",
+      "questions": [
+        {
+          "id": 2034,
+          "topic": "Nacionalidade e direitos políticos",
+          "stem": "Um brasileiro adquire voluntariamente outra nacionalidade após a EC 131/2023. Sem pedido de perda ou outro fundamento constitucional, qual consequência?",
+          "correct": "A aquisição de outra nacionalidade não provoca automaticamente perda da brasileira.",
+          "explanation": "A EC 131/2023 retirou a aquisição de outra nacionalidade como hipótese autônoma de perda da nacionalidade brasileira.",
+          "reference": "CF, art. 12, § 4º; EC 131/2023"
+        },
+        {
+          "id": 14009,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "stem": "Após a EC 131/2023, a simples aquisição voluntária de outra nacionalidade provoca automaticamente perda da nacionalidade brasileira?",
+          "correct": "Não",
+          "explanation": "A EC 131 retirou a aquisição de outra nacionalidade como hipótese autônoma de perda da nacionalidade brasileira.",
+          "reference": "EC 131/2023"
+        }
+      ]
+    },
+    {
+      "ids": [
+        7050,
+        11082
+      ],
+      "subjects": [
+        "adminQuestions",
+        "businessQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4635,
+      "similarity": {
+        "stem": 0.11,
+        "correct": 1,
+        "explanation": 0.1646
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 7050,
+          "topic": "Serviços públicos e delegação",
+          "stem": "Uma concessionária descumpre gravemente obrigações contratuais e legais, e o poder concedente cogita extinguir a concessão por inadimplemento da empresa. Qual instituto específico pode ser aplicado após o procedimento devido?",
+          "correct": "Caducidade.",
+          "explanation": "O art. 38 prevê caducidade por inexecução total ou parcial do contrato, nas hipóteses legais e após processo administrativo com ampla defesa. Encampação possui fundamento distinto.",
+          "reference": "Lei 8.987/1995, art. 38"
+        },
+        {
+          "id": 11082,
+          "topic": "Propriedade industrial e contratos empresariais",
+          "stem": "Uma marca registrada permanece sem início de uso no Brasil por cinco anos após a concessão. Qual instituto pode ser requerido por pessoa com legítimo interesse, observadas justificativas legais?",
+          "correct": "Caducidade",
+          "explanation": "A falta de início de uso nas condições e prazo legais pode fundamentar caducidade, ressalvadas razões legítimas.",
+          "reference": "Lei 9.279/1996, art. 143"
+        }
+      ]
+    },
+    {
+      "ids": [
+        6054,
+        18086
+      ],
+      "subjects": [
+        "processPenalQuestions",
+        "electoralQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.463,
+      "similarity": {
+        "stem": 0.1567,
+        "correct": 1,
+        "explanation": 0.106
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 6054,
+          "topic": "Nulidades, sentença e recursos",
+          "stem": "A defesa pretende impugnar sentença condenatória definitiva proferida por juiz singular, em procedimento regido pelo CPP e sem prazo especial. Qual prazo geral de interposição da apelação?",
+          "correct": "Cinco dias.",
+          "explanation": "O art. 593, I, prevê apelação em cinco dias contra sentenças definitivas de condenação ou absolvição por juiz singular. O prazo de razões é disciplinado separadamente pelo art. 600.",
+          "reference": "CPP, arts. 593, I, e 600"
+        },
+        {
+          "id": 18086,
+          "topic": "Ações eleitorais, impugnações e recursos",
+          "stem": "Uma candidata deseja impugnar pedido de registro de outra candidatura após publicação. Qual prazo legal geral para essa impugnação?",
+          "correct": "Cinco dias",
+          "explanation": "O prazo geral de impugnação do pedido de registro é de cinco dias contados de sua publicação, conforme o art. 3º da LC 64. Devem ser observadas a legitimidade e a disciplina de contagem aplicável ao processo eleitoral; o prazo não se conta da posse.",
+          "reference": "LC 64/1990, art. 3"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2042,
+        7009
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "adminQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.462,
+      "similarity": {
+        "stem": 0.2852,
+        "correct": 0.6307,
+        "explanation": 0.4475
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Cargos em comissão restritos a direção, chefia e assessoramento.",
+      "recommendation": "Diferenciar Administrativo por requisito adicional ou distinção com função de confiança.",
+      "questions": [
+        {
+          "id": 2042,
+          "topic": "Administração pública constitucional",
+          "stem": "Uma lei cria numerosos cargos em comissão destinados a rotinas técnicas permanentes, sem direção, chefia ou assessoramento. Qual parâmetro constitucional deve ser observado?",
+          "correct": "Cargos em comissão e funções de confiança destinam-se apenas a direção, chefia e assessoramento.",
+          "explanation": "O art. 37, V, delimita as atribuições de cargos em comissão e funções de confiança. Funções de confiança são exercidas exclusivamente por servidores efetivos.",
+          "reference": "CF, art. 37, V"
+        },
+        {
+          "id": 7009,
+          "topic": "Agentes públicos e servidores",
+          "stem": "Um Município pretende prover cargos de livre nomeação e exoneração para funções permanentes de execução burocrática, sem atribuições de comando ou assessoramento. Qual finalidade constitucional deve delimitar o uso dos cargos em comissão?",
+          "correct": "Desempenho de atribuições de direção, chefia e assessoramento.",
+          "explanation": "O art. 37, V, destina cargos em comissão e funções de confiança às atribuições de direção, chefia e assessoramento.",
+          "reference": "CF, arts. 37 a 41; Lei 8.112/1990"
+        }
+      ]
+    },
+    {
+      "ids": [
+        11018,
+        11070
+      ],
+      "subjects": [
+        "businessQuestions",
+        "businessQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4613,
+      "similarity": {
+        "stem": 0.0979,
+        "correct": 1,
+        "explanation": 0.1716
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 11018,
+          "topic": "Recuperação judicial e extrajudicial",
+          "stem": "Qual prazo do art. 53 para apresentação do plano de recuperação judicial após a publicação da decisão que deferiu o processamento?",
+          "correct": "Sessenta dias",
+          "explanation": "O plano de recuperação judicial deve ser apresentado em sessenta dias, contados da publicação da decisão que deferir o processamento. O prazo não se inicia simplesmente no ajuizamento do pedido. A falta de apresentação no prazo improrrogável pode conduzir à convolação em falência, conforme a lei.",
+          "reference": "Lei 11.101/2005, arts. 1º a 6º, 47 a 69 e 161 a 167"
+        },
+        {
+          "id": 11070,
+          "topic": "Cheque, nota promissória e duplicata",
+          "stem": "Um cheque é emitido em praça diversa do lugar de pagamento, dentro da hipótese legal. Qual prazo de apresentação?",
+          "correct": "Sessenta dias",
+          "explanation": "Quando emitido em outro lugar do País ou no exterior, o cheque tem prazo de apresentação de sessenta dias.",
+          "reference": "Lei 7.357/1985, art. 33"
+        }
+      ]
+    },
+    {
+      "ids": [
+        2068,
+        16010
+      ],
+      "subjects": [
+        "constitutionalQuestions",
+        "ecaQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4605,
+      "similarity": {
+        "stem": 0.3151,
+        "correct": 0.5719,
+        "explanation": 0.4857
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Ensino obrigatório como direito público subjetivo.",
+      "recommendation": "Diferenciar ECA por dever específico de oferta ou proteção educacional.",
+      "questions": [
+        {
+          "id": 2068,
+          "topic": "Direitos e garantias fundamentais",
+          "stem": "A Administração pretende negar matrícula no ensino obrigatório gratuito a uma criança, sustentando que a oferta desse ensino é mera faculdade estatal. Qual parâmetro constitucional se aplica?",
+          "correct": "O acesso ao ensino obrigatório e gratuito é direito público subjetivo.",
+          "explanation": "O art. 208, §§ 1º e 2º, reconhece o direito público subjetivo e prevê responsabilidade pela não oferta ou oferta irregular do ensino obrigatório pelo poder público.",
+          "reference": "CF, art. 208, §§ 1º e 2º"
+        },
+        {
+          "id": 16010,
+          "topic": "Educação, profissionalização e prevenção",
+          "stem": "O acesso ao ensino obrigatório possui qual natureza jurídica segundo o art. 54, § 1º, do ECA?",
+          "correct": "Direito público subjetivo",
+          "explanation": "O art. 54, § 1º, estabelece o acesso ao ensino obrigatório e gratuito como direito público subjetivo.",
+          "reference": "ECA, arts. 53 a 85; CF, art. 7º, XXXIII"
+        }
+      ]
+    },
+    {
+      "ids": [
+        4051,
+        10077
+      ],
+      "subjects": [
+        "processCivilQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "primary",
+      "score": 0.4602,
+      "similarity": {
+        "stem": 0.0723,
+        "correct": 1,
+        "explanation": 0.1986
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 4051,
+          "topic": "Recursos e precedentes",
+          "stem": "No curso do processo, o juiz profere decisão interlocutória concedendo tutela provisória. Qual recurso está expressamente previsto no rol do art. 1.015?",
+          "correct": "Agravo de instrumento.",
+          "explanation": "O art. 1.015, I, prevê agravo de instrumento contra decisões interlocutórias que versem sobre tutelas provisórias.",
+          "reference": "CPC, art. 1.015, I"
+        },
+        {
+          "id": 10077,
+          "topic": "Recursos trabalhistas",
+          "stem": "Uma parte tem recurso indevidamente obstado por despacho denegatório de interposição. Qual recurso trabalhista típico combate essa decisão?",
+          "correct": "Agravo de instrumento",
+          "explanation": "O agravo de instrumento é previsto no art. 897, b, para impugnar despacho que denega a interposição de recurso. Seu objetivo imediato é viabilizar o processamento do recurso obstado. Diferencia-se do agravo de petição, relacionado a decisões da execução.",
+          "reference": "CLT, art. 897 b"
+        }
+      ]
+    },
+    {
+      "ids": [
+        6002,
+        6062
+      ],
+      "subjects": [
+        "processPenalQuestions",
+        "processPenalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.4596,
+      "similarity": {
+        "stem": 0.4199,
+        "correct": 0.3264,
+        "explanation": 0.6885
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Aplicação imediata da lei processual penal e preservação dos atos anteriores válidos.",
+      "recommendation": "Diferenciar a segunda por contraste entre norma processual pura e norma de conteúdo material, com fonte conferida.",
+      "questions": [
+        {
+          "id": 6002,
+          "topic": "Princípios e sistemas processuais",
+          "stem": "Uma nova lei puramente processual entra em vigor durante processo em andamento. Qual a regra geral?",
+          "correct": "Aplica-se imediatamente, preservando os atos anteriores válidos.",
+          "explanation": "O art. 2º disciplina aplicação imediata da lei processual sem prejuízo da validade dos atos anteriores.",
+          "reference": "CPP, arts. 1º a 3º-A; CF, art. 5º"
+        },
+        {
+          "id": 6062,
+          "topic": "Princípios e sistemas processuais",
+          "stem": "Uma lei puramente processual penal entra em vigor depois de um interrogatório validamente realizado conforme a lei anterior. O ato precisa ser repetido apenas em razão da alteração legislativa?",
+          "correct": "Não, a aplicação imediata da lei processual preserva os atos validamente realizados.",
+          "explanation": "O art. 2º consagra aplicação imediata da lei processual sem prejuízo da validade dos atos realizados sob a lei anterior.",
+          "reference": "CPP, art. 2º"
+        }
+      ]
+    },
+    {
+      "ids": [
+        19071,
+        19072
+      ],
+      "subjects": [
+        "financialQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "primary",
+      "score": 0.4556,
+      "similarity": {
+        "stem": 0.9134,
+        "correct": 0,
+        "explanation": 0.5182
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 19071,
+          "topic": "Lei de Responsabilidade Fiscal e despesa com pessoal",
+          "stem": "Qual limite global ordinário da despesa total com pessoal da União em relação à RCL?",
+          "correct": "50%",
+          "explanation": "A LRF fixa para a União limite global ordinário de 50% da receita corrente líquida quanto à despesa total com pessoal. Estados e municípios possuem limite global de 60%. Os percentuais específicos de Poderes e órgãos estão disciplinados separadamente no art. 20.",
+          "reference": "LC 101/2000, art. 19 I"
+        },
+        {
+          "id": 19072,
+          "topic": "Lei de Responsabilidade Fiscal e despesa com pessoal",
+          "stem": "Qual limite global ordinário de despesa total com pessoal dos estados em relação à RCL?",
+          "correct": "60%",
+          "explanation": "O limite global ordinário estadual é 60% da receita corrente líquida. Não se trata do limite individual do Executivo estadual. A distribuição entre Poderes e órgãos segue o art. 20; a União possui limite global distinto, de 50%.",
+          "reference": "LC 101/2000, art. 19 II"
+        }
+      ]
+    },
+    {
+      "ids": [
+        3016,
+        3050
+      ],
+      "subjects": [
+        "civilQuestions",
+        "civilQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.4363,
+      "similarity": {
+        "stem": 0.3907,
+        "correct": 0.2559,
+        "explanation": 0.7365
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 3016,
+          "topic": "Posse, propriedade e direitos reais",
+          "stem": "O possuidor foi privado da posse por ato de terceiro. Qual proteção possessória corresponde ao esbulho?",
+          "correct": "Reintegração de posse",
+          "explanation": "O art. 1.210 assegura restituição da posse no esbulho, manutenção na turbação e proteção diante de ameaça.",
+          "reference": "CC, arts. 1.196 a 1.510-E"
+        },
+        {
+          "id": 3050,
+          "topic": "Posse, propriedade e direitos reais",
+          "stem": "Terceiros perturbam reiteradamente o exercício da posse de um terreno, mas o possuidor não chega a perdê-la. Qual proteção possessória é adequada em tese?",
+          "correct": "Manutenção de posse, diante de turbação.",
+          "explanation": "O art. 1.210 protege o possuidor contra turbação, esbulho e ameaça. A manutenção corresponde à turbação sem perda da posse.",
+          "reference": "CC, art. 1.210"
+        }
+      ]
+    },
+    {
+      "ids": [
+        12071,
+        14041
+      ],
+      "subjects": [
+        "humanRightsQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "explanation",
+      "score": 0.3866,
+      "similarity": {
+        "stem": 0.21,
+        "correct": 0.3575,
+        "explanation": 0.6404
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 12071,
+          "topic": "Incorporação, hierarquia e convencionalidade",
+          "stem": "Um tratado de direitos humanos aprovado pelo rito qualificado integra bloco constitucional. Qual consequência de sua posição normativa?",
+          "correct": "Equivalência às emendas constitucionais",
+          "explanation": "O art. 5º, § 3º, atribui equivalência às emendas constitucionais aos tratados de direitos humanos aprovados, em cada Casa do Congresso, em dois turnos, por três quintos dos respectivos membros. A natureza de tratado de direitos humanos, isoladamente, não substitui o rito qualificado.",
+          "reference": "CF, art. 5 §3"
+        },
+        {
+          "id": 14041,
+          "topic": "Incorporação e hierarquia dos tratados no Brasil",
+          "stem": "Um Estado estrangeiro alega que qualquer tratado comercial aprovado pelo Congresso brasileiro equivale a emenda constitucional. Qual distinção é correta?",
+          "correct": "A equivalência exige tratado de direitos humanos e rito qualificado do art. 5º, § 3º.",
+          "explanation": "A equivalência exige tratado de direitos humanos aprovado em dois turnos por três quintos dos membros de cada Casa.",
+          "reference": "CF, art. 5 §3"
+        }
+      ]
+    },
+    {
+      "ids": [
+        8064,
+        8065
+      ],
+      "subjects": [
+        "taxQuestions",
+        "taxQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.3123,
+      "similarity": {
+        "stem": 0.3826,
+        "correct": 0,
+        "explanation": 0.6507
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 8064,
+          "topic": "Responsabilidade e sucessão tributária",
+          "stem": "Um empresário adquire estabelecimento e continua a atividade; o alienante cessa totalmente a exploração. Qual regime geral se aplica aos tributos do estabelecimento anteriores à aquisição, fora das exceções?",
+          "correct": "Responsabilidade integral do adquirente",
+          "explanation": "Se o alienante cessa a exploração, o adquirente que continua a atividade responde integralmente nos termos legais.",
+          "reference": "CTN, art. 133 I"
+        },
+        {
+          "id": 8065,
+          "topic": "Responsabilidade e sucessão tributária",
+          "stem": "Um adquirente continua atividade do estabelecimento comprado e o alienante inicia nova atividade em quatro meses. Fora das exceções, qual responsabilidade prevê o CTN?",
+          "correct": "Subsidiária com o alienante",
+          "explanation": "O adquirente que continua a exploração responde subsidiariamente com o alienante quando este prossegue na atividade ou inicia nova atividade dentro de seis meses, nos termos do art. 133, II. Se o alienante cessa a exploração, a responsabilidade segue a hipótese do inciso I. Existem exceções legais específicas.",
+          "reference": "CTN, art. 133 II"
+        }
+      ]
+    },
+    {
+      "ids": [
+        5013,
+        5086
+      ],
+      "subjects": [
+        "penalQuestions",
+        "penalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.3104,
+      "similarity": {
+        "stem": 0.3821,
+        "correct": 0,
+        "explanation": 0.6447
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 5013,
+          "topic": "Crimes contra a pessoa",
+          "stem": "Uma pessoa imputa falsamente a outra fato definido como crime, atingindo sua honra. Qual tipo básico corresponde à descrição?",
+          "correct": "Calúnia",
+          "explanation": "A calúnia consiste em imputar falsamente a alguém fato definido como crime, conforme o art. 138. Distingue-se da difamação, que envolve imputação de fato ofensivo à reputação, e da injúria, que ofende dignidade ou decoro. A falsa imputação de fato criminoso é o elemento distintivo do enunciado.",
+          "reference": "CP, arts. 121 a 154-B"
+        },
+        {
+          "id": 5086,
+          "topic": "Crimes contra a pessoa",
+          "stem": "Uma pessoa dirige ofensa diretamente a outra, atingindo sua dignidade ou decoro, sem imputar fato determinado e sem circunstâncias que configurem tipo especial. Qual delito básico contra a honra?",
+          "correct": "Injúria.",
+          "explanation": "O art. 140 protege dignidade e decoro. Distingue-se da difamação, que envolve imputação de fato ofensivo à reputação, e da calúnia, que exige falsa imputação de fato criminoso. Tipos especiais devem ser examinados quando presentes seus elementos.",
+          "reference": "CP, arts. 138 a 140"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10064,
+        10098
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.3024,
+      "similarity": {
+        "stem": 0.3011,
+        "correct": 0,
+        "explanation": 0.7146
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 10064,
+          "topic": "Provas, ônus probatório e sentença",
+          "stem": "Uma reclamação segue o rito ordinário. Qual número máximo geral de testemunhas por parte, fora do inquérito para falta grave?",
+          "correct": "Três",
+          "explanation": "No procedimento ordinário, cada parte pode indicar até três testemunhas, segundo o art. 821. No inquérito para apuração de falta grave, o limite é de seis, e no sumaríssimo, de duas. O tipo de procedimento determina o limite aplicável.",
+          "reference": "CLT, art. 821"
+        },
+        {
+          "id": 10098,
+          "topic": "Ações especiais, dissídios coletivos e homologação",
+          "stem": "Um inquérito judicial para apuração de falta grave exige prova testemunhal. Qual limite geral por parte nesse procedimento?",
+          "correct": "Seis testemunhas",
+          "explanation": "No inquérito para apuração de falta grave, cada parte pode indicar até seis testemunhas, conforme a exceção do art. 821. O limite ordinário é de três por parte. A ampliação relaciona-se ao procedimento específico e não se aplica a toda reclamação trabalhista.",
+          "reference": "CLT, art. 821"
+        }
+      ]
+    },
+    {
+      "ids": [
+        8032,
+        8097
+      ],
+      "subjects": [
+        "taxQuestions",
+        "taxQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.2795,
+      "similarity": {
+        "stem": 0.2021,
+        "correct": 0,
+        "explanation": 0.7528
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 8032,
+          "topic": "Competência tributária e repartição de receitas",
+          "stem": "Um Estado pretende instituir imposto sobre transmissão causa mortis de bens. Qual ente possui competência para o ITCMD?",
+          "correct": "Estados e Distrito Federal",
+          "explanation": "O art. 155, I, atribui aos estados e ao Distrito Federal competência para instituir ITCMD, incidente sobre transmissão causa mortis e doação de bens ou direitos. A transmissão imobiliária onerosa inter vivos segue a disciplina do ITBI municipal, observadas as hipóteses constitucionais.",
+          "reference": "CF, art. 155 I"
+        },
+        {
+          "id": 8097,
+          "topic": "Impostos e reforma tributária do consumo",
+          "stem": "Uma transmissão gratuita de patrimônio por doação é analisada para fins tributários. Qual imposto estadual corresponde à operação?",
+          "correct": "ITCMD",
+          "explanation": "O ITCMD é de competência dos estados e Distrito Federal e abrange transmissão causa mortis e doação de bens ou direitos. Uma transmissão gratuita difere da transmissão imobiliária onerosa inter vivos, disciplinada pelo ITBI. A incidência concreta depende das condições constitucionais e legais.",
+          "reference": "CF, art. 155 I"
+        }
+      ]
+    },
+    {
+      "ids": [
+        12069,
+        14040
+      ],
+      "subjects": [
+        "humanRightsQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": false,
+      "screen": "explanation",
+      "score": 0.2751,
+      "similarity": {
+        "stem": 0.2908,
+        "correct": 0,
+        "explanation": 0.6294
+      },
+      "classification": "overlappingLearningObjective",
+      "reason": "Cláusula de abertura de direitos do art. 5º, § 2º.",
+      "recommendation": "Diferenciar Internacional por aplicação distinta da cláusula.",
+      "questions": [
+        {
+          "id": 12069,
+          "topic": "Incorporação, hierarquia e convencionalidade",
+          "stem": "Uma norma constitucional enumera direitos fundamentais e um tratado internacional ratificado reconhece direito adicional. Qual cláusula constitucional admite abertura do catálogo?",
+          "correct": "Art. 5º §2º",
+          "explanation": "O rol constitucional não exclui direitos decorrentes do regime, princípios e tratados dos quais o Brasil seja parte.",
+          "reference": "CF, art. 5 §2"
+        },
+        {
+          "id": 14040,
+          "topic": "Incorporação e hierarquia dos tratados no Brasil",
+          "stem": "Um tratado de direitos humanos reconhece direito não listado expressamente no texto constitucional. Qual disposição admite abertura do rol de direitos?",
+          "correct": "Art. 5º §2º",
+          "explanation": "Os direitos expressos não excluem outros decorrentes do regime, princípios e tratados dos quais o Brasil seja parte.",
+          "reference": "CF, art. 5 §2"
+        }
+      ]
+    },
+    {
+      "ids": [
+        10012,
+        10064
+      ],
+      "subjects": [
+        "processLaborQuestions",
+        "processLaborQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.2747,
+      "similarity": {
+        "stem": 0.1783,
+        "correct": 0,
+        "explanation": 0.7646
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 10012,
+          "topic": "Provas, ônus probatório e sentença",
+          "stem": "Em reclamação trabalhista submetida ao procedimento sumaríssimo, autor e réu pretendem produzir prova testemunhal sobre os fatos controvertidos. Qual limite geral de testemunhas cada parte pode apresentar?",
+          "correct": "Até duas testemunhas por parte.",
+          "explanation": "No procedimento sumaríssimo, cada parte pode indicar até duas testemunhas, nos termos do art. 852-H, § 2º. Esse limite diferencia-se do procedimento ordinário, que admite em regra três por parte, e do inquérito para apuração de falta grave, que possui limite próprio.",
+          "reference": "CLT, arts. 818 a 830, 832 e 852-H"
+        },
+        {
+          "id": 10064,
+          "topic": "Provas, ônus probatório e sentença",
+          "stem": "Uma reclamação segue o rito ordinário. Qual número máximo geral de testemunhas por parte, fora do inquérito para falta grave?",
+          "correct": "Três",
+          "explanation": "No procedimento ordinário, cada parte pode indicar até três testemunhas, segundo o art. 821. No inquérito para apuração de falta grave, o limite é de seis, e no sumaríssimo, de duas. O tipo de procedimento determina o limite aplicável.",
+          "reference": "CLT, art. 821"
+        }
+      ]
+    },
+    {
+      "ids": [
+        14017,
+        14085
+      ],
+      "subjects": [
+        "internationalQuestions",
+        "internationalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.2728,
+      "similarity": {
+        "stem": 0.2703,
+        "correct": 0,
+        "explanation": 0.6461
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 14017,
+          "topic": "Extradição, imunidades e relações diplomáticas",
+          "stem": "Um Estado estrangeiro solicita ao Brasil a extradição de pessoa que possui nacionalidade brasileira originária e a mantém, em razão de crime comum praticado no território do Estado requerente. Considerando a condição de brasileiro nato, o pedido de extradição pode ser deferido?",
+          "correct": "Não, a Constituição proíbe a extradição de brasileiro nato.",
+          "explanation": "O art. 5º, LI, proíbe a extradição de brasileiro nato. As exceções constitucionais relativas a crime comum anterior à naturalização e comprovado envolvimento com tráfico ilícito referem-se ao naturalizado. A vedação à extradição não significa imunidade geral à responsabilização penal.",
+          "reference": "CF, arts. 5º, LI, e 102, I, g"
+        },
+        {
+          "id": 14085,
+          "topic": "Extradição, imunidades e relações diplomáticas",
+          "stem": "Um brasileiro naturalizado cometeu crime comum antes de naturalizar-se. Qual regra constitucional quanto à extradição?",
+          "correct": "Pode ser extraditado nessa hipótese, observados os demais requisitos.",
+          "explanation": "A Constituição admite extradição do naturalizado por crime comum anterior à naturalização ou envolvimento comprovado com tráfico ilícito de entorpecentes na forma legal.",
+          "reference": "CF, art. 5 LI"
+        }
+      ]
+    },
+    {
+      "ids": [
+        5013,
+        5047
+      ],
+      "subjects": [
+        "penalQuestions",
+        "penalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.2666,
+      "similarity": {
+        "stem": 0.2244,
+        "correct": 0,
+        "explanation": 0.6797
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 5013,
+          "topic": "Crimes contra a pessoa",
+          "stem": "Uma pessoa imputa falsamente a outra fato definido como crime, atingindo sua honra. Qual tipo básico corresponde à descrição?",
+          "correct": "Calúnia",
+          "explanation": "A calúnia consiste em imputar falsamente a alguém fato definido como crime, conforme o art. 138. Distingue-se da difamação, que envolve imputação de fato ofensivo à reputação, e da injúria, que ofende dignidade ou decoro. A falsa imputação de fato criminoso é o elemento distintivo do enunciado.",
+          "reference": "CP, arts. 121 a 154-B"
+        },
+        {
+          "id": 5047,
+          "topic": "Crimes contra a pessoa",
+          "stem": "Uma pessoa atribui a outra fato ofensivo à sua reputação, que não constitui crime, perante terceiros. Qual delito contra a honra pode estar configurado, presentes os demais requisitos?",
+          "correct": "Difamação.",
+          "explanation": "O art. 139 define difamação como imputação de fato ofensivo à reputação. A calúnia exige falsa imputação de fato definido como crime; a injúria atinge dignidade ou decoro.",
+          "reference": "CP, arts. 138 a 140"
+        }
+      ]
+    },
+    {
+      "ids": [
+        19055,
+        19056
+      ],
+      "subjects": [
+        "financialQuestions",
+        "financialQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.2545,
+      "similarity": {
+        "stem": 0.2248,
+        "correct": 0,
+        "explanation": 0.636
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 19055,
+          "topic": "Despesas públicas, execução e restos a pagar",
+          "stem": "Uma despesa de valor variável não pode ser precisamente determinada de antemão. Qual modalidade de empenho é prevista?",
+          "correct": "Por estimativa",
+          "explanation": "O empenho por estimativa é utilizado quando o montante da despesa não pode ser previamente determinado. Diferencia-se do empenho global, possível nas despesas contratuais e outras sujeitas a parcelamento. O critério decisivo do caso é a indeterminação do valor.",
+          "reference": "Lei 4.320/1964, art. 60 §2"
+        },
+        {
+          "id": 19056,
+          "topic": "Despesas públicas, execução e restos a pagar",
+          "stem": "Uma despesa contratual parcelada tem valor conhecido. Qual modalidade legal pode ser utilizada?",
+          "correct": "Empenho global",
+          "explanation": "O art. 60, § 3º, admite empenho global de despesas contratuais e outras sujeitas a parcelamento. Não é o mesmo que empenho por estimativa, utilizado quando não se consegue determinar o montante. O pagamento das parcelas continua sujeito à liquidação pertinente.",
+          "reference": "Lei 4.320/1964, art. 60 §3"
+        }
+      ]
+    },
+    {
+      "ids": [
+        5047,
+        5086
+      ],
+      "subjects": [
+        "penalQuestions",
+        "penalQuestions"
+      ],
+      "sameSubject": true,
+      "screen": "explanation",
+      "score": 0.2531,
+      "similarity": {
+        "stem": 0.2271,
+        "correct": 0,
+        "explanation": 0.6284
+      },
+      "classification": "distinctOrComplementary",
+      "questions": [
+        {
+          "id": 5047,
+          "topic": "Crimes contra a pessoa",
+          "stem": "Uma pessoa atribui a outra fato ofensivo à sua reputação, que não constitui crime, perante terceiros. Qual delito contra a honra pode estar configurado, presentes os demais requisitos?",
+          "correct": "Difamação.",
+          "explanation": "O art. 139 define difamação como imputação de fato ofensivo à reputação. A calúnia exige falsa imputação de fato definido como crime; a injúria atinge dignidade ou decoro.",
+          "reference": "CP, arts. 138 a 140"
+        },
+        {
+          "id": 5086,
+          "topic": "Crimes contra a pessoa",
+          "stem": "Uma pessoa dirige ofensa diretamente a outra, atingindo sua dignidade ou decoro, sem imputar fato determinado e sem circunstâncias que configurem tipo especial. Qual delito básico contra a honra?",
+          "correct": "Injúria.",
+          "explanation": "O art. 140 protege dignidade e decoro. Distingue-se da difamação, que envolve imputação de fato ofensivo à reputação, e da calúnia, que exige falsa imputação de fato criminoso. Tipos especiais devem ser examinados quando presentes seus elementos.",
+          "reference": "CP, arts. 138 a 140"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "As alternativas incorretas não integraram o cálculo automático; o foco foi objetivo de aprendizagem inferido do enunciado, resposta correta e comentário.",
+    "Não houve modificação do banco de questões nesta auditoria.",
+    "Os 48 grupos de respostas corretas idênticas não constituem duplicação por si só."
+  ]
+}
