@@ -1,0 +1,614 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "dc27b50afb8c1f1246b26f981de9ae201029f19e",
+  "reviewedCommit": "2a235a0c84503d7aa1d01c01006532108a4c4a7b",
+  "scope": "Revisão editorial individual de 92 questões avançadas de Direito Tributário, Direito do Trabalho e Direito Processual do Trabalho. Apenas difficulty alterado, sem quotas, validação jurídica independente ou calibração psicométrica.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 92,
+    "reclassified": 84,
+    "retained": 8,
+    "otherChanges": [],
+    "unexpected": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 1319,
+      "Fácil": 409,
+      "Avançada": 272
+    },
+    "subjects": [
+      {
+        "subject": "taxQuestions",
+        "reviewed": 34,
+        "reclassifiedEasy": 19,
+        "reclassifiedIntermediate": 12,
+        "retained": 3,
+        "distribution": {
+          "Fácil": 31,
+          "Intermediária": 66,
+          "Avançada": 3
+        }
+      },
+      {
+        "subject": "laborQuestions",
+        "reviewed": 28,
+        "reclassifiedEasy": 19,
+        "reclassifiedIntermediate": 6,
+        "retained": 3,
+        "distribution": {
+          "Fácil": 46,
+          "Intermediária": 51,
+          "Avançada": 3
+        }
+      },
+      {
+        "subject": "processLaborQuestions",
+        "reviewed": 30,
+        "reclassifiedEasy": 21,
+        "reclassifiedIntermediate": 7,
+        "retained": 2,
+        "distribution": {
+          "Fácil": 49,
+          "Intermediária": 49,
+          "Avançada": 2
+        }
+      }
+    ],
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 8026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8035,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação cumulativa de lei complementar, não cumulatividade e limites materiais da competência residual."
+    },
+    {
+      "id": 8036,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8041,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8043,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8044,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8050,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8051,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8052,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8057,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8058,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8060,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8065,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação da sucessão tributária à continuidade do estabelecimento e ao reinício de atividade do alienante dentro do prazo legal."
+    },
+    {
+      "id": 8066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8067,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8073,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8089,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8090,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação do momento processual, limites da substituição da CDA e reabertura parcial do prazo de defesa."
+    },
+    {
+      "id": 8091,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 8092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 8100,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9026,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção e aplicação conjunta dos limites prescricionais bienal e quinquenal."
+    },
+    {
+      "id": 9027,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 9028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9033,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação da responsabilidade temporal do sócio retirante à averbação e ao ajuizamento."
+    },
+    {
+      "id": 9034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9036,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9043,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9057,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 9058,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção simultânea de dois limites temporais da equiparação salarial."
+    },
+    {
+      "id": 9059,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 9060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9067,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 9068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9074,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 9075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9090,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9091,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 9100,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 10024,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Mantida a avaliação anterior: vínculo estatutário, exclusão da competência trabalhista e competência comum estadual."
+    },
+    {
+      "id": 10025,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 10026,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 10028,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 10033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10041,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10042,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 10043,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10050,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 10051,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10052,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10058,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre revelia e efeito material da revelia na hipótese de litisconsórcio com contestação."
+    },
+    {
+      "id": 10060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10067,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10073,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    },
+    {
+      "id": 10074,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10091,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra, instituto, prazo ou consequência explicitada, com baixa inferência adicional."
+    },
+    {
+      "id": 10099,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra jurídica ou distinção de requisitos em situação delimitada; não exige articulação complexa de normas."
+    }
+  ]
+}
