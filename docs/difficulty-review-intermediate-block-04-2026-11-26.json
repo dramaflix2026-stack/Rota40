@@ -1,0 +1,468 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "38b416abbb053c5995761083fef87d7d17d9657c",
+  "reviewedCommit": "81c3db239272e4db6760c8e2c368acc07ad43bae",
+  "scope": "Revisão editorial de 74 questões intermediárias sinalizadas no bloco 04. Apenas difficulty alterado; sem quotas, calibração por desempenho ou validação jurídica adicional.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 74,
+    "reclassified": 56,
+    "retained": 18,
+    "otherChanges": [],
+    "unexpected": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 1275,
+      "Fácil": 334,
+      "Avançada": 391
+    },
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 16004,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16007,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16012,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16016,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16020,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16023,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16024,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16030,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16031,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16053,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 16054,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 16063,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 16064,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 16070,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 16071,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 16078,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 16080,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 17003,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 17008,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 17039,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 17056,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 17070,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 17087,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 18003,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18004,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18005,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18008,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18009,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18017,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18019,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18029,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18031,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18037,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18038,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18039,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18047,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18053,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18054,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18055,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 18069,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 18086,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19011,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19013,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19018,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19019,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 19037,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19038,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19046,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19048,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19055,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 19056,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 19071,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19072,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19079,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 19080,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19085,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19087,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19094,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 19095,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 19096,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 20001,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20007,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20009,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20045,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20046,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação a fatos, distinção jurídica relevante ou combinação de requisitos."
+    },
+    {
+      "id": 20048,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20053,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20054,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20055,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20069,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20070,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20078,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20094,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    },
+    {
+      "id": 20095,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de conceito, instituto, prazo ou consequência expressa, com baixa inferência adicional."
+    }
+  ]
+}
