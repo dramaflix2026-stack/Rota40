@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "b87da5719ea29f0ad4ab4021c8f509354a1993a9",
+  "reviewedCommit": "35732ca20909e3e91dc13fa98118f956599464b8",
+  "scope": "Revisão editorial individual das 40 questões originalmente avançadas de Filosofia do Direito; apenas difficulty alterado; sem quotas, validação jurídica ou calibração psicométrica.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 40,
+    "reclassified": 38,
+    "retained": 2,
+    "otherChanges": [],
+    "unexpected": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 1294,
+      "Fácil": 350,
+      "Avançada": 356
+    },
+    "subjectDistribution": {
+      "Fácil": 16,
+      "Intermediária": 82,
+      "Avançada": 2
+    },
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 17025,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Distinguir coincidência de conteúdo e identidade conceitual."
+    },
+    {
+      "id": 17026,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Distinguir coerção de legitimidade normativa."
+    },
+    {
+      "id": 17027,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicar critérios de reconhecimento jurídico à prática social."
+    },
+    {
+      "id": 17028,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Separar validade jurídica de aprovação moral em uma situação."
+    },
+    {
+      "id": 17033,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Distinguir igualdade geométrica distributiva da aritmética corretiva."
+    },
+    {
+      "id": 17034,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicar a equidade à insuficiência da regra geral."
+    },
+    {
+      "id": 17035,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Distinguir ação ocasional e disposição virtuosa."
+    },
+    {
+      "id": 17036,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Relacionar função das instituições e formação de hábitos."
+    },
+    {
+      "id": 17041,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicar a natureza fiduciária do poder à resistência."
+    },
+    {
+      "id": 17042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Recordação da tríade de direitos naturais."
+    },
+    {
+      "id": 17043,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Distinguir interesse comum e interesse de facção."
+    },
+    {
+      "id": 17044,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Relacionar participação na autolegislação e liberdade política."
+    },
+    {
+      "id": 17049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecer autonomia em descrição direta."
+    },
+    {
+      "id": 17050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecer o princípio da utilidade por descrição típica."
+    },
+    {
+      "id": 17051,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Recordar a distinção qualitativa de prazeres."
+    },
+    {
+      "id": 17052,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Identificar tensão entre bem agregado e direitos individuais."
+    },
+    {
+      "id": 17057,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articular validade da ordem, eficácia global e não identidade conceitual, distinguindo a ordem de cada norma."
+    },
+    {
+      "id": 17058,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicar a moldura interpretativa ao caso de múltiplas leituras."
+    },
+    {
+      "id": 17059,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Relacionar aplicação de norma geral e criação de norma individual."
+    },
+    {
+      "id": 17060,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Identificar função justificadora da pressuposição de validade sem confundi-la com norma positiva."
+    },
+    {
+      "id": 17065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecer o problema do caráter estático pela ausência de mudança."
+    },
+    {
+      "id": 17066,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Distinguir aceitação normativa de observação preditiva."
+    },
+    {
+      "id": 17067,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecer perspectiva externa em descrição direta de regularidades."
+    },
+    {
+      "id": 17068,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Relacionar textura aberta à discricionariedade limitada."
+    },
+    {
+      "id": 17073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Recordar a metáfora do romance em cadeia."
+    },
+    {
+      "id": 17074,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Identificar a integridade pela coerência de princípios na prática jurídica."
+    },
+    {
+      "id": 17075,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Comparar dois tipos de argumentos segundo seus objetivos."
+    },
+    {
+      "id": 17076,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Distinguir interpretação principiada e discricionariedade forte."
+    },
+    {
+      "id": 17081,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articular subtestes cumulativos e distinguir adequação de ponderação em sentido estrito."
+    },
+    {
+      "id": 17082,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicar relação entre intensidade da restrição e justificação."
+    },
+    {
+      "id": 17083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Recordar os dois limites da otimização."
+    },
+    {
+      "id": 17084,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Identificar a necessidade de fundamentação racional da ponderação."
+    },
+    {
+      "id": 17089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecer bens primários por enumeração típica."
+    },
+    {
+      "id": 17090,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Comparar justiça como equidade e maximização agregada."
+    },
+    {
+      "id": 17091,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecer consenso sobreposto por definição expressa."
+    },
+    {
+      "id": 17092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificar a abordagem das capacidades por descrição direta."
+    },
+    {
+      "id": 17097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Identificar método histórico pelo objeto da pesquisa."
+    },
+    {
+      "id": 17098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecer analogia pela semelhança com hipótese regulada."
+    },
+    {
+      "id": 17099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Recordar dispositivo específico da LINDB."
+    },
+    {
+      "id": 17100,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Relacionar premissas e conclusão ao dever de justificação."
+    }
+  ]
+}
