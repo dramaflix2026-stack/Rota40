@@ -1,0 +1,1262 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "cd524d42b6b5e8afbcc4373378d60778f86e6520",
+  "reviewedCommit": "0d46ccfd8d4a9bc175d3ec4acf7af1a937232c43",
+  "scope": "Revisão editorial de 200 intermediárias originais não sinalizadas na triagem inicial. Enunciado e resposta correta examinados individualmente; alternativas completas não examinadas sistematicamente nesta rodada. Apenas difficulty alterado; sem validação jurídica ou calibração psicométrica.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 200,
+    "reclassified": 130,
+    "retained": 70,
+    "otherChanges": [],
+    "unexpected": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 1233,
+      "Fácil": 707,
+      "Avançada": 60
+    },
+    "subjects": [
+      {
+        "subject": "ethicsQuestions",
+        "reviewed": 93,
+        "easy": 47,
+        "advanced": 11,
+        "retained": 35,
+        "distribution": {
+          "Fácil": 51,
+          "Intermediária": 38,
+          "Avançada": 11
+        }
+      },
+      {
+        "subject": "constitutionalQuestions",
+        "reviewed": 84,
+        "easy": 49,
+        "advanced": 7,
+        "retained": 28,
+        "distribution": {
+          "Fácil": 60,
+          "Intermediária": 33,
+          "Avançada": 7
+        }
+      },
+      {
+        "subject": "civilQuestions",
+        "reviewed": 23,
+        "easy": 16,
+        "advanced": 0,
+        "retained": 7,
+        "distribution": {
+          "Fácil": 23,
+          "Intermediária": 77,
+          "Avançada": 0
+        }
+      }
+    ],
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 1001,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1002,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1003,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1004,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1005,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1006,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1007,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1008,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1009,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1011,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1012,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1013,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Conflito superveniente, escolha de mandato, renúncia e preservação de sigilo."
+    },
+    {
+      "id": 1014,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distingue honorários contratuais e sucumbenciais proporcionais após revogação."
+    },
+    {
+      "id": 1015,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1016,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1017,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1019,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1020,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articula sigilo disciplinar e diferentes legitimidades de acesso."
+    },
+    {
+      "id": 1021,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1022,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1023,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1024,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1025,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1026,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1028,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1029,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1030,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1031,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1032,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1033,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1034,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articula insuficiência patrimonial, responsabilidade subsidiária e ilimitada."
+    },
+    {
+      "id": 1035,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1036,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1037,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1038,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1039,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1040,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Identifica exceção específica ao regime de cobrança pelo substabelecido."
+    },
+    {
+      "id": 1041,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1042,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1043,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1044,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1045,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1046,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Concilia atuação contra antigo cliente e dever de sigilo relevante ao novo litígio."
+    },
+    {
+      "id": 1047,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1048,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1049,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1050,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1051,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1052,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1053,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1054,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1055,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1057,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1058,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1059,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1060,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1061,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1062,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1063,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1064,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1065,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1067,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1068,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1069,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1070,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1071,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1072,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1073,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distingue averbação da filial e inscrição suplementar dos sócios."
+    },
+    {
+      "id": 1074,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1075,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1076,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1077,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1078,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articula momento da juntada, dedução direta e exceção de pagamento."
+    },
+    {
+      "id": 1079,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1080,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distingue efeitos do acordo entre partes e autonomia do crédito profissional."
+    },
+    {
+      "id": 1081,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1082,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1083,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distingue título do cargo, poder decisório efetivo e competência do conselho."
+    },
+    {
+      "id": 1084,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1085,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1086,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1087,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1088,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1089,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1090,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1091,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1092,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1093,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1095,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distingue sanção principal e cumulação da multa em hipótese agravada."
+    },
+    {
+      "id": 1096,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 1097,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1098,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 1100,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2001,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2002,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2003,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2005,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2006,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2007,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2008,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distingue capacidade eleitoral ativa facultativa e inelegibilidade."
+    },
+    {
+      "id": 2009,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2012,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2013,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2014,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2015,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2016,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2017,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2019,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2020,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2021,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2022,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2023,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2026,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2027,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2029,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2030,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2031,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2032,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2033,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2034,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2035,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2036,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2037,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2038,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2039,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2040,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2041,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2042,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2043,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2045,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2046,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2047,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2048,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articula perda de eficácia de MP e disciplina das relações jurídicas, inclusive omissão."
+    },
+    {
+      "id": 2049,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2050,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2052,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2053,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2055,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2056,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2057,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2058,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2059,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2060,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2061,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2062,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2063,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2064,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2065,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2068,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2069,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2070,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2071,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2072,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articula prazo para sanar mora normativa, condições de exercício e exceções."
+    },
+    {
+      "id": 2073,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2074,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2075,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2076,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2077,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2078,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2079,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2080,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2081,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2082,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distingue mandato de vereador, compatibilidade e acumulação remuneratória."
+    },
+    {
+      "id": 2083,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 2085,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articula três requisitos simultâneos de iniciativa popular."
+    },
+    {
+      "id": 2086,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2088,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2089,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2090,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2091,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2092,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2093,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2094,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2096,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 2097,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articula objeto pré-constitucional municipal, preceito fundamental e subsidiariedade da ADPF."
+    },
+    {
+      "id": 2098,
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Distingue eficácia geral e alcance vinculante judicial e administrativo."
+    },
+    {
+      "id": 2100,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 3001,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3002,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3003,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 3004,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3005,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3006,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3008,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3009,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 3010,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3011,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3012,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 3013,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3014,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 3015,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 3016,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3017,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3018,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3019,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3020,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3021,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 3022,
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida: aplicação pontual a fatos ou distinção jurídica relevante."
+    },
+    {
+      "id": 3023,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    },
+    {
+      "id": 3024,
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Identificação direta de regra ou instituto, com baixa inferência."
+    }
+  ]
+}
