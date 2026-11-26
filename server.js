@@ -39,4 +39,28 @@ async function mentorHandler(req,res){
  }catch(e){console.warn('mentor_request_failed',e.name);return json(res,502,{error:'Serviço de IA temporariamente indisponível.'})}finally{mentorActive--}
 }
 
-http.createServer((req,res)=>{if(req.url.startsWith('/api/mentor')){mentorHandler(req,res).catch(()=>{if(!res.headersSent)json(res,500,{error:'Falha interna.'});else res.end()});return}if(req.url==='/hero-desktop.webp'||req.url==='/hero-mobile.webp'||req.url==='/file_0000000006a4820eb42247099cd2955a.webp'||req.url==='/file_00000000d044820e810890ed320cb584.webp'||req.url==='/file_000000001580820eab4b96e24570dde0.webp'||req.url==='/file_00000000aa84820ea84e9fb05e9dd543.webp'||req.url==='/file_00000000a268820ea3f9f039645aee4f.webp'||req.url==='/file_000000007b90820eaa9bcfa0423a0416.webp'){if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405);return res.end()}const asset=path.join(__dirname,req.url.slice(1));if(!fs.existsSync(asset)){res.writeHead(404,{'Cache-Control':'no-store'});return res.end()}const data=fs.readFileSync(asset);res.writeHead(200,{'Content-Type':'image/webp','Content-Length':data.length,'Cache-Control':'public, max-age=3600','X-Content-Type-Options':'nosniff'});return res.end(req.method==='HEAD'?undefined:data)}if(req.url==='/health'){res.writeHead(200,{'Content-Type':'application/json'});return res.end('{"ok":true}')}if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405);return res.end()}res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'});res.end(req.method==='HEAD'?undefined:page)}).listen(process.env.PORT||3000,'0.0.0.0');
+async function kiwifyWebhook(req,res,url){
+ if(req.method!=='POST')return json(res,405,{error:'Método inválido.'});
+ const token=process.env.KIWIFY_WEBHOOK_TOKEN,product=process.env.KIWIFY_PRODUCT_ID,base=process.env.SUPABASE_URL,key=process.env.SUPABASE_SECRET_KEY;
+ if(!token||!product||!base||!key)return json(res,503,{error:'Integração indisponível.'});
+ const signature=url.searchParams.get('signature')||'';
+ if(!/^[a-f0-9]{40}$/i.test(signature))return json(res,401,{error:'Assinatura inválida.'});
+ let size=0,parts=[];for await(const part of req){size+=part.length;if(size>256000)return json(res,413,{error:'Corpo muito extenso.'});parts.push(part)}
+ const raw=Buffer.concat(parts),expected=crypto.createHmac('sha1',token).update(raw).digest('hex');
+ if(!safeEqual(signature.toLowerCase(),expected))return json(res,401,{error:'Assinatura inválida.'});
+ let b;try{b=JSON.parse(raw.toString('utf8'))}catch{return json(res,400,{error:'JSON inválido.'})}
+ if(!b||typeof b!=='object')return json(res,400,{error:'Evento inválido.'});
+ if(b.Product?.product_id!==product)return json(res,200,{ignored:true,reason:'other_product'});
+ const events={order_approved:['paid','approved'],order_refunded:['refunded','refunded'],chargeback:['chargedback','chargeback']};
+ const rule=Object.hasOwn(events,b.webhook_event_type)?events[b.webhook_event_type]:null;
+ if(!rule)return json(res,200,{ignored:true,reason:'unsupported_event'});
+ if(b.order_status!==rule[0])return json(res,400,{error:'Status incompatível.'});
+ const id=typeof b.order_id==='string'?b.order_id:'',email=typeof b.Customer?.email==='string'?b.Customer.email.trim().toLowerCase():'';
+ if(!/^[a-zA-Z0-9_-]{1,128}$/.test(id)||email.length>254||!/^\S+@\S+\.\S+$/.test(email))return json(res,400,{error:'Pedido ou comprador inválido.'});
+ try{const r=await fetch(base.replace(/\/$/,'')+'/rest/v1/rpc/rota40_process_order',{method:'POST',headers:{apikey:key,'Content-Type':'application/json'},body:JSON.stringify({p_order_id:id,p_email:email,p_product_id:product,p_status:rule[1]}),signal:AbortSignal.timeout(12000)});
+ if(!r.ok){console.warn('kiwify_database_status',r.status);return json(res,502,{error:'Falha ao registrar pedido.'})}
+ return json(res,200,{received:true});
+ }catch(e){console.warn('kiwify_database_error',e.name);return json(res,502,{error:'Banco temporariamente indisponível.'})}
+}
+
+http.createServer((req,res)=>{const url=new URL(req.url,'http://localhost');if(url.pathname==='/api/webhooks/kiwify'){kiwifyWebhook(req,res,url).catch(()=>{if(!res.headersSent)json(res,500,{error:'Falha interna.'});else res.end()});return}if(req.url.startsWith('/api/mentor')){mentorHandler(req,res).catch(()=>{if(!res.headersSent)json(res,500,{error:'Falha interna.'});else res.end()});return}if(req.url==='/hero-desktop.webp'||req.url==='/hero-mobile.webp'||req.url==='/file_0000000006a4820eb42247099cd2955a.webp'||req.url==='/file_00000000d044820e810890ed320cb584.webp'||req.url==='/file_000000001580820eab4b96e24570dde0.webp'||req.url==='/file_00000000aa84820ea84e9fb05e9dd543.webp'||req.url==='/file_00000000a268820ea3f9f039645aee4f.webp'||req.url==='/file_000000007b90820eaa9bcfa0423a0416.webp'){if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405);return res.end()}const asset=path.join(__dirname,req.url.slice(1));if(!fs.existsSync(asset)){res.writeHead(404,{'Cache-Control':'no-store'});return res.end()}const data=fs.readFileSync(asset);res.writeHead(200,{'Content-Type':'image/webp','Content-Length':data.length,'Cache-Control':'public, max-age=3600','X-Content-Type-Options':'nosniff'});return res.end(req.method==='HEAD'?undefined:data)}if(req.url==='/health'){res.writeHead(200,{'Content-Type':'application/json'});return res.end('{"ok":true}')}if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405);return res.end()}res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'});res.end(req.method==='HEAD'?undefined:page)}).listen(process.env.PORT||3000,'0.0.0.0');
