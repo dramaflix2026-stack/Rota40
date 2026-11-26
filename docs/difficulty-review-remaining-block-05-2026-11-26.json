@@ -1,0 +1,1429 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "df2814dc1a529288b5ddd844204a8ead9012f3d2",
+  "reviewedCommit": "f554ae388b2086487497a9380bbb671c5397c074",
+  "scope": "Revisão editorial de enunciados e respostas corretas; sem revisão sistemática de distratores, validação jurídica ou calibração psicométrica. Apenas difficulty alterado.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 200,
+    "reclassified": 98,
+    "retained": 102,
+    "otherChanges": [],
+    "unexpected": [],
+    "distribution": {
+      "Intermediária": 641,
+      "Fácil": 1178,
+      "Avançada": 181
+    },
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 13018,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13020,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13023,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13024,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13029,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13030,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13032,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13037,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13038,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13039,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13040,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13046,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13047,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13048,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13053,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13054,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13056,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação de múltiplos requisitos ou raciocínio em etapas."
+    },
+    {
+      "id": 13061,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13062,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13063,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13064,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13069,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13071,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13072,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13077,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13078,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13079,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13080,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13085,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13086,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13087,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13088,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13093,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13094,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 13095,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 13096,
+      "subject": "environmentQuestions",
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação de múltiplos requisitos ou raciocínio em etapas."
+    },
+    {
+      "id": 14001,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14002,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14003,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14004,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14005,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14006,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14008,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14009,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14010,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14011,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14012,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14013,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14014,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14015,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14016,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14017,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14020,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14021,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14022,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14023,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14029,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14030,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14031,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14032,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14039,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14046,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14053,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14054,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14055,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação de múltiplos requisitos ou raciocínio em etapas."
+    },
+    {
+      "id": 14056,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14063,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 14070,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14071,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14072,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14077,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14078,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14079,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14085,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14087,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14088,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14093,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 14094,
+      "subject": "internationalQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15001,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Mantida provisoriamente: possível inconsistência semântica entre enunciado e resposta."
+    },
+    {
+      "id": 15002,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15003,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15004,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15005,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15006,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15008,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15009,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15010,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15011,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15012,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15013,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15017,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15020,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15021,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15022,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15023,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15024,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15032,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15037,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15040,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15045,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15046,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15047,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15048,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15056,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15061,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15062,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15064,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15070,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15071,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15072,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15077,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15078,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15085,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15086,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15087,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15088,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 15093,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15094,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15095,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 15096,
+      "subject": "consumerQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16001,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16002,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16003,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16005,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16006,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16008,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16009,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16010,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16011,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16013,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16014,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16015,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16017,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16018,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16019,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16021,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16022,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16029,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16032,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16037,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16038,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16039,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16040,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16045,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16046,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16047,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16048,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16055,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16056,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16061,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16062,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16069,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16072,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16077,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16079,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16085,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16086,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16087,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16088,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16093,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16094,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 16095,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 16096,
+      "subject": "ecaQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17001,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17002,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17004,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17005,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17006,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17007,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17009,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17010,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17011,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17012,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17013,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17014,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17015,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17016,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17017,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17018,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17019,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17020,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17021,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17022,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17023,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17024,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17029,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17030,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17031,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17032,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17037,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17038,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17040,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17045,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17046,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Avançada",
+      "reason": "Articulação de múltiplos requisitos ou raciocínio em etapas."
+    },
+    {
+      "id": 17047,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17048,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    },
+    {
+      "id": 17053,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17054,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17055,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual ou distinção conceitual relevante."
+    },
+    {
+      "id": 17061,
+      "subject": "philosophyQuestions",
+      "before": "Intermediária",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de regra, conceito, prazo ou consequência explícita."
+    }
+  ],
+  "flags": [
+    {
+      "id": 15001,
+      "issue": "Possível inconsistência entre pergunta e resposta; gabarito preservado para revisão jurídica independente."
+    }
+  ]
+}
