@@ -1,0 +1,4690 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "0657baacadabe33f7ee26435e4ffe1b89c599554",
+  "scope": "Auditoria transversal da distribuição editorial em 20 disciplinas e 200 módulos; nenhuma questão alterada. Concentração não comprova erro; sem quotas ou validação psicométrica/jurídica.",
+  "stats": {
+    "questions": 2000,
+    "uniqueIds": 2000,
+    "disciplines": 20,
+    "modules": 200,
+    "modulesWithTen": 200,
+    "distribution": {
+      "Fácil": 336,
+      "Intermediária": 1270,
+      "Avançada": 394
+    },
+    "subjectsWithoutAdvanced": [
+      "ethicsQuestions",
+      "constitutionalQuestions",
+      "civilQuestions",
+      "processCivilQuestions",
+      "processPenalQuestions",
+      "adminQuestions"
+    ],
+    "modulesWithoutAdvanced": 69,
+    "modulesWithoutEasy": 58,
+    "modulesAllIntermediate": 29,
+    "modulesAllThree": 102,
+    "advancedInOriginalSlots": 391,
+    "advancedOutsideOriginalSlots": 3,
+    "invalid": 0
+  },
+  "subjects": [
+    {
+      "subject": "ethicsQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 4,
+        "Intermediária": 96,
+        "Avançada": 0
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Atividade da advocacia e mandato",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            1001,
+            1002,
+            1021,
+            1022,
+            1023,
+            1024,
+            1061,
+            1062,
+            1063,
+            1064
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Inscrição, inscrição suplementar e licenciamento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            1003,
+            1004,
+            1025,
+            1026,
+            1027,
+            1028,
+            1065,
+            1066,
+            1067,
+            1068
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Direitos e prerrogativas profissionais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            1005,
+            1006,
+            1029,
+            1030,
+            1031,
+            1032,
+            1069,
+            1070,
+            1071,
+            1072
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Sociedades de advogados e associação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            1007,
+            1008,
+            1033,
+            1034,
+            1035,
+            1036,
+            1073,
+            1074,
+            1075,
+            1076
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Honorários advocatícios",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            1009,
+            1010,
+            1037,
+            1038,
+            1039,
+            1040,
+            1077,
+            1078,
+            1079,
+            1080
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Incompatibilidades e impedimentos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            1011,
+            1012,
+            1041,
+            1042,
+            1043,
+            1044,
+            1081,
+            1082,
+            1083,
+            1084
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Relação com o cliente e conflitos de interesse",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            1013,
+            1014,
+            1045,
+            1046,
+            1047,
+            1048,
+            1085,
+            1086,
+            1087,
+            1088
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Sigilo profissional e publicidade jurídica",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            1015,
+            1016,
+            1049,
+            1050,
+            1051,
+            1052,
+            1089,
+            1090,
+            1091,
+            1092
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Infrações e sanções disciplinares",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            1017,
+            1018,
+            1053,
+            1054,
+            1055,
+            1056,
+            1093,
+            1094,
+            1095,
+            1096
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Organização da OAB e processo disciplinar",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            1019,
+            1020,
+            1057,
+            1058,
+            1059,
+            1060,
+            1097,
+            1098,
+            1099,
+            1100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "constitutionalQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 11,
+        "Intermediária": 89,
+        "Avançada": 0
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Teoria constitucional e poder constituinte",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            2001,
+            2002,
+            2021,
+            2022,
+            2023,
+            2024,
+            2061,
+            2062,
+            2063,
+            2064
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Direitos e garantias fundamentais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 7,
+            "Avançada": 0
+          },
+          "ids": [
+            2003,
+            2004,
+            2025,
+            2026,
+            2027,
+            2028,
+            2065,
+            2066,
+            2067,
+            2068
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Remédios constitucionais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            2005,
+            2006,
+            2029,
+            2030,
+            2031,
+            2032,
+            2069,
+            2070,
+            2071,
+            2072
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Nacionalidade e direitos políticos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            2007,
+            2008,
+            2033,
+            2034,
+            2035,
+            2036,
+            2073,
+            2074,
+            2075,
+            2076
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Federação e repartição de competências",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            2009,
+            2010,
+            2037,
+            2038,
+            2039,
+            2040,
+            2077,
+            2078,
+            2079,
+            2080
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Administração pública constitucional",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 7,
+            "Avançada": 0
+          },
+          "ids": [
+            2011,
+            2012,
+            2041,
+            2042,
+            2043,
+            2044,
+            2081,
+            2082,
+            2083,
+            2084
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Poder Legislativo e processo legislativo",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            2013,
+            2014,
+            2045,
+            2046,
+            2047,
+            2048,
+            2085,
+            2086,
+            2087,
+            2088
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Executivo e responsabilidade constitucional",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            2015,
+            2016,
+            2049,
+            2050,
+            2051,
+            2052,
+            2089,
+            2090,
+            2091,
+            2092
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Judiciário e funções essenciais à justiça",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 7,
+            "Avançada": 0
+          },
+          "ids": [
+            2017,
+            2018,
+            2053,
+            2054,
+            2055,
+            2056,
+            2093,
+            2094,
+            2095,
+            2096
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Controle de constitucionalidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            2019,
+            2020,
+            2057,
+            2058,
+            2059,
+            2060,
+            2097,
+            2098,
+            2099,
+            2100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "civilQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 7,
+        "Intermediária": 93,
+        "Avançada": 0
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Pessoas naturais, capacidade e personalidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            3001,
+            3002,
+            3021,
+            3022,
+            3023,
+            3024,
+            3061,
+            3062,
+            3063,
+            3064
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Pessoas jurídicas, bens e domicílio",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            3003,
+            3004,
+            3025,
+            3026,
+            3027,
+            3028,
+            3065,
+            3066,
+            3067,
+            3068
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Negócio jurídico, defeitos e invalidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            3005,
+            3006,
+            3029,
+            3030,
+            3031,
+            3032,
+            3069,
+            3070,
+            3071,
+            3072
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Prescrição e decadência",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 7,
+            "Avançada": 0
+          },
+          "ids": [
+            3007,
+            3008,
+            3033,
+            3034,
+            3035,
+            3036,
+            3073,
+            3074,
+            3075,
+            3076
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Obrigações, pagamento e inadimplemento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            3009,
+            3010,
+            3037,
+            3038,
+            3039,
+            3040,
+            3077,
+            3078,
+            3079,
+            3080
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Contratos: princípios e espécies",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            3011,
+            3012,
+            3041,
+            3042,
+            3043,
+            3044,
+            3081,
+            3082,
+            3083,
+            3084
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Responsabilidade civil",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            3013,
+            3014,
+            3045,
+            3046,
+            3047,
+            3048,
+            3085,
+            3086,
+            3087,
+            3088
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Posse, propriedade e direitos reais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            3015,
+            3016,
+            3049,
+            3050,
+            3051,
+            3052,
+            3089,
+            3090,
+            3091,
+            3092
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Direito de família",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            3017,
+            3018,
+            3053,
+            3054,
+            3055,
+            3056,
+            3093,
+            3094,
+            3095,
+            3096
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Direito das sucessões",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            3019,
+            3020,
+            3057,
+            3058,
+            3059,
+            3060,
+            3097,
+            3098,
+            3099,
+            3100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "processCivilQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 13,
+        "Intermediária": 87,
+        "Avançada": 0
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Normas fundamentais e jurisdição",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            4001,
+            4002,
+            4021,
+            4022,
+            4023,
+            4024,
+            4061,
+            4062,
+            4063,
+            4064
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Competência e partes",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            4003,
+            4004,
+            4025,
+            4026,
+            4027,
+            4028,
+            4065,
+            4066,
+            4067,
+            4068
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Atos processuais, citação e prazos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            4005,
+            4006,
+            4029,
+            4030,
+            4031,
+            4032,
+            4069,
+            4070,
+            4071,
+            4072
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Tutelas provisórias",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            4007,
+            4008,
+            4033,
+            4034,
+            4035,
+            4036,
+            4073,
+            4074,
+            4075,
+            4076
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Procedimento comum e resposta do réu",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            4009,
+            4010,
+            4037,
+            4038,
+            4039,
+            4040,
+            4077,
+            4078,
+            4079,
+            4080
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Provas, audiência e saneamento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            4011,
+            4012,
+            4041,
+            4042,
+            4043,
+            4044,
+            4081,
+            4082,
+            4083,
+            4084
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Sentença e coisa julgada",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            4013,
+            4014,
+            4045,
+            4046,
+            4047,
+            4048,
+            4085,
+            4086,
+            4087,
+            4088
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Recursos e precedentes",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 6,
+            "Avançada": 0
+          },
+          "ids": [
+            4015,
+            4016,
+            4049,
+            4050,
+            4051,
+            4052,
+            4089,
+            4090,
+            4091,
+            4092
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Cumprimento de sentença e execução",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            4017,
+            4018,
+            4053,
+            4054,
+            4055,
+            4056,
+            4093,
+            4094,
+            4095,
+            4096
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Procedimentos especiais e ações autônomas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            4019,
+            4020,
+            4057,
+            4058,
+            4059,
+            4060,
+            4097,
+            4098,
+            4099,
+            4100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "penalQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 6,
+        "Intermediária": 93,
+        "Avançada": 1
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Princípios e aplicação da lei penal",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            5001,
+            5002,
+            5021,
+            5022,
+            5023,
+            5024,
+            5061,
+            5062,
+            5063,
+            5064
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Teoria do crime: fato típico, dolo e culpa",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            5003,
+            5004,
+            5025,
+            5026,
+            5027,
+            5028,
+            5065,
+            5066,
+            5067,
+            5068
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Consumação, tentativa e desistência",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            5005,
+            5006,
+            5029,
+            5030,
+            5031,
+            5032,
+            5069,
+            5070,
+            5071,
+            5072
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Ilicitude e culpabilidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            5007,
+            5008,
+            5033,
+            5034,
+            5035,
+            5036,
+            5073,
+            5074,
+            5075,
+            5076
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Concurso de pessoas e concurso de crimes",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 9,
+            "Avançada": 1
+          },
+          "ids": [
+            5009,
+            5010,
+            5037,
+            5038,
+            5039,
+            5040,
+            5077,
+            5078,
+            5079,
+            5080
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Penas, dosimetria e extinção da punibilidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            5011,
+            5012,
+            5041,
+            5042,
+            5043,
+            5044,
+            5081,
+            5082,
+            5083,
+            5084
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Crimes contra a pessoa",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            5013,
+            5014,
+            5045,
+            5046,
+            5047,
+            5048,
+            5085,
+            5086,
+            5087,
+            5088
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Crimes contra o patrimônio",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            5015,
+            5016,
+            5049,
+            5050,
+            5051,
+            5052,
+            5089,
+            5090,
+            5091,
+            5092
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Crimes contra a administração pública",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            5017,
+            5018,
+            5053,
+            5054,
+            5055,
+            5056,
+            5093,
+            5094,
+            5095,
+            5096
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Legislação penal especial e temas transversais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            5019,
+            5020,
+            5057,
+            5058,
+            5059,
+            5060,
+            5097,
+            5098,
+            5099,
+            5100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "processPenalQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 16,
+        "Intermediária": 84,
+        "Avançada": 0
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Princípios e sistemas processuais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            6001,
+            6002,
+            6021,
+            6022,
+            6023,
+            6024,
+            6061,
+            6062,
+            6063,
+            6064
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Investigação criminal e inquérito policial",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            6003,
+            6004,
+            6025,
+            6026,
+            6027,
+            6028,
+            6065,
+            6066,
+            6067,
+            6068
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Ação penal, denúncia, queixa e ANPP",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            6005,
+            6006,
+            6029,
+            6030,
+            6031,
+            6032,
+            6069,
+            6070,
+            6071,
+            6072
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Competência, conexão e continência",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            6007,
+            6008,
+            6033,
+            6034,
+            6035,
+            6036,
+            6073,
+            6074,
+            6075,
+            6076
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Provas e cadeia de custódia",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            6009,
+            6010,
+            6037,
+            6038,
+            6039,
+            6040,
+            6077,
+            6078,
+            6079,
+            6080
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Prisões, cautelares e liberdade provisória",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            6011,
+            6012,
+            6041,
+            6042,
+            6043,
+            6044,
+            6081,
+            6082,
+            6083,
+            6084
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Procedimento comum e resposta à acusação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            6013,
+            6014,
+            6045,
+            6046,
+            6047,
+            6048,
+            6085,
+            6086,
+            6087,
+            6088
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Tribunal do Júri",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            6015,
+            6016,
+            6049,
+            6050,
+            6051,
+            6052,
+            6089,
+            6090,
+            6091,
+            6092
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Nulidades, sentença e recursos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 6,
+            "Avançada": 0
+          },
+          "ids": [
+            6017,
+            6018,
+            6053,
+            6054,
+            6055,
+            6056,
+            6093,
+            6094,
+            6095,
+            6096
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Juizados especiais, habeas corpus e revisão criminal",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            6019,
+            6020,
+            6057,
+            6058,
+            6059,
+            6060,
+            6097,
+            6098,
+            6099,
+            6100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "adminQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 10,
+        "Intermediária": 90,
+        "Avançada": 0
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Princípios e regime jurídico administrativo",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            7001,
+            7002,
+            7021,
+            7022,
+            7023,
+            7024,
+            7061,
+            7062,
+            7063,
+            7064
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Organização administrativa e entidades",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            7003,
+            7004,
+            7025,
+            7026,
+            7027,
+            7028,
+            7065,
+            7066,
+            7067,
+            7068
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Poderes administrativos e abuso de poder",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            7005,
+            7006,
+            7029,
+            7030,
+            7031,
+            7032,
+            7069,
+            7070,
+            7071,
+            7072
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Atos administrativos e controle de validade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            7007,
+            7008,
+            7033,
+            7034,
+            7035,
+            7036,
+            7073,
+            7074,
+            7075,
+            7076
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Agentes públicos e servidores",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 7,
+            "Avançada": 0
+          },
+          "ids": [
+            7009,
+            7010,
+            7037,
+            7038,
+            7039,
+            7040,
+            7077,
+            7078,
+            7079,
+            7080
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Licitações e contratações diretas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            7011,
+            7012,
+            7041,
+            7042,
+            7043,
+            7044,
+            7081,
+            7082,
+            7083,
+            7084
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Contratos administrativos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            7013,
+            7014,
+            7045,
+            7046,
+            7047,
+            7048,
+            7085,
+            7086,
+            7087,
+            7088
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Serviços públicos e delegação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 10,
+            "Avançada": 0
+          },
+          "ids": [
+            7015,
+            7016,
+            7049,
+            7050,
+            7051,
+            7052,
+            7089,
+            7090,
+            7091,
+            7092
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Responsabilidade civil do Estado e bens públicos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 9,
+            "Avançada": 0
+          },
+          "ids": [
+            7017,
+            7018,
+            7053,
+            7054,
+            7055,
+            7056,
+            7093,
+            7094,
+            7095,
+            7096
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Controle, processo administrativo e improbidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 8,
+            "Avançada": 0
+          },
+          "ids": [
+            7019,
+            7020,
+            7057,
+            7058,
+            7059,
+            7060,
+            7097,
+            7098,
+            7099,
+            7100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "taxQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 12,
+        "Intermediária": 54,
+        "Avançada": 34
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Sistema tributário e espécies de tributos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 8,
+            "Avançada": 2
+          },
+          "ids": [
+            8001,
+            8002,
+            8021,
+            8022,
+            8023,
+            8024,
+            8025,
+            8026,
+            8027,
+            8028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Competência tributária e repartição de receitas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            8003,
+            8004,
+            8029,
+            8030,
+            8031,
+            8032,
+            8033,
+            8034,
+            8035,
+            8036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Limitações ao poder de tributar",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 3,
+            "Avançada": 4
+          },
+          "ids": [
+            8005,
+            8006,
+            8037,
+            8038,
+            8039,
+            8040,
+            8041,
+            8042,
+            8043,
+            8044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Legislação, interpretação e vigência tributária",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            8007,
+            8008,
+            8045,
+            8046,
+            8047,
+            8048,
+            8049,
+            8050,
+            8051,
+            8052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Obrigação tributária, fato gerador e sujeitos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            8009,
+            8010,
+            8053,
+            8054,
+            8055,
+            8056,
+            8057,
+            8058,
+            8059,
+            8060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Responsabilidade e sucessão tributária",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            8011,
+            8012,
+            8061,
+            8062,
+            8063,
+            8064,
+            8065,
+            8066,
+            8067,
+            8068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Crédito tributário e modalidades de lançamento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 6,
+            "Avançada": 2
+          },
+          "ids": [
+            8013,
+            8014,
+            8069,
+            8070,
+            8071,
+            8072,
+            8073,
+            8074,
+            8075,
+            8076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Suspensão, extinção e exclusão do crédito",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 3,
+            "Avançada": 3
+          },
+          "ids": [
+            8015,
+            8016,
+            8077,
+            8078,
+            8079,
+            8080,
+            8081,
+            8082,
+            8083,
+            8084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Administração tributária, garantias e execução fiscal",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            8017,
+            8018,
+            8085,
+            8086,
+            8087,
+            8088,
+            8089,
+            8090,
+            8091,
+            8092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Impostos e reforma tributária do consumo",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            8019,
+            8020,
+            8093,
+            8094,
+            8095,
+            8096,
+            8097,
+            8098,
+            8099,
+            8100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "laborQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 27,
+        "Intermediária": 45,
+        "Avançada": 28
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Fontes, princípios e direitos fundamentais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 2,
+            "Avançada": 4
+          },
+          "ids": [
+            9001,
+            9002,
+            9021,
+            9022,
+            9023,
+            9024,
+            9025,
+            9026,
+            9027,
+            9028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Relação de emprego e sujeitos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            9003,
+            9004,
+            9029,
+            9030,
+            9031,
+            9032,
+            9033,
+            9034,
+            9035,
+            9036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Contrato de trabalho e modalidades especiais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            9005,
+            9006,
+            9037,
+            9038,
+            9039,
+            9040,
+            9041,
+            9042,
+            9043,
+            9044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Jornada, horas extras e transição constitucional",
+          "total": 10,
+          "distribution": {
+            "Fácil": 6,
+            "Intermediária": 3,
+            "Avançada": 1
+          },
+          "ids": [
+            9007,
+            9008,
+            9045,
+            9046,
+            9047,
+            9048,
+            9049,
+            9050,
+            9051,
+            9052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Remuneração, salário e equiparação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            9009,
+            9010,
+            9053,
+            9054,
+            9055,
+            9056,
+            9057,
+            9058,
+            9059,
+            9060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Férias, décimo terceiro e repousos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            9011,
+            9012,
+            9061,
+            9062,
+            9063,
+            9064,
+            9065,
+            9066,
+            9067,
+            9068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Alteração, suspensão e interrupção contratual",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 7,
+            "Avançada": 2
+          },
+          "ids": [
+            9013,
+            9014,
+            9069,
+            9070,
+            9071,
+            9072,
+            9073,
+            9074,
+            9075,
+            9076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Extinção contratual, aviso-prévio e FGTS",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 3,
+            "Avançada": 2
+          },
+          "ids": [
+            9015,
+            9016,
+            9077,
+            9078,
+            9079,
+            9080,
+            9081,
+            9082,
+            9083,
+            9084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Estabilidades, saúde e proteção do trabalho",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 4,
+            "Avançada": 3
+          },
+          "ids": [
+            9017,
+            9018,
+            9085,
+            9086,
+            9087,
+            9088,
+            9089,
+            9090,
+            9091,
+            9092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Direito coletivo, sindicatos e negociação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 6,
+            "Avançada": 2
+          },
+          "ids": [
+            9019,
+            9020,
+            9093,
+            9094,
+            9095,
+            9096,
+            9097,
+            9098,
+            9099,
+            9100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "processLaborQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 28,
+        "Intermediária": 42,
+        "Avançada": 30
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Organização, competência e jurisdição trabalhista",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 1,
+            "Avançada": 4
+          },
+          "ids": [
+            10001,
+            10002,
+            10021,
+            10022,
+            10023,
+            10024,
+            10025,
+            10026,
+            10027,
+            10028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Princípios, partes e representação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            10003,
+            10004,
+            10029,
+            10030,
+            10031,
+            10032,
+            10033,
+            10034,
+            10035,
+            10036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Atos processuais, prazos e nulidades",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            10005,
+            10006,
+            10037,
+            10038,
+            10039,
+            10040,
+            10041,
+            10042,
+            10043,
+            10044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Reclamação trabalhista e ritos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            10007,
+            10008,
+            10045,
+            10046,
+            10047,
+            10048,
+            10049,
+            10050,
+            10051,
+            10052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Audiência, conciliação e resposta",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 4,
+            "Avançada": 2
+          },
+          "ids": [
+            10009,
+            10010,
+            10053,
+            10054,
+            10055,
+            10056,
+            10057,
+            10058,
+            10059,
+            10060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Provas, ônus probatório e sentença",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 4,
+            "Avançada": 4
+          },
+          "ids": [
+            10011,
+            10012,
+            10061,
+            10062,
+            10063,
+            10064,
+            10065,
+            10066,
+            10067,
+            10068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Custas, gratuidade e honorários",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            10013,
+            10014,
+            10069,
+            10070,
+            10071,
+            10072,
+            10073,
+            10074,
+            10075,
+            10076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Recursos trabalhistas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 3,
+            "Avançada": 2
+          },
+          "ids": [
+            10015,
+            10016,
+            10077,
+            10078,
+            10079,
+            10080,
+            10081,
+            10082,
+            10083,
+            10084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Liquidação e execução trabalhista",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 3,
+            "Avançada": 2
+          },
+          "ids": [
+            10017,
+            10018,
+            10085,
+            10086,
+            10087,
+            10088,
+            10089,
+            10090,
+            10091,
+            10092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Ações especiais, dissídios coletivos e homologação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 4,
+            "Avançada": 2
+          },
+          "ids": [
+            10019,
+            10020,
+            10093,
+            10094,
+            10095,
+            10096,
+            10097,
+            10098,
+            10099,
+            10100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "businessQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 19,
+        "Intermediária": 51,
+        "Avançada": 30
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Teoria da empresa e empresário",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            11001,
+            11002,
+            11021,
+            11022,
+            11023,
+            11024,
+            11025,
+            11026,
+            11027,
+            11028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Estabelecimento, nome empresarial e registro",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            11003,
+            11004,
+            11029,
+            11030,
+            11031,
+            11032,
+            11033,
+            11034,
+            11035,
+            11036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Sociedades: classificação e personalidade jurídica",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            11005,
+            11006,
+            11037,
+            11038,
+            11039,
+            11040,
+            11041,
+            11042,
+            11043,
+            11044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Sociedade limitada e governança",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            11007,
+            11008,
+            11045,
+            11046,
+            11047,
+            11048,
+            11049,
+            11050,
+            11051,
+            11052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Sociedades anônimas e mercado de capitais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 5,
+            "Avançada": 2
+          },
+          "ids": [
+            11009,
+            11010,
+            11053,
+            11054,
+            11055,
+            11056,
+            11057,
+            11058,
+            11059,
+            11060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Títulos de crédito: princípios e circulação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 6,
+            "Avançada": 2
+          },
+          "ids": [
+            11011,
+            11012,
+            11061,
+            11062,
+            11063,
+            11064,
+            11065,
+            11066,
+            11067,
+            11068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Cheque, nota promissória e duplicata",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 4,
+            "Avançada": 4
+          },
+          "ids": [
+            11013,
+            11014,
+            11069,
+            11070,
+            11071,
+            11072,
+            11073,
+            11074,
+            11075,
+            11076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Propriedade industrial e contratos empresariais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 4,
+            "Avançada": 2
+          },
+          "ids": [
+            11015,
+            11016,
+            11077,
+            11078,
+            11079,
+            11080,
+            11081,
+            11082,
+            11083,
+            11084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Recuperação judicial e extrajudicial",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 4,
+            "Avançada": 4
+          },
+          "ids": [
+            11017,
+            11018,
+            11085,
+            11086,
+            11087,
+            11088,
+            11089,
+            11090,
+            11091,
+            11092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Falência, classificação de créditos e encerramento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 5,
+            "Avançada": 2
+          },
+          "ids": [
+            11019,
+            11020,
+            11093,
+            11094,
+            11095,
+            11096,
+            11097,
+            11098,
+            11099,
+            11100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "humanRightsQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 32,
+        "Intermediária": 42,
+        "Avançada": 26
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Fundamentos, evolução e características",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 4,
+            "Avançada": 3
+          },
+          "ids": [
+            12001,
+            12002,
+            12021,
+            12022,
+            12023,
+            12024,
+            12025,
+            12026,
+            12027,
+            12028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Declaração Universal e sistema global",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 4,
+            "Avançada": 1
+          },
+          "ids": [
+            12003,
+            12004,
+            12029,
+            12030,
+            12031,
+            12032,
+            12033,
+            12034,
+            12035,
+            12036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Pactos internacionais de 1966",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 4,
+            "Avançada": 2
+          },
+          "ids": [
+            12005,
+            12006,
+            12037,
+            12038,
+            12039,
+            12040,
+            12041,
+            12042,
+            12043,
+            12044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Mecanismos de monitoramento da ONU",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            12007,
+            12008,
+            12045,
+            12046,
+            12047,
+            12048,
+            12049,
+            12050,
+            12051,
+            12052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Sistema interamericano e Convenção Americana",
+          "total": 10,
+          "distribution": {
+            "Fácil": 6,
+            "Intermediária": 2,
+            "Avançada": 2
+          },
+          "ids": [
+            12009,
+            12010,
+            12053,
+            12054,
+            12055,
+            12056,
+            12057,
+            12058,
+            12059,
+            12060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Petições, admissibilidade e Corte Interamericana",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 5,
+            "Avançada": 2
+          },
+          "ids": [
+            12011,
+            12012,
+            12061,
+            12062,
+            12063,
+            12064,
+            12065,
+            12066,
+            12067,
+            12068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Incorporação, hierarquia e convencionalidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            12013,
+            12014,
+            12069,
+            12070,
+            12071,
+            12072,
+            12073,
+            12074,
+            12075,
+            12076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Igualdade, discriminação e grupos vulnerabilizados",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 3,
+            "Avançada": 3
+          },
+          "ids": [
+            12015,
+            12016,
+            12077,
+            12078,
+            12079,
+            12080,
+            12081,
+            12082,
+            12083,
+            12084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Proteção de mulheres, crianças e pessoas refugiadas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            12017,
+            12018,
+            12085,
+            12086,
+            12087,
+            12088,
+            12089,
+            12090,
+            12091,
+            12092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Responsabilidade internacional e proteção no Brasil",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 3,
+            "Avançada": 2
+          },
+          "ids": [
+            12019,
+            12020,
+            12093,
+            12094,
+            12095,
+            12096,
+            12097,
+            12098,
+            12099,
+            12100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "environmentQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 19,
+        "Intermediária": 51,
+        "Avançada": 30
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Fundamentos constitucionais e princípios ambientais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 3,
+            "Avançada": 3
+          },
+          "ids": [
+            13001,
+            13002,
+            13021,
+            13022,
+            13023,
+            13024,
+            13025,
+            13026,
+            13027,
+            13028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Política Nacional do Meio Ambiente e SISNAMA",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 4,
+            "Avançada": 2
+          },
+          "ids": [
+            13003,
+            13004,
+            13029,
+            13030,
+            13031,
+            13032,
+            13033,
+            13034,
+            13035,
+            13036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Competências e federalismo ambiental",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            13005,
+            13006,
+            13037,
+            13038,
+            13039,
+            13040,
+            13041,
+            13042,
+            13043,
+            13044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Licenciamento e avaliação de impactos ambientais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 4,
+            "Avançada": 4
+          },
+          "ids": [
+            13007,
+            13008,
+            13045,
+            13046,
+            13047,
+            13048,
+            13049,
+            13050,
+            13051,
+            13052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Florestas, APP, reserva legal e cadastro rural",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 6,
+            "Avançada": 1
+          },
+          "ids": [
+            13009,
+            13010,
+            13053,
+            13054,
+            13055,
+            13056,
+            13057,
+            13058,
+            13059,
+            13060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Unidades de conservação e biodiversidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            13011,
+            13012,
+            13061,
+            13062,
+            13063,
+            13064,
+            13065,
+            13066,
+            13067,
+            13068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Recursos hídricos e gestão de resíduos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            13013,
+            13014,
+            13069,
+            13070,
+            13071,
+            13072,
+            13073,
+            13074,
+            13075,
+            13076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Responsabilidade civil por dano ambiental",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            13015,
+            13016,
+            13077,
+            13078,
+            13079,
+            13080,
+            13081,
+            13082,
+            13083,
+            13084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Infrações administrativas e crimes ambientais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            13017,
+            13018,
+            13085,
+            13086,
+            13087,
+            13088,
+            13089,
+            13090,
+            13091,
+            13092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Tutela coletiva e instrumentos processuais ambientais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 6,
+            "Avançada": 2
+          },
+          "ids": [
+            13019,
+            13020,
+            13093,
+            13094,
+            13095,
+            13096,
+            13097,
+            13098,
+            13099,
+            13100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "internationalQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 19,
+        "Intermediária": 53,
+        "Avançada": 28
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Fundamentos e fontes do Direito Internacional",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 5,
+            "Avançada": 2
+          },
+          "ids": [
+            14001,
+            14002,
+            14021,
+            14022,
+            14023,
+            14024,
+            14025,
+            14026,
+            14027,
+            14028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Tratados internacionais: formação, vigência e extinção",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            14003,
+            14004,
+            14029,
+            14030,
+            14031,
+            14032,
+            14033,
+            14034,
+            14035,
+            14036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Incorporação e hierarquia dos tratados no Brasil",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 4,
+            "Avançada": 4
+          },
+          "ids": [
+            14005,
+            14006,
+            14037,
+            14038,
+            14039,
+            14040,
+            14041,
+            14042,
+            14043,
+            14044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Estados, organizações internacionais e solução de controvérsias",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 4,
+            "Avançada": 3
+          },
+          "ids": [
+            14007,
+            14008,
+            14045,
+            14046,
+            14047,
+            14048,
+            14049,
+            14050,
+            14051,
+            14052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Nacionalidade brasileira e condição jurídica do estrangeiro",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 7,
+            "Avançada": 3
+          },
+          "ids": [
+            14009,
+            14010,
+            14053,
+            14054,
+            14055,
+            14056,
+            14057,
+            14058,
+            14059,
+            14060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Migração, refúgio e medidas de retirada",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 6,
+            "Avançada": 1
+          },
+          "ids": [
+            14011,
+            14012,
+            14061,
+            14062,
+            14063,
+            14064,
+            14065,
+            14066,
+            14067,
+            14068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Direito Internacional Privado: conflitos de leis",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            14013,
+            14014,
+            14069,
+            14070,
+            14071,
+            14072,
+            14073,
+            14074,
+            14075,
+            14076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Jurisdição internacional e cooperação jurídica",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            14015,
+            14016,
+            14077,
+            14078,
+            14079,
+            14080,
+            14081,
+            14082,
+            14083,
+            14084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Extradição, imunidades e relações diplomáticas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 6,
+            "Avançada": 2
+          },
+          "ids": [
+            14017,
+            14018,
+            14085,
+            14086,
+            14087,
+            14088,
+            14089,
+            14090,
+            14091,
+            14092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Responsabilidade internacional e Tribunal Penal Internacional",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 3,
+            "Avançada": 3
+          },
+          "ids": [
+            14019,
+            14020,
+            14093,
+            14094,
+            14095,
+            14096,
+            14097,
+            14098,
+            14099,
+            14100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "consumerQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 24,
+        "Intermediária": 51,
+        "Avançada": 25
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Relação de consumo e princípios do CDC",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 6,
+            "Avançada": 2
+          },
+          "ids": [
+            15001,
+            15002,
+            15021,
+            15022,
+            15023,
+            15024,
+            15025,
+            15026,
+            15027,
+            15028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Direitos básicos, informação e segurança",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 4,
+            "Avançada": 3
+          },
+          "ids": [
+            15003,
+            15004,
+            15029,
+            15030,
+            15031,
+            15032,
+            15033,
+            15034,
+            15035,
+            15036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Responsabilidade pelo fato do produto e do serviço",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            15005,
+            15006,
+            15037,
+            15038,
+            15039,
+            15040,
+            15041,
+            15042,
+            15043,
+            15044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Vícios de produtos e serviços, garantias e prazos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 6,
+            "Avançada": 2
+          },
+          "ids": [
+            15007,
+            15008,
+            15045,
+            15046,
+            15047,
+            15048,
+            15049,
+            15050,
+            15051,
+            15052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Oferta, publicidade e práticas abusivas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 4,
+            "Avançada": 3
+          },
+          "ids": [
+            15009,
+            15010,
+            15053,
+            15054,
+            15055,
+            15056,
+            15057,
+            15058,
+            15059,
+            15060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Contratos de consumo e cláusulas abusivas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 5,
+            "Avançada": 2
+          },
+          "ids": [
+            15011,
+            15012,
+            15061,
+            15062,
+            15063,
+            15064,
+            15065,
+            15066,
+            15067,
+            15068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Comércio eletrônico e direito de arrependimento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            15013,
+            15014,
+            15069,
+            15070,
+            15071,
+            15072,
+            15073,
+            15074,
+            15075,
+            15076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Cobrança de dívidas e cadastros de consumidores",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 3,
+            "Avançada": 3
+          },
+          "ids": [
+            15015,
+            15016,
+            15077,
+            15078,
+            15079,
+            15080,
+            15081,
+            15082,
+            15083,
+            15084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Crédito responsável e superendividamento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            15017,
+            15018,
+            15085,
+            15086,
+            15087,
+            15088,
+            15089,
+            15090,
+            15091,
+            15092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Tutela individual, coletiva e sistema de defesa",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 8,
+            "Avançada": 1
+          },
+          "ids": [
+            15019,
+            15020,
+            15093,
+            15094,
+            15095,
+            15096,
+            15097,
+            15098,
+            15099,
+            15100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ecaQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 22,
+        "Intermediária": 50,
+        "Avançada": 28
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Proteção integral, prioridade absoluta e conceitos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 4,
+            "Avançada": 4
+          },
+          "ids": [
+            16001,
+            16002,
+            16021,
+            16022,
+            16023,
+            16024,
+            16025,
+            16026,
+            16027,
+            16028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Direitos à vida, saúde, liberdade e dignidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 3,
+            "Avançada": 2
+          },
+          "ids": [
+            16003,
+            16004,
+            16029,
+            16030,
+            16031,
+            16032,
+            16033,
+            16034,
+            16035,
+            16036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Convivência familiar, acolhimento e poder familiar",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            16005,
+            16006,
+            16037,
+            16038,
+            16039,
+            16040,
+            16041,
+            16042,
+            16043,
+            16044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Família substituta: guarda, tutela e adoção",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            16007,
+            16008,
+            16045,
+            16046,
+            16047,
+            16048,
+            16049,
+            16050,
+            16051,
+            16052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Educação, profissionalização e prevenção",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            16009,
+            16010,
+            16053,
+            16054,
+            16055,
+            16056,
+            16057,
+            16058,
+            16059,
+            16060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Política de atendimento e Conselho Tutelar",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 4,
+            "Avançada": 2
+          },
+          "ids": [
+            16011,
+            16012,
+            16061,
+            16062,
+            16063,
+            16064,
+            16065,
+            16066,
+            16067,
+            16068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Medidas de proteção e intervenção",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            16013,
+            16014,
+            16069,
+            16070,
+            16071,
+            16072,
+            16073,
+            16074,
+            16075,
+            16076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Ato infracional, garantias e medidas socioeducativas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 4,
+            "Avançada": 1
+          },
+          "ids": [
+            16015,
+            16016,
+            16077,
+            16078,
+            16079,
+            16080,
+            16081,
+            16082,
+            16083,
+            16084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Justiça da infância, procedimentos e garantias",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 7,
+            "Avançada": 3
+          },
+          "ids": [
+            16017,
+            16018,
+            16085,
+            16086,
+            16087,
+            16088,
+            16089,
+            16090,
+            16091,
+            16092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Crimes, infrações administrativas e proteção digital",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            16019,
+            16020,
+            16093,
+            16094,
+            16095,
+            16096,
+            16097,
+            16098,
+            16099,
+            16100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "philosophyQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 2,
+        "Intermediária": 58,
+        "Avançada": 40
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Direito, moral, justiça e validade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            17001,
+            17002,
+            17021,
+            17022,
+            17023,
+            17024,
+            17025,
+            17026,
+            17027,
+            17028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Justiça clássica: Platão e Aristóteles",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            17003,
+            17004,
+            17029,
+            17030,
+            17031,
+            17032,
+            17033,
+            17034,
+            17035,
+            17036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Jusnaturalismo e contratualismo",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            17005,
+            17006,
+            17037,
+            17038,
+            17039,
+            17040,
+            17041,
+            17042,
+            17043,
+            17044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Kant, autonomia e utilitarismo",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            17007,
+            17008,
+            17045,
+            17046,
+            17047,
+            17048,
+            17049,
+            17050,
+            17051,
+            17052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Positivismo jurídico: Hans Kelsen",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            17009,
+            17010,
+            17053,
+            17054,
+            17055,
+            17056,
+            17057,
+            17058,
+            17059,
+            17060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "H. L. A. Hart e a estrutura das regras",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            17011,
+            17012,
+            17061,
+            17062,
+            17063,
+            17064,
+            17065,
+            17066,
+            17067,
+            17068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Dworkin e o Direito como integridade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            17013,
+            17014,
+            17069,
+            17070,
+            17071,
+            17072,
+            17073,
+            17074,
+            17075,
+            17076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Alexy, regras, princípios e proporcionalidade",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            17015,
+            17016,
+            17077,
+            17078,
+            17079,
+            17080,
+            17081,
+            17082,
+            17083,
+            17084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Rawls e teorias contemporâneas da justiça",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            17017,
+            17018,
+            17085,
+            17086,
+            17087,
+            17088,
+            17089,
+            17090,
+            17091,
+            17092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Miguel Reale, hermenêutica e argumentação jurídica",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            17019,
+            17020,
+            17093,
+            17094,
+            17095,
+            17096,
+            17097,
+            17098,
+            17099,
+            17100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "electoralQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 24,
+        "Intermediária": 44,
+        "Avançada": 32
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Direitos políticos, sufrágio e alistamento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            18001,
+            18002,
+            18021,
+            18022,
+            18023,
+            18024,
+            18025,
+            18026,
+            18027,
+            18028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Justiça Eleitoral: organização e competências",
+          "total": 10,
+          "distribution": {
+            "Fácil": 6,
+            "Intermediária": 2,
+            "Avançada": 2
+          },
+          "ids": [
+            18003,
+            18004,
+            18029,
+            18030,
+            18031,
+            18032,
+            18033,
+            18034,
+            18035,
+            18036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Elegibilidade, inelegibilidades e Lei da Ficha Limpa",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 3,
+            "Avançada": 2
+          },
+          "ids": [
+            18005,
+            18006,
+            18037,
+            18038,
+            18039,
+            18040,
+            18041,
+            18042,
+            18043,
+            18044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Partidos políticos, federações e registro de candidatura",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 4,
+            "Avançada": 3
+          },
+          "ids": [
+            18007,
+            18008,
+            18045,
+            18046,
+            18047,
+            18048,
+            18049,
+            18050,
+            18051,
+            18052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Sistemas eleitorais, votação e diplomação",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 2,
+            "Avançada": 4
+          },
+          "ids": [
+            18009,
+            18010,
+            18053,
+            18054,
+            18055,
+            18056,
+            18057,
+            18058,
+            18059,
+            18060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Propaganda eleitoral, internet e inteligência artificial",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            18011,
+            18012,
+            18061,
+            18062,
+            18063,
+            18064,
+            18065,
+            18066,
+            18067,
+            18068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Financiamento de campanhas e prestação de contas",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            18013,
+            18014,
+            18069,
+            18070,
+            18071,
+            18072,
+            18073,
+            18074,
+            18075,
+            18076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Ilícitos eleitorais, abuso de poder e captação de sufrágio",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            18015,
+            18016,
+            18077,
+            18078,
+            18079,
+            18080,
+            18081,
+            18082,
+            18083,
+            18084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Ações eleitorais, impugnações e recursos",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 4,
+            "Avançada": 3
+          },
+          "ids": [
+            18017,
+            18018,
+            18085,
+            18086,
+            18087,
+            18088,
+            18089,
+            18090,
+            18091,
+            18092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Crimes eleitorais e processo penal eleitoral",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            18019,
+            18020,
+            18093,
+            18094,
+            18095,
+            18096,
+            18097,
+            18098,
+            18099,
+            18100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "financialQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 20,
+        "Intermediária": 48,
+        "Avançada": 32
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Atividade financeira do Estado e competências",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            19001,
+            19002,
+            19021,
+            19022,
+            19023,
+            19024,
+            19025,
+            19026,
+            19027,
+            19028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Planejamento orçamentário: PPA, LDO e LOA",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            19003,
+            19004,
+            19029,
+            19030,
+            19031,
+            19032,
+            19033,
+            19034,
+            19035,
+            19036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Princípios orçamentários e vedações constitucionais",
+          "total": 10,
+          "distribution": {
+            "Fácil": 3,
+            "Intermediária": 4,
+            "Avançada": 3
+          },
+          "ids": [
+            19005,
+            19006,
+            19037,
+            19038,
+            19039,
+            19040,
+            19041,
+            19042,
+            19043,
+            19044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Receitas públicas e renúncia de receita",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 4,
+            "Avançada": 4
+          },
+          "ids": [
+            19007,
+            19008,
+            19045,
+            19046,
+            19047,
+            19048,
+            19049,
+            19050,
+            19051,
+            19052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Despesas públicas, execução e restos a pagar",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 7,
+            "Avançada": 2
+          },
+          "ids": [
+            19009,
+            19010,
+            19053,
+            19054,
+            19055,
+            19056,
+            19057,
+            19058,
+            19059,
+            19060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Créditos adicionais e alterações do orçamento",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            19011,
+            19012,
+            19061,
+            19062,
+            19063,
+            19064,
+            19065,
+            19066,
+            19067,
+            19068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Lei de Responsabilidade Fiscal e despesa com pessoal",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 3,
+            "Avançada": 3
+          },
+          "ids": [
+            19013,
+            19014,
+            19069,
+            19070,
+            19071,
+            19072,
+            19073,
+            19074,
+            19075,
+            19076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Dívida pública, operações de crédito e regime fiscal sustentável",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            19015,
+            19016,
+            19077,
+            19078,
+            19079,
+            19080,
+            19081,
+            19082,
+            19083,
+            19084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Transparência, relatórios e controle fiscal",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 3,
+            "Avançada": 3
+          },
+          "ids": [
+            19017,
+            19018,
+            19085,
+            19086,
+            19087,
+            19088,
+            19089,
+            19090,
+            19091,
+            19092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Tribunais de Contas, transferências e responsabilização",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            19019,
+            19020,
+            19093,
+            19094,
+            19095,
+            19096,
+            19097,
+            19098,
+            19099,
+            19100
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "socialSecurityQuestions",
+      "total": 100,
+      "distribution": {
+        "Fácil": 21,
+        "Intermediária": 49,
+        "Avançada": 30
+      },
+      "modules": [
+        {
+          "module": 0,
+          "topic": "Seguridade social: princípios e organização",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 5,
+            "Avançada": 4
+          },
+          "ids": [
+            20001,
+            20002,
+            20021,
+            20022,
+            20023,
+            20024,
+            20025,
+            20026,
+            20027,
+            20028
+          ]
+        },
+        {
+          "module": 1,
+          "topic": "Segurados, dependentes, filiação e inscrição",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            20003,
+            20004,
+            20029,
+            20030,
+            20031,
+            20032,
+            20033,
+            20034,
+            20035,
+            20036
+          ]
+        },
+        {
+          "module": 2,
+          "topic": "Financiamento e contribuições previdenciárias",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            20005,
+            20006,
+            20037,
+            20038,
+            20039,
+            20040,
+            20041,
+            20042,
+            20043,
+            20044
+          ]
+        },
+        {
+          "module": 3,
+          "topic": "Qualidade de segurado, período de graça e carência",
+          "total": 10,
+          "distribution": {
+            "Fácil": 4,
+            "Intermediária": 4,
+            "Avançada": 2
+          },
+          "ids": [
+            20007,
+            20008,
+            20045,
+            20046,
+            20047,
+            20048,
+            20049,
+            20050,
+            20051,
+            20052
+          ]
+        },
+        {
+          "module": 4,
+          "topic": "Aposentadorias programadas e reforma previdenciária",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 3,
+            "Avançada": 2
+          },
+          "ids": [
+            20009,
+            20010,
+            20053,
+            20054,
+            20055,
+            20056,
+            20057,
+            20058,
+            20059,
+            20060
+          ]
+        },
+        {
+          "module": 5,
+          "topic": "Benefícios por incapacidade e auxílio-acidente",
+          "total": 10,
+          "distribution": {
+            "Fácil": 0,
+            "Intermediária": 6,
+            "Avançada": 4
+          },
+          "ids": [
+            20011,
+            20012,
+            20061,
+            20062,
+            20063,
+            20064,
+            20065,
+            20066,
+            20067,
+            20068
+          ]
+        },
+        {
+          "module": 6,
+          "topic": "Aposentadoria especial, rural e da pessoa com deficiência",
+          "total": 10,
+          "distribution": {
+            "Fácil": 5,
+            "Intermediária": 4,
+            "Avançada": 1
+          },
+          "ids": [
+            20013,
+            20014,
+            20069,
+            20070,
+            20071,
+            20072,
+            20073,
+            20074,
+            20075,
+            20076
+          ]
+        },
+        {
+          "module": 7,
+          "topic": "Pensão por morte, auxílio-reclusão e salário-família",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 5,
+            "Avançada": 3
+          },
+          "ids": [
+            20015,
+            20016,
+            20077,
+            20078,
+            20079,
+            20080,
+            20081,
+            20082,
+            20083,
+            20084
+          ]
+        },
+        {
+          "module": 8,
+          "topic": "Salário-maternidade e benefício assistencial (BPC)",
+          "total": 10,
+          "distribution": {
+            "Fácil": 1,
+            "Intermediária": 6,
+            "Avançada": 3
+          },
+          "ids": [
+            20017,
+            20018,
+            20085,
+            20086,
+            20087,
+            20088,
+            20089,
+            20090,
+            20091,
+            20092
+          ]
+        },
+        {
+          "module": 9,
+          "topic": "Processo previdenciário, revisão e regimes próprios",
+          "total": 10,
+          "distribution": {
+            "Fácil": 2,
+            "Intermediária": 4,
+            "Avançada": 4
+          },
+          "ids": [
+            20019,
+            20020,
+            20093,
+            20094,
+            20095,
+            20096,
+            20097,
+            20098,
+            20099,
+            20100
+          ]
+        }
+      ]
+    }
+  ],
+  "application": {
+    "source": "index.html",
+    "findings": [
+      {
+        "function": "trainSelected / train",
+        "finding": "Seleção por disciplina e quantidade, priorizando questões não respondidas; sem filtro difficulty."
+      },
+      {
+        "function": "buildFullExam",
+        "finding": "80 questões conforme examBlueprint por disciplina, priorizando inéditas; sem estratificação por dificuldade."
+      },
+      {
+        "function": "diagnosticBank",
+        "finding": "Amostragem por disciplina e módulos distintos; sem estratificação por dificuldade."
+      },
+      {
+        "function": "thematicQuestions / trackPractice / ethicsPractice",
+        "finding": "Amostragem por módulo ou treino integral do módulo, sem filtro de dificuldade."
+      },
+      {
+        "function": "chooseAdaptiveModule / gameDailyPractice",
+        "finding": "Seleção por erros, revisões, progresso e prioridade, não pelo rótulo de dificuldade."
+      },
+      {
+        "function": "question",
+        "finding": "Exibe disciplina, posição, enunciado e alternativas; não exibe difficulty."
+      }
+    ],
+    "limitations": "Inspeção estática do código, sem teste em navegador. Simulado oficial não deve ser artificialmente estratificado sem referência empírica."
+  },
+  "priorities": [
+    "Revisar editorialmente questões avançadas que permanecem em posições da classificação inicial, começando por Filosofia do Direito (40 avançadas, nenhuma revisão do rótulo inicial avançado).",
+    "Examinar questões intermediárias nas seis disciplinas sem avançadas; não promover por quota.",
+    "Implementar filtro opcional e contador de disponibilidade no treino autoral, preservando seleção de simulados e diagnóstico; tratar conjuntos vazios.",
+    "Auditoria jurídica independente e calibração estatística com dados reais."
+  ]
+}
