@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "06f89f6858437b602358554070d9a2b71f51f4c4",
+  "reviewedCommit": "71eee9fcf7ea0b1ec5ad4b4f5c5a101e838a59de",
+  "scope": "Comparação integral dos quatro bancos com a versão anterior à triagem; confirma integridade e distribuição editorial, não valida individualmente a correção jurídica ou a dificuldade empírica. A conclusão dos seis blocos restantes de intermediárias não implica leitura individual de todas as avançadas originais não sinalizadas.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "subjects": 20,
+    "changed": 1508,
+    "otherChanges": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 569,
+      "Fácil": 1247,
+      "Avançada": 184
+    }
+  },
+  "subjects": [
+    {
+      "subject": "ethicsQuestions",
+      "count": 100,
+      "distribution": {
+        "Intermediária": 38,
+        "Fácil": 51,
+        "Avançada": 11
+      }
+    },
+    {
+      "subject": "constitutionalQuestions",
+      "count": 100,
+      "distribution": {
+        "Intermediária": 33,
+        "Fácil": 60,
+        "Avançada": 7
+      }
+    },
+    {
+      "subject": "civilQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 47,
+        "Intermediária": 40,
+        "Avançada": 13
+      }
+    },
+    {
+      "subject": "processCivilQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 59,
+        "Intermediária": 25,
+        "Avançada": 16
+      }
+    },
+    {
+      "subject": "penalQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 48,
+        "Intermediária": 25,
+        "Avançada": 27
+      }
+    },
+    {
+      "subject": "processPenalQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 62,
+        "Intermediária": 25,
+        "Avançada": 13
+      }
+    },
+    {
+      "subject": "adminQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 69,
+        "Intermediária": 19,
+        "Avançada": 12
+      }
+    },
+    {
+      "subject": "taxQuestions",
+      "count": 100,
+      "distribution": {
+        "Intermediária": 24,
+        "Fácil": 62,
+        "Avançada": 14
+      }
+    },
+    {
+      "subject": "laborQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 75,
+        "Intermediária": 19,
+        "Avançada": 6
+      }
+    },
+    {
+      "subject": "processLaborQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 76,
+        "Intermediária": 14,
+        "Avançada": 10
+      }
+    },
+    {
+      "subject": "businessQuestions",
+      "count": 100,
+      "distribution": {
+        "Intermediária": 15,
+        "Fácil": 70,
+        "Avançada": 15
+      }
+    },
+    {
+      "subject": "humanRightsQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 80,
+        "Avançada": 7,
+        "Intermediária": 13
+      }
+    },
+    {
+      "subject": "environmentQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 72,
+        "Intermediária": 24,
+        "Avançada": 4
+      }
+    },
+    {
+      "subject": "internationalQuestions",
+      "count": 100,
+      "distribution": {
+        "Intermediária": 43,
+        "Fácil": 51,
+        "Avançada": 6
+      }
+    },
+    {
+      "subject": "consumerQuestions",
+      "count": 100,
+      "distribution": {
+        "Intermediária": 31,
+        "Fácil": 67,
+        "Avançada": 2
+      }
+    },
+    {
+      "subject": "ecaQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 67,
+        "Intermediária": 31,
+        "Avançada": 2
+      }
+    },
+    {
+      "subject": "philosophyQuestions",
+      "count": 100,
+      "distribution": {
+        "Intermediária": 62,
+        "Fácil": 35,
+        "Avançada": 3
+      }
+    },
+    {
+      "subject": "electoralQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 65,
+        "Intermediária": 29,
+        "Avançada": 6
+      }
+    },
+    {
+      "subject": "financialQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 67,
+        "Intermediária": 27,
+        "Avançada": 6
+      }
+    },
+    {
+      "subject": "socialSecurityQuestions",
+      "count": 100,
+      "distribution": {
+        "Fácil": 64,
+        "Intermediária": 32,
+        "Avançada": 4
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": 15001,
+      "issue": "Possível inconsistência semântica entre pergunta e gabarito."
+    },
+    {
+      "id": 18080,
+      "issue": "Enunciado contém exigência de voto; revisar formulação sobre pedido expresso."
+    }
+  ]
+}
