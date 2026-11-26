@@ -1,0 +1,806 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "9a550ae8c068c2b539e58d0c45c91af2fce445ff",
+  "reviewedCommit": "692141f2a64b227d20bd441217af61ce66ef9797",
+  "scope": "Revisão editorial individual de 122 questões avançadas de ECA, Direito Eleitoral, Direito Financeiro e Direito Previdenciário. Apenas difficulty alterado, sem quotas, validação jurídica independente ou calibração psicométrica.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 122,
+    "reclassified": 107,
+    "retained": 15,
+    "otherChanges": [],
+    "unexpected": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 1363,
+      "Fácil": 595,
+      "Avançada": 42
+    },
+    "subjects": [
+      {
+        "subject": "ecaQuestions",
+        "reviewed": 28,
+        "reclassifiedEasy": 19,
+        "reclassifiedIntermediate": 7,
+        "retained": 2,
+        "distribution": {
+          "Fácil": 41,
+          "Intermediária": 57,
+          "Avançada": 2
+        }
+      },
+      {
+        "subject": "electoralQuestions",
+        "reviewed": 32,
+        "reclassifiedEasy": 20,
+        "reclassifiedIntermediate": 7,
+        "retained": 5,
+        "distribution": {
+          "Fácil": 44,
+          "Intermediária": 51,
+          "Avançada": 5
+        }
+      },
+      {
+        "subject": "financialQuestions",
+        "reviewed": 32,
+        "reclassifiedEasy": 23,
+        "reclassifiedIntermediate": 4,
+        "retained": 5,
+        "distribution": {
+          "Fácil": 43,
+          "Intermediária": 52,
+          "Avançada": 5
+        }
+      },
+      {
+        "subject": "socialSecurityQuestions",
+        "reviewed": 30,
+        "reclassifiedEasy": 25,
+        "reclassifiedIntermediate": 2,
+        "retained": 3,
+        "distribution": {
+          "Fácil": 46,
+          "Intermediária": 51,
+          "Avançada": 3
+        }
+      }
+    ],
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 16025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16036,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 16041,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 16042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16049,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação da regra de colocação conjunta dos irmãos e exceções justificadas."
+    },
+    {
+      "id": 16050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16052,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 16057,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação conjunta da idade, condição insalubre e irrelevância da autorização familiar."
+    },
+    {
+      "id": 16059,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16074,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16076,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 16084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16089,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 16091,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16092,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 16097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16098,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 16099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 16100,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18026,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre cumprimento da pena, reabilitação, reparação civil e suspensão de direitos políticos."
+    },
+    {
+      "id": 18027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18036,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18041,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 18043,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação do tempo de serviço militar, agregação e inatividade na diplomação."
+    },
+    {
+      "id": 18049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18051,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 18052,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18057,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18058,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18059,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 18060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18065,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre propaganda paga na internet, exceção legal de impulsionamento e legitimidade para contratar."
+    },
+    {
+      "id": 18066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18067,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 18068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18074,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18083,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 18084,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação da ressalva de licença regular à vedação específica, sem excluir outras restrições."
+    },
+    {
+      "id": 18090,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 18091,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 18092,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção do prazo específico de embargos em representação eleitoral do prazo recursal geral."
+    },
+    {
+      "id": 18097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 18100,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19025,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 19026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19033,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Compatibilidade cumulativa entre LOA, PPA, LDO e normas fiscais."
+    },
+    {
+      "id": 19034,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação da duração plurianual do investimento, dotação anual e autorização de inclusão no PPA."
+    },
+    {
+      "id": 19035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19036,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19041,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19050,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 19051,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 19052,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre receita de alienação, despesa corrente e ressalva previdenciária."
+    },
+    {
+      "id": 19057,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19067,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação conjunta da espécie de crédito, período de autorização e saldo reaberto."
+    },
+    {
+      "id": 19068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19090,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19091,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação entre insuficiência de arrecadação, metas fiscais e critérios da LDO."
+    },
+    {
+      "id": 19092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 19100,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 20025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20033,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 20034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20036,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20043,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20058,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20066,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre redução da capacidade laboral, natureza indenizatória e coexistência com remuneração."
+    },
+    {
+      "id": 20067,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre vedação geral de acumulação e situações de direito adquirido."
+    },
+    {
+      "id": 20068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20084,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação das regras de termo inicial da pensão conforme prazo de requerimento e ausência de exceção."
+    },
+    {
+      "id": 20090,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20091,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, prazo ou consequência explícita, com baixa inferência adicional."
+    },
+    {
+      "id": 20100,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação pontual de regra a situação delimitada ou distinção de requisitos, sem articulação normativa complexa."
+    }
+  ]
+}
