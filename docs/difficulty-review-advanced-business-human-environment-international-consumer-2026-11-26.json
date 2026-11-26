@@ -1,0 +1,920 @@
+{
+  "date": "2026-11-26",
+  "baselineCommit": "9081b8ebc87cede0f2166785d600c6fdbfbd23b3",
+  "reviewedCommit": "248c510391d6dce92751431ca4a0af2ef41c7242",
+  "scope": "Revisão editorial individual de 139 questões avançadas de Direito Empresarial, Direitos Humanos, Direito Ambiental, Direito Internacional e Direito do Consumidor. Apenas difficulty alterado, sem quotas, validação jurídica independente ou calibração psicométrica.",
+  "stats": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "reviewed": 139,
+    "reclassified": 123,
+    "retained": 16,
+    "otherChanges": [],
+    "unexpected": [],
+    "missing": [],
+    "distribution": {
+      "Intermediária": 1343,
+      "Fácil": 508,
+      "Avançada": 149
+    },
+    "subjects": [
+      {
+        "subject": "businessQuestions",
+        "reviewed": 30,
+        "reclassifiedEasy": 21,
+        "reclassifiedIntermediate": 4,
+        "retained": 5,
+        "distribution": {
+          "Fácil": 40,
+          "Intermediária": 55,
+          "Avançada": 5
+        }
+      },
+      {
+        "subject": "humanRightsQuestions",
+        "reviewed": 26,
+        "reclassifiedEasy": 15,
+        "reclassifiedIntermediate": 9,
+        "retained": 2,
+        "distribution": {
+          "Fácil": 47,
+          "Intermediária": 51,
+          "Avançada": 2
+        }
+      },
+      {
+        "subject": "environmentQuestions",
+        "reviewed": 30,
+        "reclassifiedEasy": 25,
+        "reclassifiedIntermediate": 3,
+        "retained": 2,
+        "distribution": {
+          "Fácil": 44,
+          "Intermediária": 54,
+          "Avançada": 2
+        }
+      },
+      {
+        "subject": "internationalQuestions",
+        "reviewed": 28,
+        "reclassifiedEasy": 16,
+        "reclassifiedIntermediate": 7,
+        "retained": 5,
+        "distribution": {
+          "Fácil": 35,
+          "Intermediária": 60,
+          "Avançada": 5
+        }
+      },
+      {
+        "subject": "consumerQuestions",
+        "reviewed": 25,
+        "reclassifiedEasy": 22,
+        "reclassifiedIntermediate": 1,
+        "retained": 2,
+        "distribution": {
+          "Fácil": 46,
+          "Intermediária": 52,
+          "Avançada": 2
+        }
+      }
+    ],
+    "invalid": 0
+  },
+  "decisions": [
+    {
+      "id": 11025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11027,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 11028,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação de três deveres registrais em jurisdições distintas."
+    },
+    {
+      "id": 11033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11041,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 11042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11043,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11051,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11052,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Identificação cumulativa dos requisitos da exclusão extrajudicial por justa causa."
+    },
+    {
+      "id": 11057,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11058,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 11066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11074,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação da recusa do aceite às condições de avaria e alocação do risco."
+    },
+    {
+      "id": 11075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11089,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 11090,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre suspensão geral na recuperação judicial e regime especial da execução fiscal."
+    },
+    {
+      "id": 11091,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção de novação, sujeição dos créditos ao plano e seus efeitos."
+    },
+    {
+      "id": 11092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 11099,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12027,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12041,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12043,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12051,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12052,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12058,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre vedação de censura prévia, exceção expressa e responsabilidade ulterior."
+    },
+    {
+      "id": 12060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12066,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12067,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12074,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação entre espécies de tratados, procedimento de incorporação e hierarquia normativa."
+    },
+    {
+      "id": 12075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12076,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12081,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12083,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12090,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12091,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 12097,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 12098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13025,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13026,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13041,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13043,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 13044,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação cumulativa de intervenção emergencial e comunicação ao ente competente."
+    },
+    {
+      "id": 13049,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13051,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13052,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 13060,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13067,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13068,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13074,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre resíduos e rejeitos considerando viabilidade tecnológica e econômica."
+    },
+    {
+      "id": 13076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13081,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 13082,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13090,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13091,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13092,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 13100,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14034,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 14035,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 14036,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 14040,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Mantida a decisão anterior: articulação das competências e efeitos internos da denúncia."
+    },
+    {
+      "id": 14041,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação cumulativa da natureza do tratado e rito constitucional qualificado."
+    },
+    {
+      "id": 14043,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 14044,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14050,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14051,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14052,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 14058,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14059,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14060,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação do regime de reciprocidade e das ressalvas constitucionais à equiparação."
+    },
+    {
+      "id": 14067,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14074,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Articulação da situação dos bens, nacionalidade do beneficiário e comparação da lei mais favorável."
+    },
+    {
+      "id": 14076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14081,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 14083,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14089,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14091,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 14097,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 14100,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Aplicação do princípio da complementaridade às condições de admissibilidade e exceções."
+    },
+    {
+      "id": 15027,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15028,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15033,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15034,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15035,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15041,
+      "before": "Avançada",
+      "after": "Intermediária",
+      "reason": "Aplicação de regra a situação delimitada ou distinção pontual de conceitos, sem articulação normativa complexa."
+    },
+    {
+      "id": 15042,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15043,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15051,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15052,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15057,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15058,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15059,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15065,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15066,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15073,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15075,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15076,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15081,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15083,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção entre prescrição da cobrança e limites ao fornecimento de informações restritivas."
+    },
+    {
+      "id": 15084,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15090,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15091,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    },
+    {
+      "id": 15092,
+      "before": "Avançada",
+      "after": "Avançada",
+      "reason": "Distinção das fases de conciliação e repactuação compulsória dos débitos remanescentes."
+    },
+    {
+      "id": 15098,
+      "before": "Avançada",
+      "after": "Fácil",
+      "reason": "Reconhecimento direto de conceito, regra, requisito, prazo ou consequência explícita, sem raciocínio jurídico em múltiplas etapas."
+    }
+  ]
+}
