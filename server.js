@@ -90,7 +90,7 @@ async function authRoute(req,res,url){if(req.method!=='POST')return json(res,405
 function publicLanding(){
  const a=template.indexOf('function home()'),b=template.indexOf('function buyRota40()',a),head=template.slice(0,template.indexOf('<script>'));
  if(a<0||b<a||!head.includes('id="root"'))throw Error('Invalid landing template');
- const home=template.slice(a,b).replace('stopTimer();','');
+ const home=template.slice(a,b).replace(/^function home\(\)\{stopTimer\(\);(?:closeMobileMenu\(\);)?/,'function home(){');
  const source="const root=document.getElementById('root');const brand='<div class=\"brand\">ROTA <b>40</b><small>BY EDUVERSO</small></div>';const ico=()=>'<span aria-hidden=\"true\">◆</span>';function buyRota40(){location.assign('https://pay.kiwify.com.br/Gb7NVbS')}function openApp(){location.assign('/login')}"+home+"home();";
  new Function(source);return head+'<script>'+source+'</script></body></html>';
 }
